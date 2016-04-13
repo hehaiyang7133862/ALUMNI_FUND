@@ -1,0 +1,16 @@
+body{
+	margin:0px;
+	padding:0px;
+	text-align:center;
+	background-color:#DFDFDF;
+}
+.page{
+	margin-left:auto;
+	margin-right:auto;
+	text-align:left;
+	width:920px;
+	text-align:left;
+	background-color:#FFF;
+	padding:0px;
+	borde:0px;
+}

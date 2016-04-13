@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts PUBLIC  
+    "-//Apache Software Foundation//DTD Struts Configuration 2.3//EN"  
+    "http://struts.apache.org/dtds/struts-2.3.dtd">  
+<struts>
+	<package name="com.laungee.proj.foundation.web.action" extends="colavia">
+		<!-- 基金项目管理 -->
+		<action name="found" class="foundationAction">
+    		<result name="typeIndex">/foundation/foundationTypeIndex.jsp</result>
+    		<result name="typeJson">/foundation/foundationTypeJson.jsp</result>
+			<result name="success">/foundation/fundList.jsp</result>
+			<result name="addPage">/foundation/fundAdd.jsp</result>
+			<result name="editPage" type="redirect">/found!toPage.action?foundId=${#request.foundId}&amp;opt=${#request.opt}</result>
+			<!-- 协议管理 -->
+			<result name="proclMgtPage">/foundation/proMgtList.jsp</result>
+			<result name="proclPage">/foundation/proList.jsp</result>
+			<result name="proAddPage">/foundation/proAdd.jsp</result>
+			<result name="editPro" type="redirect">/found!toProPage.action?proId=${#request.proId}&amp;foundId=${#request.foundId}&amp;opt=${#request.opt}</result>
+			<!-- 捐赠明细 -->
+			<result name="proDetailPage">/foundation/proDetailList.jsp</result>
+			<result name="proDetailAddEditPage">/foundation/proDetailAdd.jsp</result>
+			<result name="proDetailAddEditSuccess">/common/success.jsp</result>
+			<!-- 支出管理 -->
+			<result name="payMgtPage">/foundation/payMgtList.jsp</result>
+			<result name="payPage">/foundation/payList.jsp</result>
+			<result name="proPayAddEditPage">/foundation/payAdd.jsp</result>
+			<result name="proPayAddEditSuccess">/common/success.jsp</result>
+			<!-- 执行文档 -->
+			<result name="docList">/foundation/docList.jsp</result>
+			<!-- 新增选择项目 -->
+			<result name="chooseFoundPage">/foundation/addForFundList.jsp</result>
+			<!-- 选择对象（弹出层多选） -->
+			<result name="findManyObjectPage">/foundation/findManyObjectInfo.jsp</result>
+			<!-- 选择捐赠方（弹出层单选） -->
+			<result name="findObjectPage">/foundation/findObjectInfo.jsp</result>
+			
+			<!-- 报表 -->
+			<result name="proExport">/foundation/proExport.jsp</result>
+			<result name="proList">/foundation/proExport.jsp</result>
+			
+			<!-- 项目图片 -->
+			<result name="foundPic">/foundation/protocolPic.jsp</result>
+    		<result name="operationPic">/foundation/protocolPicAdd.jsp</result>
+			<!-- 项目参数 -->
+			<result name="foundParam">/foundation/protocolParam.jsp</result>
+    		<result name="operationParam">/foundation/protocolParamAdd.jsp</result>
+    		<result name="reload">/common/floatSuccess.jsp</result>
+		</action>
+		
+		<!-- 捐赠对象管理 -->
+		<action name="donate" class="foundationObjectAction">
+			<result name="companyListPage">/foundationObject/companyList.jsp</result>
+			<result name="companyModifyPage">/foundationObject/companyAdd.jsp</result>
+			<result name="companyMemberListPage">/foundationObject/companyMemberList.jsp</result>
+			<result name="memberPage">/foundationObject/companyMemberAdd.jsp</result>
+			
+			<!-- 捐赠人管理 -->
+			<result name="donationorListPage">/foundationObject/donationorList.jsp</result>
+			<result name="donationorAddPage">/foundationObject/donationorAdd.jsp</result>
+			
+			<!-- 接受单位管理 -->
+			<result name="acceptCompanyListPage">/foundationObject/acceptList.jsp</result>
+			<result name="acceptCompanyAddOrUpdatePage">/foundationObject/acceptAdd.jsp</result>
+			<result name="successPage">/common/floatSuccess.jsp</result>
+		</action>
+		
+    	<!-- 项目分类 -->
+    	<action name="foundType" class="foundTypeAction">
+    		<result name="list">/foundation/foundTypeJson.jsp</result>
+    		<result name="input">/foundation/foundTypeIndex.jsp</result>
+    		<result name="add">/foundation/foundTypeAdd.jsp</result>
+    		<result name="edit">/foundation/foundTypeEdit.jsp</result>
+    		<result name="success">/common/treeSuccess.jsp</result>
+    	</action>
+	</package>
+</struts>

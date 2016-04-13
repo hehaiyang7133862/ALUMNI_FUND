@@ -1,0 +1,352 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tables>
+	<Table tableName="TbUnDuty">
+		<message>
+			<![CDATA[UN在校职务]]>
+		</message>
+		<tabletype>校友</tabletype>
+	</Table>
+	<Table tableName="TbUnStudy">
+		<message>
+			<![CDATA[UN学习经历]]>
+		</message>
+		<tabletype>校友</tabletype>
+	</Table>
+	<Table tableName="Tbunwork">
+		<message>
+			<![CDATA[UN工作经历]]>
+		</message>
+		<tabletype>校友</tabletype>
+	</Table>
+	<Table tableName="TbUnimportalumni">
+		<message>
+			<![CDATA[UN校友导入]]>
+		</message>
+		<tabletype>校友</tabletype>
+	</Table>
+	<Table tableName="tbunimportorder">
+		<message>
+			<![CDATA[日志批次]]>
+		</message>
+		<tabletype>日志</tabletype>
+	</Table>
+	<Table tableName="tbunknowalumni">
+		<message>
+			<![CDATA[UN熟人]]>
+		</message>
+		<tabletype>校友</tabletype>
+	</Table>
+	<Table tableName="tbunrelation">
+		<message>
+			<![CDATA[UN联系信息]]>
+		</message>
+		<tabletype>信息</tabletype>
+	</Table>
+	<Table tableName="tbvisitalumni">
+		<message>
+			<![CDATA[人物来访涉及校友]]>
+		</message>
+		<tabletype>校友</tabletype>
+	</Table>
+	<Table tableName="tbvisit">
+		<message>
+			<![CDATA[人物来访]]>
+		</message>
+		<tabletype>校友</tabletype>
+	</Table>
+	<Table tableName="tbannounce">
+		<message>
+			<![CDATA[公告]]>
+		</message>
+		<tabletype>公告</tabletype>
+	</Table>
+	<Table tableName="tbpublication">
+		<message>
+			<![CDATA[刊物]]>
+		</message>
+		<tabletype>刊物</tabletype>
+	</Table>
+	<Table tableName="tbreply">
+		<message>
+			<![CDATA[回复]]>
+		</message>
+		<tabletype>回复</tabletype>
+	</Table>
+	<Table tableName="tbduty">
+		<message>
+			<![CDATA[在校职务]]>
+		</message>
+		<tabletype>校友</tabletype>
+	</Table>
+	<Table tableName="tbevent">
+		<message>
+			<![CDATA[大事记]]>
+		</message>
+		<tabletype>大事记</tabletype>
+	</Table>
+	<Table tableName="tbstudy">
+		<message>
+			<![CDATA[学习经历]]>
+		</message>
+		<tabletype>校友</tabletype>
+	</Table>
+	<Table tableName="tbacademy">
+		<message>
+			<![CDATA[学院机构]]>
+		</message>
+		<tabletype>校友</tabletype>
+	</Table>
+	<Table tableName="tbsharestudent">
+		<message>
+			<![CDATA[导入学生信息]]>
+		</message>
+		<tabletype>校友</tabletype>
+	</Table>
+	<Table tableName="tbwork">
+		<message>
+			<![CDATA[工作经历]]>
+		</message>
+		<tabletype>校友</tabletype>
+	</Table>
+	<Table tableName="TbDonation">
+		<message>
+			<![CDATA[捐赠]]>
+		</message>
+		<tabletype>捐赠</tabletype>
+	</Table>
+	<Table tableName="tbseek">
+		<message>
+			<![CDATA[校友查询]]>
+		</message>
+		<tabletype>校友</tabletype>
+	</Table>
+	<Table tableName="tbalumni">
+		<message>
+			<![CDATA[校友档案信息]]>
+		</message>
+		<tabletype>校友</tabletype>
+	</Table>
+	<Table tableName="tbunalumni">
+		<message>
+			<![CDATA[校友自管信息]]>
+		</message>
+		<tabletype>校友</tabletype>
+	</Table>
+	<Table tableName="tbemailapp">
+		<message>
+			<![CDATA[校友邮箱申请]]>
+		</message>
+		<tabletype>邮箱申请</tabletype>
+	</Table>
+	<Table tableName="tbactionalumni">
+		<message>
+			<![CDATA[活动涉及校友]]>
+		</message>
+		<tabletype>活动校友</tabletype>
+	</Table>
+	<Table tableName="tbaction">
+		<message>
+			<![CDATA[活动]]>
+		</message>
+		<tabletype>活动</tabletype>
+	</Table>
+	<Table tableName="tbknowalumni">
+		<message>
+			<![CDATA[熟人]]>
+		</message>
+		<tabletype>校友</tabletype>
+	</Table>
+	<Table tableName="tbmember">
+		<message>
+			<![CDATA[班级成员]]>
+		</message>
+		<tabletype>校友</tabletype>
+	</Table>
+	<Table tableName="tbUserLogin">
+		<message>
+			<![CDATA[用户登录]]>
+		</message>
+		<tabletype>用户</tabletype>
+	</Table>
+	<Table tableName="tbtelephonealumni">
+		<message>
+			<![CDATA[电话联系涉及校友]]>
+		</message>
+		<tabletype>电话校友</tabletype>
+	</Table>
+	<Table tableName="tbtelephone">
+		<message>
+			<![CDATA[电话联系]]>
+		</message>
+		<tabletype>校友</tabletype>
+	</Table>
+	<Table tableName="tbmessage">
+		<message>
+			<![CDATA[留言板]]>
+		</message>
+		<tabletype>留言板</tabletype>
+	</Table>
+	<Table tableName="tbshow">
+		<message>
+			<![CDATA[社区展示]]>
+		</message>
+		<tabletype>社区展示</tabletype>
+	</Table>
+	<Table tableName="tbcommunityapp">
+		<message>
+			<![CDATA[社区申请]]>
+		</message>
+		<tabletype>社区申请</tabletype>
+	</Table>
+	<Table tableName="tbcommunity">
+		<message>
+			<![CDATA[社区]]>
+		</message>
+		<tabletype>社区</tabletype>
+	</Table>
+	<Table tableName="tbmanuscriptalumni">
+		<message>
+			<![CDATA[稿件涉及校友]]>
+		</message>
+		<tabletype>校友</tabletype>
+	</Table>
+	<Table tableName="tbmanuscript">
+		<message>
+			<![CDATA[稿件]]>
+		</message>
+		<tabletype>稿件</tabletype>
+	</Table>
+	<Table tableName="tblog">
+		<message>
+			<![CDATA[系统日志]]>
+		</message>
+		<tabletype>系统日志</tabletype>
+	</Table>
+	<Table tableName="TbRelation">
+		<message>
+			<![CDATA[联系信息]]>
+		</message>
+		<tabletype>联系信息</tabletype>
+	</Table>
+	<Table tableName="tbmenu">
+		<message>
+			<![CDATA[菜单]]>
+		</message>
+		<tabletype>菜单</tabletype>
+	</Table>
+	<Table tableName="tbmemorole">
+		<message>
+			<![CDATA[菜单分配]]>
+		</message>
+		<tabletype>菜单分配</tabletype>
+	</Table>
+	<Table tableName="tbroleuser">
+		<message>
+			<![CDATA[角色分配]]>
+		</message>
+		<tabletype>角色分配</tabletype>
+	</Table>
+	<Table tableName="tbROLEINFO">
+		<message>
+			<![CDATA[角色]]>
+		</message>
+		<tabletype>角色</tabletype>
+	</Table>
+	<Table tableName="tbresother">
+		<message>
+			<![CDATA[资源引用]]>
+		</message>
+		<tabletype>资源引用</tabletype>
+	</Table>
+	<Table tableName="tbResource">
+		<message>
+			<![CDATA[资源管理]]>
+		</message>
+		<tabletype>资源管理</tabletype>
+	</Table>
+	<Table tableName="tbemaillhistory">
+		<message>
+			<![CDATA[邮件历史]]>
+		</message>
+		<tabletype>邮件历史</tabletype>
+	</Table>
+	<Table tableName="TBEMAILFIX">
+		<message>
+			<![CDATA[邮件发送模板]]>
+		</message>
+		<tabletype>邮件发送模板</tabletype>
+	</Table>
+	<Table tableName="tbemailalumni">
+		<message>
+			<![CDATA[邮件涉及校友]]>
+		</message>
+		<tabletype>邮件涉及校友</tabletype>
+	</Table>
+	<Table tableName="tbemailgroup">
+		<message>
+			<![CDATA[邮件组]]>
+		</message>
+		<tabletype>邮件组</tabletype>
+	</Table>
+	<Table tableName="tbmailhistory">
+		<message>
+			<![CDATA[邮寄历史]]>
+		</message>
+		<tabletype>邮寄历史</tabletype>
+	</Table>
+	<Table tableName="tbmailalumni">
+		<message>
+			<![CDATA[邮寄涉及校友]]>
+		</message>
+		<tabletype>邮寄涉及校友</tabletype>
+	</Table>
+	<Table tableName="tbmailgroup">
+		<message>
+			<![CDATA[邮寄组]]>
+		</message>
+		<tabletype>邮寄组</tabletype>
+	</Table>
+	<Table tableName="tbField">
+		<message>
+			<![CDATA[配置]]>
+		</message>
+		<tabletype>配置</tabletype>
+	</Table>
+	<Table tableName="TbAlumniservice">
+		<message>
+			<![CDATA[校友申请服务]]>
+		</message>
+		<tabletype>校友</tabletype>
+	</Table>
+	<Table tableName="TbAlumniSt">
+		<message>
+			<![CDATA[校友档案信息]]>
+		</message>
+		<tabletype>校友</tabletype>
+	</Table>
+	<Table tableName="TbCommunityApp">
+		<message>
+			<![CDATA[校友社区申请]]>
+		</message>
+		<tabletype>校友</tabletype>
+	</Table>
+	<Table tableName="TbCommunity">
+		<message>
+			<![CDATA[校友社区]]>
+		</message>
+		<tabletype>校友</tabletype>
+	</Table>
+	<Table tableName="TbImportUser">
+		<message>
+			<![CDATA[校友导入信息表]]>
+		</message>
+		<tabletype>校友</tabletype>
+	</Table>
+	<Table tableName="TbKnower">
+		<message>
+			<![CDATA[熟悉老师同学]]>
+		</message>
+		<tabletype>校友</tabletype>
+	</Table>
+	
+</Tables>

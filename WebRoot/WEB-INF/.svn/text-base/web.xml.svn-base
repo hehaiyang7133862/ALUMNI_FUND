@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="2.4" xmlns="http://java.sun.com/xml/ns/j2ee" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee 
+	http://java.sun.com/xml/ns/j2ee/web-app_2_4.xsd">
+	<!-- Spring_处理器 -->
+	<context-param>
+		<param-name>contextConfigLocation</param-name>
+		<param-value>
+			/WEB-INF/spring/applicationContext.xml,
+			/WEB-INF/spring/spring-manage.xml,
+			/WEB-INF/spring/spring-editor.xml,
+			/WEB-INF/spring/spring-commodity.xml,
+			/WEB-INF/spring/spring-foundation.xml,
+			/WEB-INF/spring/spring-account.xml,
+			/WEB-INF/spring/spring-zc.xml,
+			/WEB-INF/spring/spring-api.xml
+		</param-value>
+	</context-param>
+	
+	<!-- 字符编码_处理器 -->
+	<filter>
+		<filter-name>CharacterEncoding</filter-name>
+		<filter-class>
+			com.laungee.proj.common.core.FilterEncoding
+		</filter-class>
+		<init-param>
+			<param-name>encoding</param-name>
+			<param-value>UTF-8</param-value>
+		</init-param>
+	</filter>
+	
+	<!-- Struts_配置 -->
+	<filter>
+        <filter-name>struts2</filter-name>
+        <filter-class>
+            org.apache.struts2.dispatcher.ng.filter.StrutsPrepareAndExecuteFilter
+        </filter-class>
+    </filter>
+    
+    <!-- Session_处理器 -->
+	<filter>
+		<filter-name>openSessionInViewFilter</filter-name>
+		<filter-class>
+			com.laungee.proj.common.core.FilterOpenView
+		</filter-class>
+	</filter>
+
+	<!-- 字符编码_拦截器 -->
+	<filter-mapping>
+		<filter-name>CharacterEncoding</filter-name>
+		<url-pattern>/*</url-pattern>
+	</filter-mapping>
+	
+	<!-- Session_拦截器 -->
+	<filter-mapping>
+		<filter-name>openSessionInViewFilter</filter-name>
+		<url-pattern>*.action</url-pattern>
+	</filter-mapping>
+	<filter-mapping>
+		<filter-name>openSessionInViewFilter</filter-name>
+		<url-pattern>*.jsp</url-pattern>
+	</filter-mapping>
+	
+	<!-- Struts_拦截器 -->
+	<filter-mapping>
+		<filter-name>struts2</filter-name>
+		<url-pattern>*.action</url-pattern>
+	</filter-mapping>
+		<filter-mapping>
+		<filter-name>struts2</filter-name>
+		<url-pattern>*.jsp</url-pattern>
+	</filter-mapping>
+
+	<!-- Spring_监听器 -->
+	<listener>
+		<listener-class>
+			com.laungee.proj.common.core.ListenerSpring
+		</listener-class>
+	</listener>
+
+	<!-- 图片上传的SERVLET  -->
+	<servlet>
+		<servlet-name>EditorUploadImage</servlet-name>
+		<servlet-class>com.laungee.proj.common.editor.UploadImage</servlet-class>
+		<!-- 上传图片保存的目录 -->
+		<init-param>
+			<param-name>UPLOAD_PATH</param-name>
+			<param-value>upload/image/</param-value>
+		</init-param>
+		<!-- 限制上传图片的大小，单位字节(缺省值为1MB) -->
+		<init-param>
+			<param-name>MAX_SIZE</param-name>
+			<param-value>502400000</param-value>
+		</init-param>
+		<!-- 上传图片的类型(缺省值为gif, jpg, jpeg, png, bmp) -->
+		<init-param>
+			<param-name>IMAGETYPES</param-name>
+			<param-value>jpg,png,bmp,jpeg,gif</param-value>
+		</init-param>
+		<!-- 上传图片的宽度，大于此宽度时图片会被压缩(缺省为不限定) -->
+		<init-param>
+			<param-name>MAX_WIDTH</param-name>
+			<param-value>-1</param-value>
+		</init-param>
+	</servlet>
+	<!-- 图片上传管理的SERVLET  -->
+	<servlet>
+		<servlet-name>EditorUploadImageManager</servlet-name>
+		<servlet-class>com.laungee.proj.common.editor.UploadImageManager</servlet-class>
+		<!-- 上传图片保存的目录 -->
+		<init-param>
+			<param-name>UPLOAD_PATH</param-name>
+			<param-value>upload/image/</param-value>
+		</init-param>
+	</servlet>
+	<!-- 附件上传的SERVLET  -->
+	<servlet>
+		<servlet-name>EditorUploadAccessory</servlet-name>
+		<servlet-class>com.laungee.proj.common.editor.UploadAccessory</servlet-class>
+		<!-- 上传附件保存的目录 -->
+		<init-param>
+			<param-name>UPLOAD_PATH</param-name>
+			<param-value>upload/file/</param-value>
+		</init-param>
+		<!-- 上传附件的大小，单位字节(缺省为1MB) -->
+		<init-param>
+			<param-name>MAX_SIZE</param-name>
+			<param-value>502400000</param-value>
+		</init-param>
+		<!-- 上传文件的类型(缺省为doc, xls, ppt, pdf, txt, rar, zip) -->
+		<init-param>
+			<param-name>FILETYPES</param-name>
+			<param-value>doc,xls,ppt,pdf,txt,rar,zip</param-value>
+		</init-param>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>EditorUploadImage</servlet-name>
+		<url-pattern>/editorUploadImage.do</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>EditorUploadImageManager</servlet-name>
+		<url-pattern>/editorUploadImgManager.do</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>EditorUploadAccessory</servlet-name>
+		<url-pattern>/editorUploadAccessory.do</url-pattern>
+	</servlet-mapping>
+	
+	<!-- DWR_配置 -->
+	<servlet>   
+        <servlet-name>dwr-invoker</servlet-name>   
+        <servlet-class>   
+            org.directwebremoting.servlet.DwrServlet    
+        </servlet-class>   
+        <init-param>   
+            <param-name>debug</param-name>   
+            <param-value>true</param-value>   
+        </init-param>   
+        <init-param>   
+            <param-name>logLevel</param-name>   
+            <param-value>warn</param-value>   
+        </init-param>   
+        <init-param>   
+            <param-name>crossDomainSessionSecurity</param-name>   
+            <param-value>false</param-value>   
+        </init-param>   
+        <load-on-startup>1</load-on-startup>   
+    </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>floatSuccess</servlet-name>
+    <servlet-class>floatSuccess</servlet-class>
+  </servlet>
+
+	<!-- DWR_拦截 -->
+	<servlet-mapping>
+		<servlet-name>dwr-invoker</servlet-name>
+		<url-pattern>/dwr/*</url-pattern>
+	</servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>floatSuccess</servlet-name>
+    <url-pattern>/servlet/floatSuccess</url-pattern>
+  </servlet-mapping>
+   	<!-- 设置Session失效时间 -->
+	<session-config>
+		<session-timeout>30</session-timeout>
+	</session-config>
+	<!-- 主页面 -->
+	<welcome-file-list>
+		<welcome-file>index.jsp</welcome-file>
+	</welcome-file-list>
+	
+	<!-- 数据源 -->
+	<resource-ref>
+		<description>DB Connection</description>
+		<res-ref-name>jdbc/fund</res-ref-name>
+		<res-type>javax.sql.DataSource</res-type>
+		<res-auth>Container</res-auth>
+	</resource-ref>
+ 	
+ 	<!-- 重写SystemOut -->
+ 	<listener>
+ 		<listener-class>
+ 			com.laungee.proj.common.core.StdoutListener
+ 		</listener-class>
+ 	</listener>
+
+</web-app>

@@ -1,0 +1,88 @@
+body {
+	margin-left: 5px;
+	margin-right: 0px;
+	background-color:#d1ecf3;
+}
+.lyt_menu{
+	padding:0px 0px 0px 0px;
+}
+.lyt_menu h2{
+	padding:3px;
+	margin:0;
+	font-size:14px;
+	background-repeat: no-repeat;
+	background-position: right center;
+	cursor:pointer;
+	color:#0080FF;
+}
+.lyt_menu h2.open{
+	background-Image: url(../UI/icon/flex_open.gif);
+}
+.lyt_menu h2.folded{
+	background-Image: url(../UI/icon/flex_folded.gif);
+}
+.lyt_menu .menu_title{
+	width:199px;
+	height:29px;
+	background:url(../UI/images/m_menu_title.jpg);
+}
+.lyt_menu .content{
+	display:none;
+}
+.lyt_menu ul{
+	padding:0;
+	margin:0;
+	padding-left:0px;
+	color:#0099FF;
+}
+.lyt_menu li{
+	margin:0;
+	padding:0;
+	padding-left:3px;
+	vertical-align:bottom;
+}
+
+.lyt_menu .menu_tl{
+	background: url(../UI/images/m_menu_s9_tl.jpg);
+	background-repeat: no-repeat;
+}
+.lyt_menu .menu_t{
+	background: url(../UI/images/m_menu_s9_t.jpg);
+	background-repeat: repeat-x;
+}
+.lyt_menu .menu_tr{
+	background: url(../UI/images/m_menu_s9_tr.jpg);
+	background-repeat: no-repeat;
+}
+
+.lyt_menu .menu_l{
+	background: url(../UI/images/m_menu_s9_l.jpg);
+	background-repeat: repeat-y;
+}
+.lyt_menu .menu_r{
+	background: url(../UI/images/m_menu_s9_r.jpg);
+	background-repeat: repeat-y;
+}
+
+.lyt_menu .menu_bl{
+	background: url(../UI/images/m_menu_s9_bl.jpg);
+	background-repeat: no-repeat;
+}
+.lyt_menu .menu_b{
+	background: url(../UI/images/m_menu_s9_b.jpg);
+	background-repeat: repeat-x;
+}
+.lyt_menu .menu_br{
+	background: url(../UI/images/m_menu_s9_br.jpg);
+	background-repeat: no-repeat;
+}
+.tmp_flex{
+	height:22px;
+}
+.menu_l_over{
+	background-Image: url(../UI/images/m_menu_s9_over_l.png);
+}
+.menu_r_over{
+	background-Image: url(../UI/images/m_menu_s9_over_r.png);
+	background-repeat: repeat-x;
+}

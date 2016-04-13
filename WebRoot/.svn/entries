@@ -1,0 +1,169 @@
+10
+
+dir
+132
+https://192.168.1.220/svn/JSP_PALUMNI_FUND/PALUMNI_FUND_II/WebRoot
+https://192.168.1.220/svn/JSP_PALUMNI_FUND
+
+
+
+2016-01-05T04:43:36.640625Z
+132
+yangxb
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+de8fd515-61f9-f34b-837c-f1600725dc39
+
+upload
+dir
+
+WEB-INF
+dir
+
+common
+dir
+
+manage
+dir
+
+account
+dir
+
+foundationObject
+dir
+
+sms.properties
+file
+
+
+
+
+2014-05-21T08:31:03.065000Z
+e81d9ece093b62ae9f675e9f7960b82f
+2015-06-29T08:20:23.484375Z
+79
+zhouzf
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1281
+
+META-INF
+dir
+
+index.jsp
+file
+
+
+
+
+2012-10-18T07:06:51.531000Z
+1c99c3b0b8472b43ba5fdd9d0ddc17cb
+2015-06-29T08:20:23.484375Z
+79
+zhouzf
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+207
+
+commodity
+dir
+
+foundation
+dir
+
+download
+dir
+
+api
+dir
+
+client.properties
+file
+
+
+
+
+2014-05-20T07:40:54.821000Z
+ecaa88f7fa0bf610a5a26cf545dcd3aa
+2015-06-29T08:20:23.484375Z
+79
+zhouzf
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+3
+
+zc
+dir
+
+UI
+dir
+

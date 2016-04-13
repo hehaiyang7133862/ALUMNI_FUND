@@ -1,0 +1,24 @@
+/* container */
+.ke-container-readonly {
+	display: block;
+	border: 0px;
+	background-color: #FFF;
+	overflow: hidden;
+}
+/* toolbar */
+.ke-container-readonly .ke-toolbar {
+	border: 0px;
+	background-color: #FFF;
+	padding: 0px;
+	overflow: hidden;
+}
+/* statusbar */
+.ke-container-readonly .ke-statusbar {
+	position: relative;
+	background-color: #FFF;
+	border: 0px;
+	font-size: 0;
+	line-height: 0;
+	height: 0px;
+	overflow: hidden;
+}

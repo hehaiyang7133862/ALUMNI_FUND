@@ -1,0 +1,218 @@
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>system</title>
+	<link rel="stylesheet" type="text/css" href="../themes/default/easyui.css">
+	<link rel="stylesheet" type="text/css" href="../themes/icon.css">
+	<script type="text/javascript" src="../jquery-1.4.4.min.js"></script>
+	<script type="text/javascript" src="../jquery.easyui.min.js"></script>
+	<script type="text/javascript" src="../locale/easyui-lang-zh_CN.js"></script>
+    <script type="text/javascript">
+		$(function(){
+			$('#tt2').datagrid({
+				title:'My Title',
+				iconCls:'icon-save',
+				width:600,
+				height:350,
+				nowrap: false,
+				striped: true,
+				fit: true,
+				url:'datagrid_data.json',
+				sortName: 'code',
+				sortOrder: 'desc',
+				idField:'code',
+				frozenColumns:[[
+	                {field:'ck',checkbox:true},
+	                {title:'code',field:'code',width:80,sortable:true}
+				]],
+				columns:[[
+			        {title:'Base Information',colspan:3},
+					{field:'opt',title:'Operation',width:100,align:'center', rowspan:2,
+						formatter:function(value,rec){
+							return '<span style="color:red">Edit Delete</span>';
+						}
+					}
+				],[
+					{field:'name',title:'Name',width:120},
+					{field:'addr',title:'Address',width:120,rowspan:2,sortable:true},
+					{field:'col4',title:'Col41',width:150,rowspan:2}
+				]],
+				pagination:true,
+				rownumbers:true
+			});
+
+
+			$('.easyui-tree').tree({
+				animate:true,
+				dnd:true,
+				onClick:function(node){
+					//ÅÐ¶ÏÊÇÒ¶×Ó
+					if($(this).tree('isLeaf', node.target)){
+						addTab(node.text,"http://www.baidu.com");
+					}else{
+						$(this).tree('toggle', node.target);
+					}
+				},
+				onContextMenu:function(e,node){
+					e.preventDefault();
+					$(this).tree('select', node.target);
+
+					var mm = "<div class='easyui-menu' style='width:120px;'>";  
+					mm += "<div iconCls='icon-add'>New</div>";  
+					mm += "<div>";  
+					mm += "<span>Open</span>";  
+					mm += "<div style='width:150px;'>";    
+					mm += "<div><b>Word</b></div>";    
+					mm += "<div>Excel</div>";    
+					mm += "<div>PowerPoint</div>";    
+					mm += "</div>";    
+					mm += "</div>";    
+					mm += "<div iconCls='icon-save'>Save</div>";    
+					mm += "<div class='menu-sep'></div>";    
+					mm += "<div iconCls='icon-cancel'>Exit</div>";    
+					mm += "</div>";
+
+					$("#mm").menu('show', {
+						left: e.pageX,
+						top: e.pageY
+					}); 
+				}
+			});
+
+			$('#tree2').tree({
+				url: 'tree_data.json',
+				onClick:function(node){
+					alert('you click '+node.text);
+				}
+			});
+		});
+
+        //<--Tabs Begin-->
+        $(function () {
+            $('#tt').tabs({
+                tools: [{
+                    iconCls: 'icon-add',
+                    handler: function () {
+                        alert('add');
+                    }
+                }, {
+                    iconCls: 'icon-save',
+                    handler: function () {
+                        alert('save');
+                    }
+                }]
+            });
+        });
+
+        function addTab(tit, link) {
+            if ($('#main').tabs('exists', tit)) {
+				//$.messager.alert('Msg', 'win has been opened','info');
+				$('#main').tabs('select',tit);
+            } else {
+                $('#main').tabs('add', {
+                    title: tit,
+                    //href: link,
+                    content: '<iframe scrolling="yes" frameborder="0"  src="' + link + '" style="width:100%;height:100%;"></iframe>',
+                    fit: true,
+                    closable: true
+                });
+            }
+        }
+        //<--Tabs End-->
+        
+    </script>
+</head>
+<body class="easyui-layout">
+    <div region="north" border="false" style="overflow: hidden; height: 60px; background: #A4BED4;">
+        <h2>Head Part</h2>
+    </div>
+
+    <div region="south" split="false" style="height: 2px; background: #efefef;">
+    </div>
+    
+    <div region="west" split="true" title="Title" style="width: 180px;">
+			<div class="easyui-accordion" fit="true" border="false">
+				<div title="Title1" style="overflow:auto;">
+					<p onclick='addTab("BaiDu1","http://www.baidu.com")'>BaiDu1</p>
+					<p onclick='addTab("BaiDu2","http://www.baidu.com")'>BaiDu2</p>
+					<p onclick='addTab("BaiDu3","http://www.baidu.com")'>BaiDu3</p>
+					<p onclick='addTab("BaiDu4","http://www.baidu.com")'>BaiDu4</p>
+					<p onclick='addTab("BaiDu5","http://www.baidu.com")'>BaiDu5</p>
+					<p onclick='addTab("BaiDu6","http://www.baidu.com")'>BaiDu6</p>
+					<p onclick='addTab("BaiDu7","http://www.baidu.com")'>BaiDu7</p>
+					<p onclick='addTab("BaiDu8","http://www.baidu.com")'>BaiDu8</p>
+					<p onclick='addTab("BaiDu9","http://www.baidu.com")'>BaiDu9</p>
+					<p onclick='addTab("BaiDu10","http://www.baidu.com")'>BaiDu10</p>
+				</div>
+				<div title="Title2" selected="true" style="padding:10px;">
+					<--Tree 1-->
+					<ul id="tree1" class="easyui-tree">
+						<li>
+							<span>BaiDu</span>
+							<ul>
+								<li>
+									<span>BaiDu1</span>
+									<ul>
+										<li>
+											<span>BaiDu11</span>
+										</li>
+										<li>
+											<span>BaiDu12</span>
+										</li>
+										<li>
+											<span>BaiDu13</span>
+										</li>
+									</ul>
+								</li>
+								<li>
+									<span>BaiDu2</span>
+								</li>
+								<li>
+									<span>BaiDu3</span>
+								</li>
+							</ul>
+						</li>
+						<li>
+							<span>File</span>
+						</li>
+					</ul>
+
+					<div id="mm" class='easyui-menu' style="width:120px;">  
+						<div iconCls='icon-add'>New</div>  
+						<div>  
+								<span>Open</span>  
+								<div style="width:150px;">  
+										<div><b>Word</b></div>  
+										<div>Excel</div>  
+										<div>PowerPoint</div>  
+								</div>  
+						</div>  
+						<div icon="icon-save">Save</div>  
+						<div class="menu-sep"></div>  
+						<div>Exit</div>  
+					</div> 
+
+					<br/><br/><br/>
+					<--Tree 2-->
+					<ul id="tree2"></ul>  
+				</div>
+			</div>
+    </div>
+	<div region="center" title="Main Title" style="overflow:hidden;">
+		<div id="main" class="easyui-tabs" fit="true" border="false">
+			<div title="Tab1" style="padding:20px;overflow:hidden;"> 
+				<div style="margin-top:20px;">
+					<h3>jQuery EasyUI framework help you build your web page easily.</h3>
+					<li>easyui is a collection of user-interface plugin based on jQuery.</li> 
+					<li>using easyui you don't write many javascript code, instead you defines user-interface by writing some HTML markup.</li> 
+					<li onclick="$.messager.alert('Msg', 'win has been opened','info');">easyui is very easy but powerful.</li> 
+				</div>
+			</div>
+			<div title="Tab2" closable="true" style="padding:20px;">This is Tab2 width close button.</div>
+			<div title="Tab3" icon="icon-reload" closable="true" style="overflow:hidden;padding:5px;">
+				<table id="tt2"></table> 
+			</div>
+		</div>
+	</div>
+</body>
+</html>

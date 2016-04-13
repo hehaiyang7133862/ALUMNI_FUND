@@ -1,0 +1,153 @@
+/* 一级菜单 */
+.nav_hor{
+	margin-top:5px;
+	background-image: url(../UI/images/nav_bg.jpg);
+	background-repeat: repeat-x;
+	width:100%;
+	height:34px;
+}
+.nav_hor ul{
+	margin:0px;
+	margin-left:5px;	
+}
+.nav_hor li{
+	float:left; 
+	list-style-type:none;
+	margin-left:16px;
+	display:block;
+	width:120px;
+	line-height:34px;
+	font-weight:bold;
+	text-align:center;
+}
+.nav_hor a{
+	font-size:14px;
+	font-weight:bold;
+	color:black;
+	display:block;
+	width:120px;
+	height:34px;
+	text-decoration:none;
+}
+.nav_hor a:hover{
+	background:url(../UI/images/nav_action.jpg);
+}
+/* DIV */
+.div_item{
+	background-color:#fafcff;
+	border:1px solid #CCCCCC;
+	margin-top:3px;
+}
+.div_view{
+}
+.div_cap{
+	border-bottom:1px dashed #b3cde3;
+	padding-top:10px;
+	padding-bottom:0px;
+	color:#2070b6;
+	font-weight:bold;
+	font-size:14px;;
+	width: 100%;
+}
+.div_btn{
+	padding-top:5px;
+	padding-left:90px;
+	border-top:1px dashed #b3cde3;
+}
+* 数据展示--------------------------------------------------------------------- */
+/* 列表显示 */
+.lay_item{
+	border-right:#ffffff 1px solid;
+}
+.lay_item th{
+	height:26px;
+	text-align:center;
+	font-weight:bold;
+	color:#FFF;
+	vertical-align:middle;
+	background-image: url(../UI/images/bar_01.png);
+	background-repeat: repeat-x;
+	background-position: left -261px;
+	border-left:#ffffff 1px solid;
+	border-top:#ffffff 1px solid;
+}
+.lay_item td{
+	empty-cells:show;
+	text-align:center;
+	color:#135288;
+	border-bottom:#e7eef6 1px solid;
+	border-left:#ffffff 1px solid;
+	padding-top:4px;
+	padding-bottom:4px;
+	padding-left:6px;
+	padding-right:6px;
+	
+}
+.lay_item_on td{
+	background-color:#cee8fe;
+
+}
+.lay_item_on{
+}
+.lay_item_even{
+	background-color:#FFFFFF;
+}
+/* 数据显示 */
+.lay_view{
+	
+}
+.lay_view th{
+	padding:8px;
+	vertical-align:text-top;
+}
+.lay_view td{
+	padding:5px;
+}
+.lay_view input{
+	height:22px;
+}
+/* 处理结果 */
+.lay_rs{
+	font-size:14px;
+	text-align:center;
+}
+.lay_rs b{
+	font-size:16px;
+	color:#E00;
+	margin:2px;
+	letter-spacing:2px;
+}
+.lay_rs a{
+	font-size:12px;
+	margin:2px;
+}
+/* 文字显示 --------------------------------------------------------------------- */
+.txt_h3{
+	text-align:center;
+	margin-bottom:5px;
+	color:#03C;
+}
+.txt_less{
+	text-align:center;
+	color:#09F;
+	font-size:12px;
+}
+.txt_note{
+	width:750px;
+	margin-left:50px
+}
+.txt_remark{
+	margin-left:2px;
+	color:#AAA9A9;
+}
+
+.bar_nav{
+	border-top:0px;
+	line-height: 21px;
+	width: 100%;
+	border-bottom: #CCCCCC 1px dotted;
+	font-size: 12px;
+	color: #4197C0;
+	background-color:#fafcff;
+}
+

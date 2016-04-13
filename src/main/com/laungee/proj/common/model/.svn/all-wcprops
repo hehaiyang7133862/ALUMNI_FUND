@@ -1,0 +1,1883 @@
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/JSP_PALUMNI_FUND/!svn/ver/120/PALUMNI_FUND_II/src/main/com/laungee/proj/common/model
+END
+TbActionPhotos.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/JSP_PALUMNI_FUND/!svn/ver/77/PALUMNI_FUND_II/src/main/com/laungee/proj/common/model/TbActionPhotos.java
+END
+TbAlumniCard.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/JSP_PALUMNI_FUND/!svn/ver/77/PALUMNI_FUND_II/src/main/com/laungee/proj/common/model/TbAlumniCard.java
+END
+TbLog.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/JSP_PALUMNI_FUND/!svn/ver/77/PALUMNI_FUND_II/src/main/com/laungee/proj/common/model/TbLog.java
+END
+VwRelationId.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/JSP_PALUMNI_FUND/!svn/ver/77/PALUMNI_FUND_II/src/main/com/laungee/proj/common/model/VwRelationId.java
+END
+TbVisit.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/JSP_PALUMNI_FUND/!svn/ver/77/PALUMNI_FUND_II/src/main/com/laungee/proj/common/model/TbVisit.hbm.xml
+END
+TbMailGroup.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/JSP_PALUMNI_FUND/!svn/ver/77/PALUMNI_FUND_II/src/main/com/laungee/proj/common/model/TbMailGroup.hbm.xml
+END
+TbRepeatAlumni.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/JSP_PALUMNI_FUND/!svn/ver/77/PALUMNI_FUND_II/src/main/com/laungee/proj/common/model/TbRepeatAlumni.java
+END
+TbPars.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/JSP_PALUMNI_FUND/!svn/ver/77/PALUMNI_FUND_II/src/main/com/laungee/proj/common/model/TbPars.hbm.xml
+END
+TbZcproj.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/JSP_PALUMNI_FUND/!svn/ver/101/PALUMNI_FUND_II/src/main/com/laungee/proj/common/model/TbZcproj.hbm.xml
+END
+TbActionPhotoDetil.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/JSP_PALUMNI_FUND/!svn/ver/77/PALUMNI_FUND_II/src/main/com/laungee/proj/common/model/TbActionPhotoDetil.hbm.xml
+END
+TbEmailAlumni.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/JSP_PALUMNI_FUND/!svn/ver/77/PALUMNI_FUND_II/src/main/com/laungee/proj/common/model/TbEmailAlumni.java
+END
+TbZcotherOrder.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/JSP_PALUMNI_FUND/!svn/ver/139/PALUMNI_FUND_II/src/main/com/laungee/proj/common/model/TbZcotherOrder.hbm.xml
+END
+TbCommodityOrder.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/JSP_PALUMNI_FUND/!svn/ver/133/PALUMNI_FUND_II/src/main/com/laungee/proj/common/model/TbCommodityOrder.java
+END
+TbDonationor.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/JSP_PALUMNI_FUND/!svn/ver/77/PALUMNI_FUND_II/src/main/com/laungee/proj/common/model/TbDonationor.hbm.xml
+END
+TbMenu.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/JSP_PALUMNI_FUND/!svn/ver/77/PALUMNI_FUND_II/src/main/com/laungee/proj/common/model/TbMenu.java
+END
+TbProDetail.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/JSP_PALUMNI_FUND/!svn/ver/77/PALUMNI_FUND_II/src/main/com/laungee/proj/common/model/TbProDetail.hbm.xml
+END
+TbUnKnower.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/JSP_PALUMNI_FUND/!svn/ver/77/PALUMNI_FUND_II/src/main/com/laungee/proj/common/model/TbUnKnower.java
+END
+TbSharestudent.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/JSP_PALUMNI_FUND/!svn/ver/77/PALUMNI_FUND_II/src/main/com/laungee/proj/common/model/TbSharestudent.java
+END
+TbSmsForm.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/JSP_PALUMNI_FUND/!svn/ver/77/PALUMNI_FUND_II/src/main/com/laungee/proj/common/model/TbSmsForm.hbm.xml
+END
+TbSiteJzMsg.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/JSP_PALUMNI_FUND/!svn/ver/133/PALUMNI_FUND_II/src/main/com/laungee/proj/common/model/TbSiteJzMsg.java
+END
+TbProDetail.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/JSP_PALUMNI_FUND/!svn/ver/77/PALUMNI_FUND_II/src/main/com/laungee/proj/common/model/TbProDetail.java
+END
+TbDuty.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/JSP_PALUMNI_FUND/!svn/ver/77/PALUMNI_FUND_II/src/main/com/laungee/proj/common/model/TbDuty.java
+END
+VwDonation.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/JSP_PALUMNI_FUND/!svn/ver/77/PALUMNI_FUND_II/src/main/com/laungee/proj/common/model/VwDonation.hbm.xml
+END
+TbCommodityDetail.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/JSP_PALUMNI_FUND/!svn/ver/101/PALUMNI_FUND_II/src/main/com/laungee/proj/common/model/TbCommodityDetail.java
+END
+TbCommodity.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/JSP_PALUMNI_FUND/!svn/ver/77/PALUMNI_FUND_II/src/main/com/laungee/proj/common/model/TbCommodity.hbm.xml
+END
+TbMailHistory.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/JSP_PALUMNI_FUND/!svn/ver/77/PALUMNI_FUND_II/src/main/com/laungee/proj/common/model/TbMailHistory.hbm.xml
+END
+TbResOther.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/JSP_PALUMNI_FUND/!svn/ver/77/PALUMNI_FUND_II/src/main/com/laungee/proj/common/model/TbResOther.java
+END
+TbReply.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/JSP_PALUMNI_FUND/!svn/ver/77/PALUMNI_FUND_II/src/main/com/laungee/proj/common/model/TbReply.java
+END
+SQLRole.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/JSP_PALUMNI_FUND/!svn/ver/77/PALUMNI_FUND_II/src/main/com/laungee/proj/common/model/SQLRole.java
+END
+TbZcprojOption.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/JSP_PALUMNI_FUND/!svn/ver/133/PALUMNI_FUND_II/src/main/com/laungee/proj/common/model/TbZcprojOption.java
+END
+TbProtocol.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/JSP_PALUMNI_FUND/!svn/ver/77/PALUMNI_FUND_II/src/main/com/laungee/proj/common/model/TbProtocol.java
+END
+TbUnRelation.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/JSP_PALUMNI_FUND/!svn/ver/77/PALUMNI_FUND_II/src/main/com/laungee/proj/common/model/TbUnRelation.hbm.xml
+END
+VwRepeatAlumniTel.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/JSP_PALUMNI_FUND/!svn/ver/77/PALUMNI_FUND_II/src/main/com/laungee/proj/common/model/VwRepeatAlumniTel.hbm.xml
+END
+TbRelationAlumni.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/JSP_PALUMNI_FUND/!svn/ver/77/PALUMNI_FUND_II/src/main/com/laungee/proj/common/model/TbRelationAlumni.hbm.xml
+END
+TbZcprojType.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/JSP_PALUMNI_FUND/!svn/ver/77/PALUMNI_FUND_II/src/main/com/laungee/proj/common/model/TbZcprojType.java
+END
+TbDonationoutlay.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/JSP_PALUMNI_FUND/!svn/ver/77/PALUMNI_FUND_II/src/main/com/laungee/proj/common/model/TbDonationoutlay.java
+END
+VwCommodityBase.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/JSP_PALUMNI_FUND/!svn/ver/133/PALUMNI_FUND_II/src/main/com/laungee/proj/common/model/VwCommodityBase.hbm.xml
+END
+TbCommphotodetil.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/JSP_PALUMNI_FUND/!svn/ver/77/PALUMNI_FUND_II/src/main/com/laungee/proj/common/model/TbCommphotodetil.hbm.xml
+END
+TbUnDuty.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/JSP_PALUMNI_FUND/!svn/ver/77/PALUMNI_FUND_II/src/main/com/laungee/proj/common/model/TbUnDuty.hbm.xml
+END
+TbStayaction.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/JSP_PALUMNI_FUND/!svn/ver/77/PALUMNI_FUND_II/src/main/com/laungee/proj/common/model/TbStayaction.java
+END
+TbRelationAlumni.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/JSP_PALUMNI_FUND/!svn/ver/77/PALUMNI_FUND_II/src/main/com/laungee/proj/common/model/TbRelationAlumni.java
+END
+TbMessage.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/JSP_PALUMNI_FUND/!svn/ver/77/PALUMNI_FUND_II/src/main/com/laungee/proj/common/model/TbMessage.java
+END
+TbCommodityParam.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/JSP_PALUMNI_FUND/!svn/ver/77/PALUMNI_FUND_II/src/main/com/laungee/proj/common/model/TbCommodityParam.java
+END
+VwOrder.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/JSP_PALUMNI_FUND/!svn/ver/93/PALUMNI_FUND_II/src/main/com/laungee/proj/common/model/VwOrder.hbm.xml
+END
+VwRoleUser.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/JSP_PALUMNI_FUND/!svn/ver/77/PALUMNI_FUND_II/src/main/com/laungee/proj/common/model/VwRoleUser.java
+END
+TbRelationInfo.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/JSP_PALUMNI_FUND/!svn/ver/77/PALUMNI_FUND_II/src/main/com/laungee/proj/common/model/TbRelationInfo.java
+END
+TbCommlcomment.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/JSP_PALUMNI_FUND/!svn/ver/77/PALUMNI_FUND_II/src/main/com/laungee/proj/common/model/TbCommlcomment.java
+END
+VwDocationalumnirelation.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/JSP_PALUMNI_FUND/!svn/ver/77/PALUMNI_FUND_II/src/main/com/laungee/proj/common/model/VwDocationalumnirelation.java
+END
+TbSharestudent.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/JSP_PALUMNI_FUND/!svn/ver/77/PALUMNI_FUND_II/src/main/com/laungee/proj/common/model/TbSharestudent.hbm.xml
+END
+TbDonationAccout.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/JSP_PALUMNI_FUND/!svn/ver/77/PALUMNI_FUND_II/src/main/com/laungee/proj/common/model/TbDonationAccout.hbm.xml
+END
+TbUnStudy.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/JSP_PALUMNI_FUND/!svn/ver/77/PALUMNI_FUND_II/src/main/com/laungee/proj/common/model/TbUnStudy.hbm.xml
+END
+TbRole.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/JSP_PALUMNI_FUND/!svn/ver/77/PALUMNI_FUND_II/src/main/com/laungee/proj/common/model/TbRole.java
+END
+TbStayaction.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/JSP_PALUMNI_FUND/!svn/ver/77/PALUMNI_FUND_II/src/main/com/laungee/proj/common/model/TbStayaction.hbm.xml
+END
+TbPersonphoto.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/JSP_PALUMNI_FUND/!svn/ver/77/PALUMNI_FUND_II/src/main/com/laungee/proj/common/model/TbPersonphoto.hbm.xml
+END
+TbProtocolParam.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/JSP_PALUMNI_FUND/!svn/ver/77/PALUMNI_FUND_II/src/main/com/laungee/proj/common/model/TbProtocolParam.hbm.xml
+END
+TbUnimportalumni.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/JSP_PALUMNI_FUND/!svn/ver/77/PALUMNI_FUND_II/src/main/com/laungee/proj/common/model/TbUnimportalumni.hbm.xml
+END
+TbTelephone.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/JSP_PALUMNI_FUND/!svn/ver/77/PALUMNI_FUND_II/src/main/com/laungee/proj/common/model/TbTelephone.hbm.xml
+END
+TbPublication.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/JSP_PALUMNI_FUND/!svn/ver/77/PALUMNI_FUND_II/src/main/com/laungee/proj/common/model/TbPublication.java
+END
+TbAdvise.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/JSP_PALUMNI_FUND/!svn/ver/77/PALUMNI_FUND_II/src/main/com/laungee/proj/common/model/TbAdvise.java
+END
+TbUnimportalumni.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/JSP_PALUMNI_FUND/!svn/ver/77/PALUMNI_FUND_II/src/main/com/laungee/proj/common/model/TbUnimportalumni.java
+END
+TbTelephone.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/JSP_PALUMNI_FUND/!svn/ver/77/PALUMNI_FUND_II/src/main/com/laungee/proj/common/model/TbTelephone.java
+END
+VwRepeatAlumniHandset.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/JSP_PALUMNI_FUND/!svn/ver/77/PALUMNI_FUND_II/src/main/com/laungee/proj/common/model/VwRepeatAlumniHandset.java
+END
+TbAcceptCompany.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/JSP_PALUMNI_FUND/!svn/ver/77/PALUMNI_FUND_II/src/main/com/laungee/proj/common/model/TbAcceptCompany.java
+END
+TbMenuRole.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/JSP_PALUMNI_FUND/!svn/ver/77/PALUMNI_FUND_II/src/main/com/laungee/proj/common/model/TbMenuRole.java
+END
+TbResource.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/JSP_PALUMNI_FUND/!svn/ver/77/PALUMNI_FUND_II/src/main/com/laungee/proj/common/model/TbResource.java
+END
+TbAcademy.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/JSP_PALUMNI_FUND/!svn/ver/77/PALUMNI_FUND_II/src/main/com/laungee/proj/common/model/TbAcademy.hbm.xml
+END
+TbUnDuty.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/JSP_PALUMNI_FUND/!svn/ver/77/PALUMNI_FUND_II/src/main/com/laungee/proj/common/model/TbUnDuty.java
+END
+TbMenu.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/JSP_PALUMNI_FUND/!svn/ver/77/PALUMNI_FUND_II/src/main/com/laungee/proj/common/model/TbMenu.hbm.xml
+END
+TbFields.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/JSP_PALUMNI_FUND/!svn/ver/77/PALUMNI_FUND_II/src/main/com/laungee/proj/common/model/TbFields.hbm.xml
+END
+TbMember.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/JSP_PALUMNI_FUND/!svn/ver/77/PALUMNI_FUND_II/src/main/com/laungee/proj/common/model/TbMember.hbm.xml
+END
+VwCommodity.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/JSP_PALUMNI_FUND/!svn/ver/133/PALUMNI_FUND_II/src/main/com/laungee/proj/common/model/VwCommodity.java
+END
+TbSmsAlumni.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/JSP_PALUMNI_FUND/!svn/ver/77/PALUMNI_FUND_II/src/main/com/laungee/proj/common/model/TbSmsAlumni.hbm.xml
+END
+TbZcprojType.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/JSP_PALUMNI_FUND/!svn/ver/77/PALUMNI_FUND_II/src/main/com/laungee/proj/common/model/TbZcprojType.hbm.xml
+END
+TbDonationoutlay.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/JSP_PALUMNI_FUND/!svn/ver/77/PALUMNI_FUND_II/src/main/com/laungee/proj/common/model/TbDonationoutlay.hbm.xml
+END
+TbOrganMember.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/JSP_PALUMNI_FUND/!svn/ver/77/PALUMNI_FUND_II/src/main/com/laungee/proj/common/model/TbOrganMember.java
+END
+TbAcademy.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/JSP_PALUMNI_FUND/!svn/ver/77/PALUMNI_FUND_II/src/main/com/laungee/proj/common/model/TbAcademy.java
+END
+TbAlumniCard.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/JSP_PALUMNI_FUND/!svn/ver/77/PALUMNI_FUND_II/src/main/com/laungee/proj/common/model/TbAlumniCard.hbm.xml
+END
+TbEvent.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/JSP_PALUMNI_FUND/!svn/ver/77/PALUMNI_FUND_II/src/main/com/laungee/proj/common/model/TbEvent.hbm.xml
+END
+TbActionAlumni.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/JSP_PALUMNI_FUND/!svn/ver/77/PALUMNI_FUND_II/src/main/com/laungee/proj/common/model/TbActionAlumni.hbm.xml
+END
+TbSeek.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/JSP_PALUMNI_FUND/!svn/ver/77/PALUMNI_FUND_II/src/main/com/laungee/proj/common/model/TbSeek.hbm.xml
+END
+TbRelationInfo.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/JSP_PALUMNI_FUND/!svn/ver/77/PALUMNI_FUND_II/src/main/com/laungee/proj/common/model/TbRelationInfo.hbm.xml
+END
+VwRepeatAlumniName.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/JSP_PALUMNI_FUND/!svn/ver/77/PALUMNI_FUND_II/src/main/com/laungee/proj/common/model/VwRepeatAlumniName.java
+END
+TbAlumniSt.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/JSP_PALUMNI_FUND/!svn/ver/77/PALUMNI_FUND_II/src/main/com/laungee/proj/common/model/TbAlumniSt.hbm.xml
+END
+TbOrganMember.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/JSP_PALUMNI_FUND/!svn/ver/77/PALUMNI_FUND_II/src/main/com/laungee/proj/common/model/TbOrganMember.hbm.xml
+END
+TbActionAlumni.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/JSP_PALUMNI_FUND/!svn/ver/77/PALUMNI_FUND_II/src/main/com/laungee/proj/common/model/TbActionAlumni.java
+END
+TbCommodityPic.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/JSP_PALUMNI_FUND/!svn/ver/77/PALUMNI_FUND_II/src/main/com/laungee/proj/common/model/TbCommodityPic.hbm.xml
+END
+TbOperateLog.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/JSP_PALUMNI_FUND/!svn/ver/77/PALUMNI_FUND_II/src/main/com/laungee/proj/common/model/TbOperateLog.hbm.xml
+END
+TbAnnounce.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/JSP_PALUMNI_FUND/!svn/ver/77/PALUMNI_FUND_II/src/main/com/laungee/proj/common/model/TbAnnounce.hbm.xml
+END
+TbManuscriptAlumni.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/JSP_PALUMNI_FUND/!svn/ver/77/PALUMNI_FUND_II/src/main/com/laungee/proj/common/model/TbManuscriptAlumni.java
+END
+TbStudy.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/JSP_PALUMNI_FUND/!svn/ver/77/PALUMNI_FUND_II/src/main/com/laungee/proj/common/model/TbStudy.hbm.xml
+END
+TbPublication.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/JSP_PALUMNI_FUND/!svn/ver/77/PALUMNI_FUND_II/src/main/com/laungee/proj/common/model/TbPublication.hbm.xml
+END
+TbActionPhotos.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/JSP_PALUMNI_FUND/!svn/ver/77/PALUMNI_FUND_II/src/main/com/laungee/proj/common/model/TbActionPhotos.hbm.xml
+END
+VwZcproj.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/JSP_PALUMNI_FUND/!svn/ver/139/PALUMNI_FUND_II/src/main/com/laungee/proj/common/model/VwZcproj.java
+END
+TbSiteContent.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/JSP_PALUMNI_FUND/!svn/ver/133/PALUMNI_FUND_II/src/main/com/laungee/proj/common/model/TbSiteContent.java
+END
+TbRoleUser.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/JSP_PALUMNI_FUND/!svn/ver/77/PALUMNI_FUND_II/src/main/com/laungee/proj/common/model/TbRoleUser.java
+END
+VwDonation.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/JSP_PALUMNI_FUND/!svn/ver/77/PALUMNI_FUND_II/src/main/com/laungee/proj/common/model/VwDonation.java
+END
+VwRepeatAlumniName.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/JSP_PALUMNI_FUND/!svn/ver/77/PALUMNI_FUND_II/src/main/com/laungee/proj/common/model/VwRepeatAlumniName.hbm.xml
+END
+TbSiteJzMsg.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/JSP_PALUMNI_FUND/!svn/ver/133/PALUMNI_FUND_II/src/main/com/laungee/proj/common/model/TbSiteJzMsg.hbm.xml
+END
+TbAdlist.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/JSP_PALUMNI_FUND/!svn/ver/77/PALUMNI_FUND_II/src/main/com/laungee/proj/common/model/TbAdlist.hbm.xml
+END
+VwStudentmemberInfo.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/JSP_PALUMNI_FUND/!svn/ver/77/PALUMNI_FUND_II/src/main/com/laungee/proj/common/model/VwStudentmemberInfo.hbm.xml
+END
+TbZcproj.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/JSP_PALUMNI_FUND/!svn/ver/139/PALUMNI_FUND_II/src/main/com/laungee/proj/common/model/TbZcproj.java
+END
+TbSmsAlumni.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/JSP_PALUMNI_FUND/!svn/ver/77/PALUMNI_FUND_II/src/main/com/laungee/proj/common/model/TbSmsAlumni.java
+END
+TbMessage.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/JSP_PALUMNI_FUND/!svn/ver/77/PALUMNI_FUND_II/src/main/com/laungee/proj/common/model/TbMessage.hbm.xml
+END
+TbUnWork.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/JSP_PALUMNI_FUND/!svn/ver/77/PALUMNI_FUND_II/src/main/com/laungee/proj/common/model/TbUnWork.hbm.xml
+END
+TbManuscript.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/JSP_PALUMNI_FUND/!svn/ver/77/PALUMNI_FUND_II/src/main/com/laungee/proj/common/model/TbManuscript.hbm.xml
+END
+VwRepeatAlumniCardNum.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/JSP_PALUMNI_FUND/!svn/ver/77/PALUMNI_FUND_II/src/main/com/laungee/proj/common/model/VwRepeatAlumniCardNum.hbm.xml
+END
+VwAlumni.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/JSP_PALUMNI_FUND/!svn/ver/77/PALUMNI_FUND_II/src/main/com/laungee/proj/common/model/VwAlumni.java
+END
+TbNews.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/JSP_PALUMNI_FUND/!svn/ver/77/PALUMNI_FUND_II/src/main/com/laungee/proj/common/model/TbNews.java
+END
+VwUnalumniRoleOrgan.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/JSP_PALUMNI_FUND/!svn/ver/77/PALUMNI_FUND_II/src/main/com/laungee/proj/common/model/VwUnalumniRoleOrgan.hbm.xml
+END
+TbSmsGroup.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/JSP_PALUMNI_FUND/!svn/ver/77/PALUMNI_FUND_II/src/main/com/laungee/proj/common/model/TbSmsGroup.java
+END
+TbProtocolPic.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/JSP_PALUMNI_FUND/!svn/ver/77/PALUMNI_FUND_II/src/main/com/laungee/proj/common/model/TbProtocolPic.hbm.xml
+END
+TbEmailForm2.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/JSP_PALUMNI_FUND/!svn/ver/77/PALUMNI_FUND_II/src/main/com/laungee/proj/common/model/TbEmailForm2.hbm.xml
+END
+VwRepeatAlumniTel.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/JSP_PALUMNI_FUND/!svn/ver/77/PALUMNI_FUND_II/src/main/com/laungee/proj/common/model/VwRepeatAlumniTel.java
+END
+VwZcproj.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/JSP_PALUMNI_FUND/!svn/ver/139/PALUMNI_FUND_II/src/main/com/laungee/proj/common/model/VwZcproj.hbm.xml
+END
+OcrBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/JSP_PALUMNI_FUND/!svn/ver/77/PALUMNI_FUND_II/src/main/com/laungee/proj/common/model/OcrBean.java
+END
+TbCommunity.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/JSP_PALUMNI_FUND/!svn/ver/77/PALUMNI_FUND_II/src/main/com/laungee/proj/common/model/TbCommunity.java
+END
+TbAlumni.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/JSP_PALUMNI_FUND/!svn/ver/77/PALUMNI_FUND_II/src/main/com/laungee/proj/common/model/TbAlumni.java
+END
+TbZcprojOrder.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/JSP_PALUMNI_FUND/!svn/ver/139/PALUMNI_FUND_II/src/main/com/laungee/proj/common/model/TbZcprojOrder.hbm.xml
+END
+TbPersonlcomment.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/JSP_PALUMNI_FUND/!svn/ver/77/PALUMNI_FUND_II/src/main/com/laungee/proj/common/model/TbPersonlcomment.hbm.xml
+END
+TbCommphoto.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/JSP_PALUMNI_FUND/!svn/ver/77/PALUMNI_FUND_II/src/main/com/laungee/proj/common/model/TbCommphoto.hbm.xml
+END
+ErrorImportAlumniBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/JSP_PALUMNI_FUND/!svn/ver/77/PALUMNI_FUND_II/src/main/com/laungee/proj/common/model/ErrorImportAlumniBean.java
+END
+TbDonationCompanyMember.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/JSP_PALUMNI_FUND/!svn/ver/77/PALUMNI_FUND_II/src/main/com/laungee/proj/common/model/TbDonationCompanyMember.java
+END
+VwUnAlumniOrgan.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/JSP_PALUMNI_FUND/!svn/ver/77/PALUMNI_FUND_II/src/main/com/laungee/proj/common/model/VwUnAlumniOrgan.hbm.xml
+END
+TbFoundType.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/JSP_PALUMNI_FUND/!svn/ver/77/PALUMNI_FUND_II/src/main/com/laungee/proj/common/model/TbFoundType.hbm.xml
+END
+VwOrder.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/JSP_PALUMNI_FUND/!svn/ver/93/PALUMNI_FUND_II/src/main/com/laungee/proj/common/model/VwOrder.java
+END
+TbZcprojOrder.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/JSP_PALUMNI_FUND/!svn/ver/139/PALUMNI_FUND_II/src/main/com/laungee/proj/common/model/TbZcprojOrder.java
+END
+TbSearch.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/JSP_PALUMNI_FUND/!svn/ver/77/PALUMNI_FUND_II/src/main/com/laungee/proj/common/model/TbSearch.java
+END
+TbOrgan.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/JSP_PALUMNI_FUND/!svn/ver/77/PALUMNI_FUND_II/src/main/com/laungee/proj/common/model/TbOrgan.java
+END
+VwRepeatAlumniHandset.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/JSP_PALUMNI_FUND/!svn/ver/77/PALUMNI_FUND_II/src/main/com/laungee/proj/common/model/VwRepeatAlumniHandset.hbm.xml
+END
+TbStudy.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/JSP_PALUMNI_FUND/!svn/ver/77/PALUMNI_FUND_II/src/main/com/laungee/proj/common/model/TbStudy.java
+END
+TbDonationor.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/JSP_PALUMNI_FUND/!svn/ver/77/PALUMNI_FUND_II/src/main/com/laungee/proj/common/model/TbDonationor.java
+END
+VwOperatelog.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/JSP_PALUMNI_FUND/!svn/ver/77/PALUMNI_FUND_II/src/main/com/laungee/proj/common/model/VwOperatelog.hbm.xml
+END
+TbShow.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/JSP_PALUMNI_FUND/!svn/ver/77/PALUMNI_FUND_II/src/main/com/laungee/proj/common/model/TbShow.java
+END
+TbProtocolParam.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/JSP_PALUMNI_FUND/!svn/ver/77/PALUMNI_FUND_II/src/main/com/laungee/proj/common/model/TbProtocolParam.java
+END
+TbCommunityApp.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/JSP_PALUMNI_FUND/!svn/ver/77/PALUMNI_FUND_II/src/main/com/laungee/proj/common/model/TbCommunityApp.java
+END
+VwOrganMember.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/JSP_PALUMNI_FUND/!svn/ver/77/PALUMNI_FUND_II/src/main/com/laungee/proj/common/model/VwOrganMember.java
+END
+TbPersonphotodetil.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/JSP_PALUMNI_FUND/!svn/ver/77/PALUMNI_FUND_II/src/main/com/laungee/proj/common/model/TbPersonphotodetil.hbm.xml
+END
+TbCommphotodetil.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/JSP_PALUMNI_FUND/!svn/ver/77/PALUMNI_FUND_II/src/main/com/laungee/proj/common/model/TbCommphotodetil.java
+END
+VwUnalumniRoleOrgan.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/JSP_PALUMNI_FUND/!svn/ver/77/PALUMNI_FUND_II/src/main/com/laungee/proj/common/model/VwUnalumniRoleOrgan.java
+END
+VwZcprojBase.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/JSP_PALUMNI_FUND/!svn/ver/139/PALUMNI_FUND_II/src/main/com/laungee/proj/common/model/VwZcprojBase.java
+END
+TbFoundation.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/JSP_PALUMNI_FUND/!svn/ver/77/PALUMNI_FUND_II/src/main/com/laungee/proj/common/model/TbFoundation.hbm.xml
+END
+TbFoundationtype.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/JSP_PALUMNI_FUND/!svn/ver/77/PALUMNI_FUND_II/src/main/com/laungee/proj/common/model/TbFoundationtype.hbm.xml
+END
+TbTemplate.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/JSP_PALUMNI_FUND/!svn/ver/77/PALUMNI_FUND_II/src/main/com/laungee/proj/common/model/TbTemplate.hbm.xml
+END
+TbActionDiscuss.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/JSP_PALUMNI_FUND/!svn/ver/77/PALUMNI_FUND_II/src/main/com/laungee/proj/common/model/TbActionDiscuss.hbm.xml
+END
+TbDuty.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/JSP_PALUMNI_FUND/!svn/ver/77/PALUMNI_FUND_II/src/main/com/laungee/proj/common/model/TbDuty.hbm.xml
+END
+VwAlumnirelation.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/JSP_PALUMNI_FUND/!svn/ver/77/PALUMNI_FUND_II/src/main/com/laungee/proj/common/model/VwAlumnirelation.java
+END
+TbDonation.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/JSP_PALUMNI_FUND/!svn/ver/77/PALUMNI_FUND_II/src/main/com/laungee/proj/common/model/TbDonation.java
+END
+TbCommlcomment.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/JSP_PALUMNI_FUND/!svn/ver/77/PALUMNI_FUND_II/src/main/com/laungee/proj/common/model/TbCommlcomment.hbm.xml
+END
+TbCommunitycreateapplication.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/JSP_PALUMNI_FUND/!svn/ver/77/PALUMNI_FUND_II/src/main/com/laungee/proj/common/model/TbCommunitycreateapplication.hbm.xml
+END
+TbImportAlumni.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/JSP_PALUMNI_FUND/!svn/ver/77/PALUMNI_FUND_II/src/main/com/laungee/proj/common/model/TbImportAlumni.java
+END
+VwRepeatAlumniMail.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/JSP_PALUMNI_FUND/!svn/ver/77/PALUMNI_FUND_II/src/main/com/laungee/proj/common/model/VwRepeatAlumniMail.java
+END
+TbSmsHistory.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/JSP_PALUMNI_FUND/!svn/ver/77/PALUMNI_FUND_II/src/main/com/laungee/proj/common/model/TbSmsHistory.java
+END
+TbCommodityOrder.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/JSP_PALUMNI_FUND/!svn/ver/133/PALUMNI_FUND_II/src/main/com/laungee/proj/common/model/TbCommodityOrder.hbm.xml
+END
+VwAlumniOrgan.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/JSP_PALUMNI_FUND/!svn/ver/77/PALUMNI_FUND_II/src/main/com/laungee/proj/common/model/VwAlumniOrgan.hbm.xml
+END
+VwOperatelog.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/JSP_PALUMNI_FUND/!svn/ver/77/PALUMNI_FUND_II/src/main/com/laungee/proj/common/model/VwOperatelog.java
+END
+TbFileTab.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/JSP_PALUMNI_FUND/!svn/ver/77/PALUMNI_FUND_II/src/main/com/laungee/proj/common/model/TbFileTab.hbm.xml
+END
+TbProtocolPic.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/JSP_PALUMNI_FUND/!svn/ver/77/PALUMNI_FUND_II/src/main/com/laungee/proj/common/model/TbProtocolPic.java
+END
+TbEmailForm2.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/JSP_PALUMNI_FUND/!svn/ver/77/PALUMNI_FUND_II/src/main/com/laungee/proj/common/model/TbEmailForm2.java
+END
+TbUnAlumniSt.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/JSP_PALUMNI_FUND/!svn/ver/77/PALUMNI_FUND_II/src/main/com/laungee/proj/common/model/TbUnAlumniSt.java
+END
+VwAlumniOrgan.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/JSP_PALUMNI_FUND/!svn/ver/77/PALUMNI_FUND_II/src/main/com/laungee/proj/common/model/VwAlumniOrgan.java
+END
+VwRepeatAlumniDefualt.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/JSP_PALUMNI_FUND/!svn/ver/77/PALUMNI_FUND_II/src/main/com/laungee/proj/common/model/VwRepeatAlumniDefualt.hbm.xml
+END
+TbMember.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/JSP_PALUMNI_FUND/!svn/ver/77/PALUMNI_FUND_II/src/main/com/laungee/proj/common/model/TbMember.java
+END
+TbCommunity.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/JSP_PALUMNI_FUND/!svn/ver/77/PALUMNI_FUND_II/src/main/com/laungee/proj/common/model/TbCommunity.hbm.xml
+END
+TbFoundationtype.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/JSP_PALUMNI_FUND/!svn/ver/77/PALUMNI_FUND_II/src/main/com/laungee/proj/common/model/TbFoundationtype.java
+END
+TbCommodityParam.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/JSP_PALUMNI_FUND/!svn/ver/77/PALUMNI_FUND_II/src/main/com/laungee/proj/common/model/TbCommodityParam.hbm.xml
+END
+TbProPay.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/JSP_PALUMNI_FUND/!svn/ver/77/PALUMNI_FUND_II/src/main/com/laungee/proj/common/model/TbProPay.java
+END
+TbEmailApp.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/JSP_PALUMNI_FUND/!svn/ver/77/PALUMNI_FUND_II/src/main/com/laungee/proj/common/model/TbEmailApp.hbm.xml
+END
+VwZcprojBase.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/JSP_PALUMNI_FUND/!svn/ver/139/PALUMNI_FUND_II/src/main/com/laungee/proj/common/model/VwZcprojBase.hbm.xml
+END
+TbFoundType.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/JSP_PALUMNI_FUND/!svn/ver/77/PALUMNI_FUND_II/src/main/com/laungee/proj/common/model/TbFoundType.java
+END
+TbFile.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/JSP_PALUMNI_FUND/!svn/ver/77/PALUMNI_FUND_II/src/main/com/laungee/proj/common/model/TbFile.java
+END
+TbSiteContent.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/JSP_PALUMNI_FUND/!svn/ver/133/PALUMNI_FUND_II/src/main/com/laungee/proj/common/model/TbSiteContent.hbm.xml
+END
+TbZcprojOption.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/JSP_PALUMNI_FUND/!svn/ver/133/PALUMNI_FUND_II/src/main/com/laungee/proj/common/model/TbZcprojOption.hbm.xml
+END
+TbSmsForm.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/JSP_PALUMNI_FUND/!svn/ver/77/PALUMNI_FUND_II/src/main/com/laungee/proj/common/model/TbSmsForm.java
+END
+TbSeek.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/JSP_PALUMNI_FUND/!svn/ver/77/PALUMNI_FUND_II/src/main/com/laungee/proj/common/model/TbSeek.java
+END
+TbCommodityType.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/JSP_PALUMNI_FUND/!svn/ver/77/PALUMNI_FUND_II/src/main/com/laungee/proj/common/model/TbCommodityType.hbm.xml
+END
+TbAlumniservice.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/JSP_PALUMNI_FUND/!svn/ver/77/PALUMNI_FUND_II/src/main/com/laungee/proj/common/model/TbAlumniservice.hbm.xml
+END
+TbMailForm.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/JSP_PALUMNI_FUND/!svn/ver/77/PALUMNI_FUND_II/src/main/com/laungee/proj/common/model/TbMailForm.hbm.xml
+END
+TbProgram.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/JSP_PALUMNI_FUND/!svn/ver/77/PALUMNI_FUND_II/src/main/com/laungee/proj/common/model/TbProgram.hbm.xml
+END
+TbFoundationprogram.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/JSP_PALUMNI_FUND/!svn/ver/77/PALUMNI_FUND_II/src/main/com/laungee/proj/common/model/TbFoundationprogram.java
+END
+TbDocation.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/JSP_PALUMNI_FUND/!svn/ver/77/PALUMNI_FUND_II/src/main/com/laungee/proj/common/model/TbDocation.java
+END
+TbSmsGroup.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/JSP_PALUMNI_FUND/!svn/ver/77/PALUMNI_FUND_II/src/main/com/laungee/proj/common/model/TbSmsGroup.hbm.xml
+END
+TbKnower.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/JSP_PALUMNI_FUND/!svn/ver/77/PALUMNI_FUND_II/src/main/com/laungee/proj/common/model/TbKnower.java
+END
+TbRepeatAlumni.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/JSP_PALUMNI_FUND/!svn/ver/77/PALUMNI_FUND_II/src/main/com/laungee/proj/common/model/TbRepeatAlumni.hbm.xml
+END
+TbResOther.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/JSP_PALUMNI_FUND/!svn/ver/77/PALUMNI_FUND_II/src/main/com/laungee/proj/common/model/TbResOther.hbm.xml
+END
+TbReply.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/JSP_PALUMNI_FUND/!svn/ver/77/PALUMNI_FUND_II/src/main/com/laungee/proj/common/model/TbReply.hbm.xml
+END
+SQLRole.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/JSP_PALUMNI_FUND/!svn/ver/77/PALUMNI_FUND_II/src/main/com/laungee/proj/common/model/SQLRole.hbm.xml
+END
+TbZcprojProgress.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/JSP_PALUMNI_FUND/!svn/ver/77/PALUMNI_FUND_II/src/main/com/laungee/proj/common/model/TbZcprojProgress.hbm.xml
+END
+VwMailgroupalumni.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/JSP_PALUMNI_FUND/!svn/ver/77/PALUMNI_FUND_II/src/main/com/laungee/proj/common/model/VwMailgroupalumni.hbm.xml
+END
+TbFoundationprogram.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/JSP_PALUMNI_FUND/!svn/ver/77/PALUMNI_FUND_II/src/main/com/laungee/proj/common/model/TbFoundationprogram.hbm.xml
+END
+TbEmaillHistory.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/JSP_PALUMNI_FUND/!svn/ver/77/PALUMNI_FUND_II/src/main/com/laungee/proj/common/model/TbEmaillHistory.java
+END
+VwCommodityBase.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/JSP_PALUMNI_FUND/!svn/ver/133/PALUMNI_FUND_II/src/main/com/laungee/proj/common/model/VwCommodityBase.java
+END
+VwRepeatAlumniCardNum.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/JSP_PALUMNI_FUND/!svn/ver/77/PALUMNI_FUND_II/src/main/com/laungee/proj/common/model/VwRepeatAlumniCardNum.java
+END
+TbEmailApp.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/JSP_PALUMNI_FUND/!svn/ver/77/PALUMNI_FUND_II/src/main/com/laungee/proj/common/model/TbEmailApp.java
+END
+TbDonationDxgl.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/JSP_PALUMNI_FUND/!svn/ver/77/PALUMNI_FUND_II/src/main/com/laungee/proj/common/model/TbDonationDxgl.java
+END
+TbAlumniSt.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/JSP_PALUMNI_FUND/!svn/ver/77/PALUMNI_FUND_II/src/main/com/laungee/proj/common/model/TbAlumniSt.java
+END
+TbPersonphotodetil.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/JSP_PALUMNI_FUND/!svn/ver/77/PALUMNI_FUND_II/src/main/com/laungee/proj/common/model/TbPersonphotodetil.java
+END
+TbLog.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/JSP_PALUMNI_FUND/!svn/ver/77/PALUMNI_FUND_II/src/main/com/laungee/proj/common/model/TbLog.hbm.xml
+END
+TbWork.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/JSP_PALUMNI_FUND/!svn/ver/77/PALUMNI_FUND_II/src/main/com/laungee/proj/common/model/TbWork.hbm.xml
+END
+TbSmsHistory.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/JSP_PALUMNI_FUND/!svn/ver/77/PALUMNI_FUND_II/src/main/com/laungee/proj/common/model/TbSmsHistory.hbm.xml
+END
+TbImportUser.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/JSP_PALUMNI_FUND/!svn/ver/77/PALUMNI_FUND_II/src/main/com/laungee/proj/common/model/TbImportUser.java
+END
+VwRelationAlumni.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/JSP_PALUMNI_FUND/!svn/ver/77/PALUMNI_FUND_II/src/main/com/laungee/proj/common/model/VwRelationAlumni.java
+END
+TbDonationCompanyMember.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/JSP_PALUMNI_FUND/!svn/ver/77/PALUMNI_FUND_II/src/main/com/laungee/proj/common/model/TbDonationCompanyMember.hbm.xml
+END
+TbDonationXxgl.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/JSP_PALUMNI_FUND/!svn/ver/77/PALUMNI_FUND_II/src/main/com/laungee/proj/common/model/TbDonationXxgl.java
+END
+VwDocationalumnirelation.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/JSP_PALUMNI_FUND/!svn/ver/77/PALUMNI_FUND_II/src/main/com/laungee/proj/common/model/VwDocationalumnirelation.hbm.xml
+END
+TbEvent.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/JSP_PALUMNI_FUND/!svn/ver/77/PALUMNI_FUND_II/src/main/com/laungee/proj/common/model/TbEvent.java
+END
+VwAlumniBase.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/JSP_PALUMNI_FUND/!svn/ver/77/PALUMNI_FUND_II/src/main/com/laungee/proj/common/model/VwAlumniBase.hbm.xml
+END
+TbPersonNotice.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/JSP_PALUMNI_FUND/!svn/ver/77/PALUMNI_FUND_II/src/main/com/laungee/proj/common/model/TbPersonNotice.hbm.xml
+END
+TbEmailFix.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/JSP_PALUMNI_FUND/!svn/ver/77/PALUMNI_FUND_II/src/main/com/laungee/proj/common/model/TbEmailFix.java
+END
+TbAdvise.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/JSP_PALUMNI_FUND/!svn/ver/77/PALUMNI_FUND_II/src/main/com/laungee/proj/common/model/TbAdvise.hbm.xml
+END
+TbRelation.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/JSP_PALUMNI_FUND/!svn/ver/77/PALUMNI_FUND_II/src/main/com/laungee/proj/common/model/TbRelation.hbm.xml
+END
+TbOperateLog.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/JSP_PALUMNI_FUND/!svn/ver/77/PALUMNI_FUND_II/src/main/com/laungee/proj/common/model/TbOperateLog.java
+END
+TbDonationXxgl.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/JSP_PALUMNI_FUND/!svn/ver/77/PALUMNI_FUND_II/src/main/com/laungee/proj/common/model/TbDonationXxgl.hbm.xml
+END
+TbVisitAlumni.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/JSP_PALUMNI_FUND/!svn/ver/77/PALUMNI_FUND_II/src/main/com/laungee/proj/common/model/TbVisitAlumni.java
+END
+TbFoundationoutlay.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/JSP_PALUMNI_FUND/!svn/ver/77/PALUMNI_FUND_II/src/main/com/laungee/proj/common/model/TbFoundationoutlay.java
+END
+VwRelation.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/JSP_PALUMNI_FUND/!svn/ver/77/PALUMNI_FUND_II/src/main/com/laungee/proj/common/model/VwRelation.java
+END
+TbPars.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/JSP_PALUMNI_FUND/!svn/ver/77/PALUMNI_FUND_II/src/main/com/laungee/proj/common/model/TbPars.java
+END
+TbFields.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/JSP_PALUMNI_FUND/!svn/ver/77/PALUMNI_FUND_II/src/main/com/laungee/proj/common/model/TbFields.java
+END
+TbAlumni.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/JSP_PALUMNI_FUND/!svn/ver/77/PALUMNI_FUND_II/src/main/com/laungee/proj/common/model/TbAlumni.hbm.xml
+END
+TbUnStudy.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/JSP_PALUMNI_FUND/!svn/ver/77/PALUMNI_FUND_II/src/main/com/laungee/proj/common/model/TbUnStudy.java
+END
+TbMailAlumni.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/JSP_PALUMNI_FUND/!svn/ver/77/PALUMNI_FUND_II/src/main/com/laungee/proj/common/model/TbMailAlumni.hbm.xml
+END
+VwCommodity.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/JSP_PALUMNI_FUND/!svn/ver/133/PALUMNI_FUND_II/src/main/com/laungee/proj/common/model/VwCommodity.hbm.xml
+END
+TbUnRelation.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/JSP_PALUMNI_FUND/!svn/ver/77/PALUMNI_FUND_II/src/main/com/laungee/proj/common/model/TbUnRelation.java
+END
+VwStudentmemberInfo.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/JSP_PALUMNI_FUND/!svn/ver/77/PALUMNI_FUND_II/src/main/com/laungee/proj/common/model/VwStudentmemberInfo.java
+END
+TbEmailFix.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/JSP_PALUMNI_FUND/!svn/ver/77/PALUMNI_FUND_II/src/main/com/laungee/proj/common/model/TbEmailFix.hbm.xml
+END
+VwRepeatAlumniDefualt.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/JSP_PALUMNI_FUND/!svn/ver/77/PALUMNI_FUND_II/src/main/com/laungee/proj/common/model/VwRepeatAlumniDefualt.java
+END
+TbUnAlumniSt.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/JSP_PALUMNI_FUND/!svn/ver/77/PALUMNI_FUND_II/src/main/com/laungee/proj/common/model/TbUnAlumniSt.hbm.xml
+END
+TbRoleUser.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/JSP_PALUMNI_FUND/!svn/ver/77/PALUMNI_FUND_II/src/main/com/laungee/proj/common/model/TbRoleUser.hbm.xml
+END
+TbProtocol.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/JSP_PALUMNI_FUND/!svn/ver/77/PALUMNI_FUND_II/src/main/com/laungee/proj/common/model/TbProtocol.hbm.xml
+END
+TbSearch.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/JSP_PALUMNI_FUND/!svn/ver/77/PALUMNI_FUND_II/src/main/com/laungee/proj/common/model/TbSearch.hbm.xml
+END
+TbImportUser.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/JSP_PALUMNI_FUND/!svn/ver/77/PALUMNI_FUND_II/src/main/com/laungee/proj/common/model/TbImportUser.hbm.xml
+END
+VwAlumnirelation.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/JSP_PALUMNI_FUND/!svn/ver/77/PALUMNI_FUND_II/src/main/com/laungee/proj/common/model/VwAlumnirelation.hbm.xml
+END
+TbFile.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/JSP_PALUMNI_FUND/!svn/ver/77/PALUMNI_FUND_II/src/main/com/laungee/proj/common/model/TbFile.hbm.xml
+END
+TbEmailGroup.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/JSP_PALUMNI_FUND/!svn/ver/77/PALUMNI_FUND_II/src/main/com/laungee/proj/common/model/TbEmailGroup.java
+END
+TbAnnounce.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/JSP_PALUMNI_FUND/!svn/ver/77/PALUMNI_FUND_II/src/main/com/laungee/proj/common/model/TbAnnounce.java
+END
+TbSiteItem.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/JSP_PALUMNI_FUND/!svn/ver/133/PALUMNI_FUND_II/src/main/com/laungee/proj/common/model/TbSiteItem.hbm.xml
+END
+TbPersonNotice.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/JSP_PALUMNI_FUND/!svn/ver/77/PALUMNI_FUND_II/src/main/com/laungee/proj/common/model/TbPersonNotice.java
+END
+TbCommunityApp.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/JSP_PALUMNI_FUND/!svn/ver/77/PALUMNI_FUND_II/src/main/com/laungee/proj/common/model/TbCommunityApp.hbm.xml
+END
+VwOrganMember.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/JSP_PALUMNI_FUND/!svn/ver/77/PALUMNI_FUND_II/src/main/com/laungee/proj/common/model/VwOrganMember.hbm.xml
+END
+TbZcotherOrder.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/JSP_PALUMNI_FUND/!svn/ver/139/PALUMNI_FUND_II/src/main/com/laungee/proj/common/model/TbZcotherOrder.java
+END
+TbMenuRole.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/JSP_PALUMNI_FUND/!svn/ver/77/PALUMNI_FUND_II/src/main/com/laungee/proj/common/model/TbMenuRole.hbm.xml
+END
+TbAcceptCompany.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/JSP_PALUMNI_FUND/!svn/ver/77/PALUMNI_FUND_II/src/main/com/laungee/proj/common/model/TbAcceptCompany.hbm.xml
+END
+TbUnAlumni.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/JSP_PALUMNI_FUND/!svn/ver/77/PALUMNI_FUND_II/src/main/com/laungee/proj/common/model/TbUnAlumni.hbm.xml
+END
+TbManuscriptAlumni.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/JSP_PALUMNI_FUND/!svn/ver/77/PALUMNI_FUND_II/src/main/com/laungee/proj/common/model/TbManuscriptAlumni.hbm.xml
+END
+TbPersonphoto.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/JSP_PALUMNI_FUND/!svn/ver/77/PALUMNI_FUND_II/src/main/com/laungee/proj/common/model/TbPersonphoto.java
+END
+TbSiteItem.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/JSP_PALUMNI_FUND/!svn/ver/133/PALUMNI_FUND_II/src/main/com/laungee/proj/common/model/TbSiteItem.java
+END
+TbRole.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/JSP_PALUMNI_FUND/!svn/ver/77/PALUMNI_FUND_II/src/main/com/laungee/proj/common/model/TbRole.hbm.xml
+END
+TbDonationCompany.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/JSP_PALUMNI_FUND/!svn/ver/77/PALUMNI_FUND_II/src/main/com/laungee/proj/common/model/TbDonationCompany.hbm.xml
+END
+TbZcprojPic.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/JSP_PALUMNI_FUND/!svn/ver/101/PALUMNI_FUND_II/src/main/com/laungee/proj/common/model/TbZcprojPic.hbm.xml
+END
+TbMailAlumni.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/JSP_PALUMNI_FUND/!svn/ver/77/PALUMNI_FUND_II/src/main/com/laungee/proj/common/model/TbMailAlumni.java
+END
+TbTelephoneAlumni.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/JSP_PALUMNI_FUND/!svn/ver/77/PALUMNI_FUND_II/src/main/com/laungee/proj/common/model/TbTelephoneAlumni.java
+END
+TbCommunitycreateapplication.java
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/JSP_PALUMNI_FUND/!svn/ver/77/PALUMNI_FUND_II/src/main/com/laungee/proj/common/model/TbCommunitycreateapplication.java
+END
+TbProPay.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/JSP_PALUMNI_FUND/!svn/ver/77/PALUMNI_FUND_II/src/main/com/laungee/proj/common/model/TbProPay.hbm.xml
+END
+TbMailGroup.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/JSP_PALUMNI_FUND/!svn/ver/77/PALUMNI_FUND_II/src/main/com/laungee/proj/common/model/TbMailGroup.java
+END
+TbAction.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/JSP_PALUMNI_FUND/!svn/ver/77/PALUMNI_FUND_II/src/main/com/laungee/proj/common/model/TbAction.hbm.xml
+END
+TbZcprojPic.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/JSP_PALUMNI_FUND/!svn/ver/101/PALUMNI_FUND_II/src/main/com/laungee/proj/common/model/TbZcprojPic.java
+END
+TbShow.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/JSP_PALUMNI_FUND/!svn/ver/77/PALUMNI_FUND_II/src/main/com/laungee/proj/common/model/TbShow.hbm.xml
+END
+VwUnAlumniOrgan.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/JSP_PALUMNI_FUND/!svn/ver/77/PALUMNI_FUND_II/src/main/com/laungee/proj/common/model/VwUnAlumniOrgan.java
+END
+TbProgram.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/JSP_PALUMNI_FUND/!svn/ver/77/PALUMNI_FUND_II/src/main/com/laungee/proj/common/model/TbProgram.java
+END
+TbUnimportorder.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/JSP_PALUMNI_FUND/!svn/ver/77/PALUMNI_FUND_II/src/main/com/laungee/proj/common/model/TbUnimportorder.java
+END
+TbCommodityDetail.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/JSP_PALUMNI_FUND/!svn/ver/77/PALUMNI_FUND_II/src/main/com/laungee/proj/common/model/TbCommodityDetail.hbm.xml
+END
+TbRelation.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/JSP_PALUMNI_FUND/!svn/ver/77/PALUMNI_FUND_II/src/main/com/laungee/proj/common/model/TbRelation.java
+END
+TbWork.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/JSP_PALUMNI_FUND/!svn/ver/77/PALUMNI_FUND_II/src/main/com/laungee/proj/common/model/TbWork.java
+END
+TbFoundationoutlay.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/JSP_PALUMNI_FUND/!svn/ver/77/PALUMNI_FUND_II/src/main/com/laungee/proj/common/model/TbFoundationoutlay.hbm.xml
+END
+TbUnAlumni.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/JSP_PALUMNI_FUND/!svn/ver/77/PALUMNI_FUND_II/src/main/com/laungee/proj/common/model/TbUnAlumni.java
+END
+TbVisitAlumni.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/JSP_PALUMNI_FUND/!svn/ver/77/PALUMNI_FUND_II/src/main/com/laungee/proj/common/model/TbVisitAlumni.hbm.xml
+END
+VwRelation.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/JSP_PALUMNI_FUND/!svn/ver/77/PALUMNI_FUND_II/src/main/com/laungee/proj/common/model/VwRelation.hbm.xml
+END
+TbCommodityPic.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/JSP_PALUMNI_FUND/!svn/ver/101/PALUMNI_FUND_II/src/main/com/laungee/proj/common/model/TbCommodityPic.java
+END
+TbImportAlumni.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/JSP_PALUMNI_FUND/!svn/ver/77/PALUMNI_FUND_II/src/main/com/laungee/proj/common/model/TbImportAlumni.hbm.xml
+END
+VwRepeatAlumniMail.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/JSP_PALUMNI_FUND/!svn/ver/77/PALUMNI_FUND_II/src/main/com/laungee/proj/common/model/VwRepeatAlumniMail.hbm.xml
+END
+TbFoundation.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/JSP_PALUMNI_FUND/!svn/ver/77/PALUMNI_FUND_II/src/main/com/laungee/proj/common/model/TbFoundation.java
+END
+TbField.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/JSP_PALUMNI_FUND/!svn/ver/77/PALUMNI_FUND_II/src/main/com/laungee/proj/common/model/TbField.hbm.xml
+END
+TbDonationAccout.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/JSP_PALUMNI_FUND/!svn/ver/77/PALUMNI_FUND_II/src/main/com/laungee/proj/common/model/TbDonationAccout.java
+END
+TBActionDiscuss.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/JSP_PALUMNI_FUND/!svn/ver/77/PALUMNI_FUND_II/src/main/com/laungee/proj/common/model/TBActionDiscuss.java
+END
+VwRoleUser.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/JSP_PALUMNI_FUND/!svn/ver/77/PALUMNI_FUND_II/src/main/com/laungee/proj/common/model/VwRoleUser.hbm.xml
+END
+TbTelephoneAlumni.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/JSP_PALUMNI_FUND/!svn/ver/77/PALUMNI_FUND_II/src/main/com/laungee/proj/common/model/TbTelephoneAlumni.hbm.xml
+END
+TbUser.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/JSP_PALUMNI_FUND/!svn/ver/77/PALUMNI_FUND_II/src/main/com/laungee/proj/common/model/TbUser.java
+END
+TbDonationDxgl.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/JSP_PALUMNI_FUND/!svn/ver/77/PALUMNI_FUND_II/src/main/com/laungee/proj/common/model/TbDonationDxgl.hbm.xml
+END
+VwAlumniExport.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/JSP_PALUMNI_FUND/!svn/ver/77/PALUMNI_FUND_II/src/main/com/laungee/proj/common/model/VwAlumniExport.java
+END
+TbAdlist.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/JSP_PALUMNI_FUND/!svn/ver/77/PALUMNI_FUND_II/src/main/com/laungee/proj/common/model/TbAdlist.java
+END
+TbEmailAlumni.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/JSP_PALUMNI_FUND/!svn/ver/77/PALUMNI_FUND_II/src/main/com/laungee/proj/common/model/TbEmailAlumni.hbm.xml
+END
+TbField.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/JSP_PALUMNI_FUND/!svn/ver/77/PALUMNI_FUND_II/src/main/com/laungee/proj/common/model/TbField.java
+END
+TbEmailGroup.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/JSP_PALUMNI_FUND/!svn/ver/77/PALUMNI_FUND_II/src/main/com/laungee/proj/common/model/TbEmailGroup.hbm.xml
+END
+TbKnower.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/JSP_PALUMNI_FUND/!svn/ver/77/PALUMNI_FUND_II/src/main/com/laungee/proj/common/model/TbKnower.hbm.xml
+END
+TbOrgan.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/JSP_PALUMNI_FUND/!svn/ver/77/PALUMNI_FUND_II/src/main/com/laungee/proj/common/model/TbOrgan.hbm.xml
+END
+TbZcprojProgress.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/JSP_PALUMNI_FUND/!svn/ver/101/PALUMNI_FUND_II/src/main/com/laungee/proj/common/model/TbZcprojProgress.java
+END
+VwMailgroupalumni.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/JSP_PALUMNI_FUND/!svn/ver/77/PALUMNI_FUND_II/src/main/com/laungee/proj/common/model/VwMailgroupalumni.java
+END
+TbUnimportorder.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/JSP_PALUMNI_FUND/!svn/ver/77/PALUMNI_FUND_II/src/main/com/laungee/proj/common/model/TbUnimportorder.hbm.xml
+END
+VwRelationAlumni.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/JSP_PALUMNI_FUND/!svn/ver/77/PALUMNI_FUND_II/src/main/com/laungee/proj/common/model/VwRelationAlumni.hbm.xml
+END
+TbDonation.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/JSP_PALUMNI_FUND/!svn/ver/77/PALUMNI_FUND_II/src/main/com/laungee/proj/common/model/TbDonation.hbm.xml
+END
+TbUser.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/JSP_PALUMNI_FUND/!svn/ver/77/PALUMNI_FUND_II/src/main/com/laungee/proj/common/model/TbUser.hbm.xml
+END
+VwAlumniExport.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/JSP_PALUMNI_FUND/!svn/ver/77/PALUMNI_FUND_II/src/main/com/laungee/proj/common/model/VwAlumniExport.hbm.xml
+END
+TbCommodity.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/JSP_PALUMNI_FUND/!svn/ver/77/PALUMNI_FUND_II/src/main/com/laungee/proj/common/model/TbCommodity.java
+END
+TbMailHistory.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/JSP_PALUMNI_FUND/!svn/ver/77/PALUMNI_FUND_II/src/main/com/laungee/proj/common/model/TbMailHistory.java
+END
+TbFileTab.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/JSP_PALUMNI_FUND/!svn/ver/77/PALUMNI_FUND_II/src/main/com/laungee/proj/common/model/TbFileTab.java
+END
+VwAlumniBase.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/JSP_PALUMNI_FUND/!svn/ver/77/PALUMNI_FUND_II/src/main/com/laungee/proj/common/model/VwAlumniBase.java
+END
+TbActionPhotoDetil.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/JSP_PALUMNI_FUND/!svn/ver/77/PALUMNI_FUND_II/src/main/com/laungee/proj/common/model/TbActionPhotoDetil.java
+END
+TbEmaillHistory.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/JSP_PALUMNI_FUND/!svn/ver/77/PALUMNI_FUND_II/src/main/com/laungee/proj/common/model/TbEmaillHistory.hbm.xml
+END
+TbTemplate.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/JSP_PALUMNI_FUND/!svn/ver/77/PALUMNI_FUND_II/src/main/com/laungee/proj/common/model/TbTemplate.java
+END
+TbResource.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/JSP_PALUMNI_FUND/!svn/ver/77/PALUMNI_FUND_II/src/main/com/laungee/proj/common/model/TbResource.hbm.xml
+END
+TbAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/JSP_PALUMNI_FUND/!svn/ver/77/PALUMNI_FUND_II/src/main/com/laungee/proj/common/model/TbAction.java
+END
+TbDocation.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/JSP_PALUMNI_FUND/!svn/ver/77/PALUMNI_FUND_II/src/main/com/laungee/proj/common/model/TbDocation.hbm.xml
+END
+TbUnWork.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/JSP_PALUMNI_FUND/!svn/ver/77/PALUMNI_FUND_II/src/main/com/laungee/proj/common/model/TbUnWork.java
+END
+TbManuscript.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/JSP_PALUMNI_FUND/!svn/ver/77/PALUMNI_FUND_II/src/main/com/laungee/proj/common/model/TbManuscript.java
+END
+TbUnKnower.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/JSP_PALUMNI_FUND/!svn/ver/77/PALUMNI_FUND_II/src/main/com/laungee/proj/common/model/TbUnKnower.hbm.xml
+END
+TbVisit.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/JSP_PALUMNI_FUND/!svn/ver/77/PALUMNI_FUND_II/src/main/com/laungee/proj/common/model/TbVisit.java
+END
+VwAlumni.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/JSP_PALUMNI_FUND/!svn/ver/77/PALUMNI_FUND_II/src/main/com/laungee/proj/common/model/VwAlumni.hbm.xml
+END
+TbNews.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/JSP_PALUMNI_FUND/!svn/ver/77/PALUMNI_FUND_II/src/main/com/laungee/proj/common/model/TbNews.hbm.xml
+END
+TbDonationCompany.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/JSP_PALUMNI_FUND/!svn/ver/77/PALUMNI_FUND_II/src/main/com/laungee/proj/common/model/TbDonationCompany.java
+END
+TbPersonlcomment.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/JSP_PALUMNI_FUND/!svn/ver/77/PALUMNI_FUND_II/src/main/com/laungee/proj/common/model/TbPersonlcomment.java
+END
+TbCommphoto.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/JSP_PALUMNI_FUND/!svn/ver/77/PALUMNI_FUND_II/src/main/com/laungee/proj/common/model/TbCommphoto.java
+END
+TbCommodityType.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/JSP_PALUMNI_FUND/!svn/ver/77/PALUMNI_FUND_II/src/main/com/laungee/proj/common/model/TbCommodityType.java
+END
+TbAlumniservice.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/JSP_PALUMNI_FUND/!svn/ver/77/PALUMNI_FUND_II/src/main/com/laungee/proj/common/model/TbAlumniservice.java
+END
+TbMailForm.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/JSP_PALUMNI_FUND/!svn/ver/77/PALUMNI_FUND_II/src/main/com/laungee/proj/common/model/TbMailForm.java
+END

@@ -1,0 +1,165 @@
+* {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+BODY {
+	BACKGROUND: #fff; FONT: 12px Arial, Helvetica, sans-serif; COLOR: #000; TEXT-ALIGN: center
+}
+A:link {
+	COLOR: #369; TEXT-DECORATION: underline
+}
+A:visited {
+	COLOR: #369; TEXT-DECORATION: underline
+}
+A:hover {
+	COLOR: #c80000; TEXT-DECORATION: none
+}
+SPAN {
+	TEXT-ALIGN: left
+}
+LI {
+	TEXT-ALIGN: left
+}
+DT {
+	TEXT-ALIGN: left
+}
+DD {
+	TEXT-ALIGN: left
+}
+P {
+	TEXT-ALIGN: left
+}
+H1 {
+	TEXT-ALIGN: left
+}
+H2 {
+	TEXT-ALIGN: left
+}
+H3 {
+	TEXT-ALIGN: left
+}
+H4 {
+	TEXT-ALIGN: left
+}
+H5 {
+	TEXT-ALIGN: left
+}
+H6 {
+	TEXT-ALIGN: left
+}
+IMG {
+	BORDER-RIGHT: 0px; BORDER-TOP: 0px; BORDER-LEFT: 0px; BORDER-BOTTOM: 0px
+}
+UL {
+	LIST-STYLE-TYPE: none
+}
+LI {
+	LIST-STYLE-TYPE: none
+}
+P {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 5px; LINE-HEIGHT: 150%; PADDING-TOP: 5px
+}
+H1 {
+	FONT-SIZE: 28px; BACKGROUND: url(../img/logo.png) #353535 no-repeat 0px 0px; MARGIN: 0px auto; OVERFLOW: hidden; WIDTH: 100%; COLOR: #fff; TEXT-INDENT: 60px; LINE-HEIGHT: 60px; BORDER-BOTTOM: #999 3px solid; FONT-FAMILY: Georgia,sans-serif; HEIGHT: 60px
+}
+#menu {
+	CLEAR: both; FLOAT: left; MARGIN-BOTTOM: 20px; OVERFLOW: hidden; WIDTH: 100%; BORDER-BOTTOM: #999 1px solid; HEIGHT: 28px; BACKGROUND-COLOR: #f3f3f3
+}
+#menu LI {
+	FONT-WEIGHT: bold; FONT-SIZE: 16px; FLOAT: left; OVERFLOW: hidden; LINE-HEIGHT: 28px; FONT-FAMILY: Arial, sans-serif; HEIGHT: 28px
+}
+#menu LI A:link {
+	PADDING-RIGHT: 15px; PADDING-LEFT: 15px; FLOAT: left; PADDING-BOTTOM: 0px; OVERFLOW: hidden; COLOR: #000; LINE-HEIGHT: 28px; PADDING-TOP: 0px; HEIGHT: 28px; TEXT-ALIGN: center; TEXT-DECORATION: none
+}
+#menu LI A:visited {
+	PADDING-RIGHT: 15px; PADDING-LEFT: 15px; FLOAT: left; PADDING-BOTTOM: 0px; OVERFLOW: hidden; COLOR: #000; LINE-HEIGHT: 28px; PADDING-TOP: 0px; HEIGHT: 28px; TEXT-ALIGN: center; TEXT-DECORATION: none
+}
+#menu LI A:hover {
+	COLOR: #fff; BACKGROUND-COLOR: #353535
+}
+#container {
+	MARGIN: 0px auto; OVERFLOW: hidden; WIDTH: 960px; PADDING-TOP: 20px
+}
+UL#effects-list {
+	FLOAT: left; OVERFLOW: hidden; WIDTH: 960px
+}
+UL#effects-list LI {
+	DISPLAY: inline; FLOAT: left; MARGIN: 5px 10px; OVERFLOW: hidden; WIDTH: 460px
+}
+.cover {
+	FLOAT: left; OVERFLOW: hidden; WIDTH: 140px; HEIGHT: 140px
+}
+.cover IMG {
+	WIDTH: 140px; HEIGHT: 140px
+}
+.effect-intro {
+	FLOAT: right; OVERFLOW: hidden; WIDTH: 310px; HEIGHT: 140px
+}
+.effect-intro H2 {
+	FONT-SIZE: 14px; MARGIN: 0px auto; WIDTH: 100%; COLOR: #575757; LINE-HEIGHT: 28px; FONT-FAMILY: Georgia,sans-serif
+}
+.effect-intro UL {
+	CLEAR: both; FLOAT: left; MARGIN: 0px; OVERFLOW: hidden; WIDTH: 100%; HEIGHT: 110px
+}
+UL#effects-list LI .effect-intro UL LI {
+	FLOAT: left; MARGIN: 0px; OVERFLOW: hidden; WIDTH: 100%; LINE-HEIGHT: 22px
+}
+#lightbox-list {
+	MARGIN: 20px auto 0px; OVERFLOW: hidden; WIDTH: 690px
+}
+#lightbox-list UL {
+	FLOAT: left; OVERFLOW: hidden; WIDTH: 690px
+}
+#lightbox-list UL LI {
+	DISPLAY: inline; FLOAT: left; MARGIN: 12px; OVERFLOW: hidden; WIDTH: 206px; HEIGHT: 206px; BACKGROUND-COLOR: #fff
+}
+#lightbox-list UL LI IMG {
+	BORDER-RIGHT: #8bd 1px solid; PADDING-RIGHT: 2px; BORDER-TOP: #8bd 1px solid; PADDING-LEFT: 2px; PADDING-BOTTOM: 2px; BORDER-LEFT: #8bd 1px solid; WIDTH: 200px; PADDING-TOP: 2px; BORDER-BOTTOM: #8bd 1px solid; HEIGHT: 200px
+}
+#map-container {
+	BORDER-RIGHT: #000 1px solid; PADDING-RIGHT: 2px; BORDER-TOP: #000 1px solid; PADDING-LEFT: 2px; PADDING-BOTTOM: 2px; MARGIN: 0px auto 20px; OVERFLOW: hidden; BORDER-LEFT: #000 1px solid; WIDTH: 954px; PADDING-TOP: 2px; BORDER-BOTTOM: #000 1px solid; HEIGHT: 534px
+}
+#directions {
+	BORDER-RIGHT: #000 1px solid; FLOAT: left; OVERFLOW: auto; WIDTH: 299px; HEIGHT: 494px
+}
+#fgmap {
+	FLOAT: right; OVERFLOW: hidden; WIDTH: 644px; HEIGHT: 504px
+}
+.fgmap_markerMsg {
+	DISPLAY: block; WIDTH: 360px; LINE-HEIGHT: 150%; TEXT-ALIGN: left
+}
+.fgmap_markerMsg H4 {
+	FONT-SIZE: 14px; MARGIN: 0px auto; OVERFLOW: hidden; WIDTH: 360px; LINE-HEIGHT: 30px; HEIGHT: 30px; TEXT-ALIGN: center
+}
+.fgmap_markerMsg STRONG {
+	COLOR: #de0000
+}
+.fgmap_markerMsg H4 {
+	COLOR: #de0000
+}
+#fgmap_msgTip {
+	CLEAR: both; BORDER-RIGHT: #999 1px solid; PADDING-RIGHT: 9px; BORDER-TOP: #999 1px solid; PADDING-LEFT: 9px; FONT-SIZE: 14px; PADDING-BOTTOM: 9px; MARGIN: 15px auto; BORDER-LEFT: #999 1px solid; WIDTH: 940px; PADDING-TOP: 9px; BORDER-BOTTOM: #999 1px solid; BACKGROUND-COLOR: #f8f8f8; TEXT-ALIGN: center
+}
+#fgmap_latlng {
+	DISPLAY: block; LINE-HEIGHT: 24px; TEXT-ALIGN: left
+}
+#fgmap_latlng STRONG {
+	DISPLAY: block; FONT-SIZE: 14px; MARGIN: 0px auto; OVERFLOW: hidden; WIDTH: 100%; COLOR: #de0000; HEIGHT: 28px; TEXT-ALIGN: center
+}
+FORM#frmLocation {
+	MARGIN: 0px auto; WIDTH: 700px; LINE-HEIGHT: 40px; HEIGHT: 40px; TEXT-ALIGN: center
+}
+FORM#frmLocation P {
+	FONT-SIZE: 14px; WIDTH: 700px; TEXT-ALIGN: center
+}
+#traffic-stuff {
+	MARGIN: 0px auto; OVERFLOW: hidden; WIDTH: 100%; LINE-HEIGHT: 29px; BORDER-BOTTOM: #000 1px solid; HEIGHT: 29px
+}
+#traffic-stuff STRONG {
+	FONT-SIZE: 14px
+}
+#footer {
+	PADDING-RIGHT: 0px; BORDER-TOP: #999 1px solid; PADDING-LEFT: 0px; PADDING-BOTTOM: 15px; MARGIN: 0px auto; OVERFLOW: hidden; WIDTH: 960px; PADDING-TOP: 15px
+}
+#footer P {
+	FONT-SIZE: 14px; MARGIN: 0px auto; WIDTH: 960px; LINE-HEIGHT: 20px; FONT-FAMILY: Georgia,sans-serif; TEXT-ALIGN: center
+}

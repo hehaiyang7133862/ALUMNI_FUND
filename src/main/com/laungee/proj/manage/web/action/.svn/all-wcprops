@@ -1,0 +1,353 @@
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/JSP_PALUMNI_FUND/!svn/ver/94/PALUMNI_FUND_II/src/main/com/laungee/proj/manage/web/action
+END
+MenuManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/JSP_PALUMNI_FUND/!svn/ver/77/PALUMNI_FUND_II/src/main/com/laungee/proj/manage/web/action/MenuManager.java
+END
+FieldsManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/JSP_PALUMNI_FUND/!svn/ver/77/PALUMNI_FUND_II/src/main/com/laungee/proj/manage/web/action/FieldsManager.java
+END
+AttrParentPreAddAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/JSP_PALUMNI_FUND/!svn/ver/77/PALUMNI_FUND_II/src/main/com/laungee/proj/manage/web/action/AttrParentPreAddAction.java
+END
+AttrManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/JSP_PALUMNI_FUND/!svn/ver/77/PALUMNI_FUND_II/src/main/com/laungee/proj/manage/web/action/AttrManager.java
+END
+RoleEditAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/JSP_PALUMNI_FUND/!svn/ver/77/PALUMNI_FUND_II/src/main/com/laungee/proj/manage/web/action/RoleEditAction.java
+END
+TemplateListAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/JSP_PALUMNI_FUND/!svn/ver/77/PALUMNI_FUND_II/src/main/com/laungee/proj/manage/web/action/TemplateListAction.java
+END
+LoginAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/JSP_PALUMNI_FUND/!svn/ver/77/PALUMNI_FUND_II/src/main/com/laungee/proj/manage/web/action/LoginAction.java
+END
+MenuEditAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/JSP_PALUMNI_FUND/!svn/ver/77/PALUMNI_FUND_II/src/main/com/laungee/proj/manage/web/action/MenuEditAction.java
+END
+ButtonAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/JSP_PALUMNI_FUND/!svn/ver/77/PALUMNI_FUND_II/src/main/com/laungee/proj/manage/web/action/ButtonAction.java
+END
+MenuPrivilegeAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/JSP_PALUMNI_FUND/!svn/ver/77/PALUMNI_FUND_II/src/main/com/laungee/proj/manage/web/action/MenuPrivilegeAction.java
+END
+FieldsEditAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/JSP_PALUMNI_FUND/!svn/ver/77/PALUMNI_FUND_II/src/main/com/laungee/proj/manage/web/action/FieldsEditAction.java
+END
+MenuAddAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/JSP_PALUMNI_FUND/!svn/ver/77/PALUMNI_FUND_II/src/main/com/laungee/proj/manage/web/action/MenuAddAction.java
+END
+AttrChildAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/JSP_PALUMNI_FUND/!svn/ver/77/PALUMNI_FUND_II/src/main/com/laungee/proj/manage/web/action/AttrChildAction.java
+END
+FieldsAddAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/JSP_PALUMNI_FUND/!svn/ver/77/PALUMNI_FUND_II/src/main/com/laungee/proj/manage/web/action/FieldsAddAction.java
+END
+FileLoadAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/JSP_PALUMNI_FUND/!svn/ver/94/PALUMNI_FUND_II/src/main/com/laungee/proj/manage/web/action/FileLoadAction.java
+END
+QueryTableExportAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/JSP_PALUMNI_FUND/!svn/ver/77/PALUMNI_FUND_II/src/main/com/laungee/proj/manage/web/action/QueryTableExportAction.java
+END
+FieldManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/JSP_PALUMNI_FUND/!svn/ver/77/PALUMNI_FUND_II/src/main/com/laungee/proj/manage/web/action/FieldManager.java
+END
+UserEidtAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/JSP_PALUMNI_FUND/!svn/ver/77/PALUMNI_FUND_II/src/main/com/laungee/proj/manage/web/action/UserEidtAction.java
+END
+NavAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/JSP_PALUMNI_FUND/!svn/ver/77/PALUMNI_FUND_II/src/main/com/laungee/proj/manage/web/action/NavAction.java
+END
+MenuPreAddAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/JSP_PALUMNI_FUND/!svn/ver/77/PALUMNI_FUND_II/src/main/com/laungee/proj/manage/web/action/MenuPreAddAction.java
+END
+AttrChildEditAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/JSP_PALUMNI_FUND/!svn/ver/77/PALUMNI_FUND_II/src/main/com/laungee/proj/manage/web/action/AttrChildEditAction.java
+END
+AttrChildAddAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/JSP_PALUMNI_FUND/!svn/ver/77/PALUMNI_FUND_II/src/main/com/laungee/proj/manage/web/action/AttrChildAddAction.java
+END
+FileAddAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/JSP_PALUMNI_FUND/!svn/ver/77/PALUMNI_FUND_II/src/main/com/laungee/proj/manage/web/action/FileAddAction.java
+END
+MenuForwardAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/JSP_PALUMNI_FUND/!svn/ver/77/PALUMNI_FUND_II/src/main/com/laungee/proj/manage/web/action/MenuForwardAction.java
+END
+FieldAddAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/JSP_PALUMNI_FUND/!svn/ver/77/PALUMNI_FUND_II/src/main/com/laungee/proj/manage/web/action/FieldAddAction.java
+END
+RoleManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/JSP_PALUMNI_FUND/!svn/ver/77/PALUMNI_FUND_II/src/main/com/laungee/proj/manage/web/action/RoleManager.java
+END
+AttrChildPreAddAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/JSP_PALUMNI_FUND/!svn/ver/77/PALUMNI_FUND_II/src/main/com/laungee/proj/manage/web/action/AttrChildPreAddAction.java
+END
+AttrForwardAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/JSP_PALUMNI_FUND/!svn/ver/77/PALUMNI_FUND_II/src/main/com/laungee/proj/manage/web/action/AttrForwardAction.java
+END
+AlumniCheckSetAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/JSP_PALUMNI_FUND/!svn/ver/77/PALUMNI_FUND_II/src/main/com/laungee/proj/manage/web/action/AlumniCheckSetAction.java
+END
+MenuReadAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/JSP_PALUMNI_FUND/!svn/ver/77/PALUMNI_FUND_II/src/main/com/laungee/proj/manage/web/action/MenuReadAction.java
+END
+AttrParentPreEditAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/JSP_PALUMNI_FUND/!svn/ver/77/PALUMNI_FUND_II/src/main/com/laungee/proj/manage/web/action/AttrParentPreEditAction.java
+END
+UserInListAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/JSP_PALUMNI_FUND/!svn/ver/77/PALUMNI_FUND_II/src/main/com/laungee/proj/manage/web/action/UserInListAction.java
+END
+FileDeleteAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/JSP_PALUMNI_FUND/!svn/ver/77/PALUMNI_FUND_II/src/main/com/laungee/proj/manage/web/action/FileDeleteAction.java
+END
+FieldJoinAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/JSP_PALUMNI_FUND/!svn/ver/77/PALUMNI_FUND_II/src/main/com/laungee/proj/manage/web/action/FieldJoinAction.java
+END
+FileDownAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/JSP_PALUMNI_FUND/!svn/ver/77/PALUMNI_FUND_II/src/main/com/laungee/proj/manage/web/action/FileDownAction.java
+END
+AcademyAjaxAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/JSP_PALUMNI_FUND/!svn/ver/77/PALUMNI_FUND_II/src/main/com/laungee/proj/manage/web/action/AcademyAjaxAction.java
+END
+MenuUpdateAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/JSP_PALUMNI_FUND/!svn/ver/77/PALUMNI_FUND_II/src/main/com/laungee/proj/manage/web/action/MenuUpdateAction.java
+END
+RoleAddAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/JSP_PALUMNI_FUND/!svn/ver/77/PALUMNI_FUND_II/src/main/com/laungee/proj/manage/web/action/RoleAddAction.java
+END
+UserListAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/JSP_PALUMNI_FUND/!svn/ver/77/PALUMNI_FUND_II/src/main/com/laungee/proj/manage/web/action/UserListAction.java
+END
+FileListAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/JSP_PALUMNI_FUND/!svn/ver/94/PALUMNI_FUND_II/src/main/com/laungee/proj/manage/web/action/FileListAction.java
+END
+UserManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/JSP_PALUMNI_FUND/!svn/ver/77/PALUMNI_FUND_II/src/main/com/laungee/proj/manage/web/action/UserManager.java
+END
+LogListAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/JSP_PALUMNI_FUND/!svn/ver/77/PALUMNI_FUND_II/src/main/com/laungee/proj/manage/web/action/LogListAction.java
+END
+UserUnListAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/JSP_PALUMNI_FUND/!svn/ver/77/PALUMNI_FUND_II/src/main/com/laungee/proj/manage/web/action/UserUnListAction.java
+END
+MenuPreEditAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/JSP_PALUMNI_FUND/!svn/ver/77/PALUMNI_FUND_II/src/main/com/laungee/proj/manage/web/action/MenuPreEditAction.java
+END
+EditUserAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/JSP_PALUMNI_FUND/!svn/ver/77/PALUMNI_FUND_II/src/main/com/laungee/proj/manage/web/action/EditUserAction.java
+END
+AttrParentAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/JSP_PALUMNI_FUND/!svn/ver/77/PALUMNI_FUND_II/src/main/com/laungee/proj/manage/web/action/AttrParentAction.java
+END
+RoleIFrameAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/JSP_PALUMNI_FUND/!svn/ver/77/PALUMNI_FUND_II/src/main/com/laungee/proj/manage/web/action/RoleIFrameAction.java
+END
+RoleForwardAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/JSP_PALUMNI_FUND/!svn/ver/77/PALUMNI_FUND_II/src/main/com/laungee/proj/manage/web/action/RoleForwardAction.java
+END
+FileByIdAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/JSP_PALUMNI_FUND/!svn/ver/77/PALUMNI_FUND_II/src/main/com/laungee/proj/manage/web/action/FileByIdAction.java
+END
+FieldAjaxAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/JSP_PALUMNI_FUND/!svn/ver/77/PALUMNI_FUND_II/src/main/com/laungee/proj/manage/web/action/FieldAjaxAction.java
+END
+FieldEditAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/JSP_PALUMNI_FUND/!svn/ver/77/PALUMNI_FUND_II/src/main/com/laungee/proj/manage/web/action/FieldEditAction.java
+END
+AttrParentEditAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/JSP_PALUMNI_FUND/!svn/ver/77/PALUMNI_FUND_II/src/main/com/laungee/proj/manage/web/action/AttrParentEditAction.java
+END
+AttrChildPreEditAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/JSP_PALUMNI_FUND/!svn/ver/77/PALUMNI_FUND_II/src/main/com/laungee/proj/manage/web/action/AttrChildPreEditAction.java
+END
+AttrParentAddAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/JSP_PALUMNI_FUND/!svn/ver/77/PALUMNI_FUND_II/src/main/com/laungee/proj/manage/web/action/AttrParentAddAction.java
+END
+RoleListAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/JSP_PALUMNI_FUND/!svn/ver/77/PALUMNI_FUND_II/src/main/com/laungee/proj/manage/web/action/RoleListAction.java
+END
+FieldsJsonAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/JSP_PALUMNI_FUND/!svn/ver/77/PALUMNI_FUND_II/src/main/com/laungee/proj/manage/web/action/FieldsJsonAction.java
+END
+AcademyManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/JSP_PALUMNI_FUND/!svn/ver/77/PALUMNI_FUND_II/src/main/com/laungee/proj/manage/web/action/AcademyManager.java
+END
+MenuListAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/JSP_PALUMNI_FUND/!svn/ver/77/PALUMNI_FUND_II/src/main/com/laungee/proj/manage/web/action/MenuListAction.java
+END

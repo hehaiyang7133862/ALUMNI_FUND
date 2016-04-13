@@ -1,0 +1,53 @@
+.hor_italic{
+	width:100%;
+	height:20px;
+	margin-top:3px;
+	margin-bottom:3px;
+}
+.hor_italic ul{
+	margin:0px;
+	margin-left:0px;
+}
+.hor_italic li{
+	font-size:13px;
+	float:left; 
+	list-style-type:none;
+	display:block;
+	width:80px;
+	line-height:20px;
+	border-left:thin;
+	text-align:center;
+	text-decoration:none;
+	color:#FFFFFF;
+	background-color:#6666FF;	
+	border-left: #FFFFFF solid 1px;
+	cursor:pointer;
+	font-weight:bold;
+}
+
+.menu_area{
+	width:100%;
+	height:20px;
+	margin-top:3px;
+	margin-bottom:3px;
+}
+.menu_area ul{
+	margin:0px;
+	margin-left:0px;
+}
+.menu_area li{
+	font-size:13px;
+	float:left; 
+	list-style-type:none;
+	display:block;
+	width:80px;
+	line-height:20px;
+	border-left:thin;
+	text-align:center;
+	text-decoration:none;
+	color:#FFFFFF;
+	background-color:#6666FF;	
+	border-left: #FFFFFF solid 1px;
+	cursor:pointer;
+	font-weight:bold;
+}

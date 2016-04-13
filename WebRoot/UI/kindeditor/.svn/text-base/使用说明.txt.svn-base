@@ -1,0 +1,83 @@
+1.将以下的JAR包放到工程的lib目录下
+* commons-fileupload-1.2.1.jar
+* commons-io-1.4.jar
+* kindeditorservlet.jar
+
+2.web.xml 的servlet及相关属性设置
+ <!-- 图片上传的SERVLET  -->
+ <servlet>
+  <servlet-name>UploadImage</servlet-name>
+  <servlet-class>com.elkan.kindeditor.upload.UploadImage</servlet-class>
+  <!-- 上传图片保存的目录 -->
+  <init-param>
+   <param-name>UPLOAD_PATH</param-name>
+   <param-value>uploadImg/</param-value>
+  </init-param>
+  <!-- 限制上传图片的大小，单位字节(缺省值为1MB) -->
+  <init-param>
+   <param-name>MAX_SIZE</param-name>
+   <param-value>1024000</param-value>
+  </init-param>
+  <init-param>
+  <!-- 上传图片的类型(缺省值为gif, jpg, jpeg, png, bmp) -->
+   <param-name>IMAGETYPES</param-name>
+   <param-value>jpg,png,bmp,jpeg,gif</param-value>
+  </init-param>
+  <!-- 上传图片的宽度，大于此宽度时图片会被压缩(缺省为不限定) -->
+  <init-param>
+   <param-name>MAX_WIDTH</param-name>
+   <param-value>500</param-value>
+  </init-param>
+  <!-- 上传图片的高度，大于此高度时图片会被压缩(缺省为不限定) -->
+  <init-param>
+   <param-name>MAX_HEIGHT</param-name>
+   <param-value>500</param-value>
+  </init-param>
+ </servlet>
+  <!-- 图片上传管理的SERVLET  -->
+ <servlet>
+  <servlet-name>UploadImageManager</servlet-name>
+  <servlet-class>com.elkan.kindeditor.upload.UploadImageManager</servlet-class>
+   <!-- 上传图片保存的目录 -->
+  <init-param>
+   <param-name>UPLOAD_PATH</param-name>
+   <param-value>uploadImg/</param-value>
+  </init-param>
+ </servlet>
+  <!-- 附件上传的SERVLET  -->
+ <servlet>
+  <servlet-name>UploadAccessory</servlet-name>
+  <servlet-class>com.elkan.kindeditor.upload.UploadAccessory</servlet-class>
+  <!-- 上传附件保存的目录 -->
+  <init-param>
+   <param-name>UPLOAD_PATH</param-name>
+   <param-value>uploadAttach/</param-value>
+  </init-param>
+  <!-- 上传附件的大小，单位字节(缺省为1MB) -->
+  <init-param>
+   <param-name>MAX_SIZE</param-name>
+   <param-value>1000000</param-value>
+  </init-param>
+  <!-- 上传文件的类型(缺省为doc, xls, ppt, pdf, txt, rar, zip) -->
+  <init-param>
+   <param-name>FILETYPES</param-name>
+   <param-value>doc,xls,ppt,zip,rar,txt</param-value>
+  </init-param>
+ </servlet>
+
+3.KE 相关属性设置
+KE.show({
+    id : "editor",
+       width : "600px",
+       height : "200px",
+       resizeMode : 1,
+       allowFileManager : true,
+       /*图片上传的SERVLET路径*/
+       imageUploadJson : "/JSPKindEditor/uploadImage.html", 
+       /*图片管理的SERVLET路径*/     
+       fileManagerJson : "/JSPKindEditor/uploadImgManager.html",
+       /*允许上传的附件类型*/
+       accessoryTypes : "doc|xls|pdf|txt|ppt|rar|zip",
+       /*附件上传的SERVLET路径*/
+       accessoryUploadJson : "/JSPKindEditor/uploadAccessory.html"
+  }); 

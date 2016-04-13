@@ -1,0 +1,19 @@
+.lytTbOpt{
+	margin-bottom:2px;
+	overflow:hidden;
+	width:500px;
+}
+.lytTbOpt .optExport{
+	display:inline-block;
+	background: url(images/opt.jpg) no-repeat 0px 0px;
+	width:20px;
+	height:16px;
+	margin-left:2px;
+	margin-right:2px;
+}
+.lytTbOpt .optPrint{
+	display:inline-block;
+	background: url(images/opt.jpg) no-repeat 0px -100px;
+	width:20px;
+	height:16px;
+}

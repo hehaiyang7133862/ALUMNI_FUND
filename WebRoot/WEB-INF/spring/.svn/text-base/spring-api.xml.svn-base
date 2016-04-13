@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:aop="http://www.springframework.org/schema/aop"
+	xmlns:tx="http://www.springframework.org/schema/tx"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+	http://www.springframework.org/schema/beans/spring-beans-2.0.xsd
+	http://www.springframework.org/schema/tx 
+	http://www.springframework.org/schema/tx/spring-tx-2.0.xsd
+	http://www.springframework.org/schema/aop
+	http://www.springframework.org/schema/aop/spring-aop-2.0.xsd">
+	<!-- 众筹项目分类列表 -->
+	<bean id="apiZcTypeListAction"
+		class="com.laungee.proj.api.web.action.ZcTypeListAction">
+	</bean>
+	<!-- 众筹项目分类详情 -->
+	<bean id="apiZcTypeBeanAction"
+		class="com.laungee.proj.api.web.action.ZcTypeBeanAction">
+	</bean>
+	<!-- 众筹项目列表 -->
+	<bean id="apiZcProjListAction"
+		class="com.laungee.proj.api.web.action.ZcProjListAction">
+	</bean>
+	<!-- 众筹项目详情 -->
+	<bean id="apiZcProjBeanAction"
+		class="com.laungee.proj.api.web.action.ZcProjBeanAction">
+	</bean>
+	<!-- 众筹项目图片列表 -->
+	<bean id="apiZcPicListAction"
+		class="com.laungee.proj.api.web.action.ZcPicListAction">
+	</bean>
+	<!-- 众筹项目图片详情 -->
+	<bean id="apiZcPicBeanAction"
+		class="com.laungee.proj.api.web.action.ZcPicBeanAction">
+	</bean>
+	<!-- 众筹项目选项列表 -->
+	<bean id="apiZcOptionListAction"
+		class="com.laungee.proj.api.web.action.ZcOptionListAction">
+	</bean>
+	<!-- 众筹项目选项详情 -->
+	<bean id="apiZcOptionBeanAction"
+		class="com.laungee.proj.api.web.action.ZcOptionBeanAction">
+	</bean>
+	<!-- 众筹项目进展列表 -->
+	<bean id="apiZcGressListAction"
+		class="com.laungee.proj.api.web.action.ZcGressListAction">
+	</bean>
+	<!-- 众筹项目进展详情 -->
+	<bean id="apiZcGressBeanAction"
+		class="com.laungee.proj.api.web.action.ZcGressBeanAction">
+	</bean>
+	<!-- 众筹项目捐赠单列表 -->
+	<bean id="apiZcOrderListAction"
+		class="com.laungee.proj.api.web.action.ZcOrderListAction">
+	</bean>
+	<!-- 众筹项目捐赠单详情 -->
+	<bean id="apiZcOrderBeanAction"
+		class="com.laungee.proj.api.web.action.ZcOrderBeanAction">
+	</bean>
+	<!-- 其他众筹项目捐赠单列表 -->
+	<bean id="apiZcOtherOrderListAction"
+		class="com.laungee.proj.api.web.action.ZcOtherOrderListAction">
+	</bean>
+	<!-- 其他众筹项目捐赠单详情 -->
+	<bean id="apiZcOtherOrderBeanAction"
+		class="com.laungee.proj.api.web.action.ZcOtherOrderBeanAction">
+	</bean>
+	<!-- 商品分类列表 -->
+	<bean id="apiSpTypeListAction"
+		class="com.laungee.proj.api.web.action.SpTypeListAction">
+	</bean>
+	<!-- 商品分类详情 -->
+	<bean id="apiSpTypeBeanAction"
+		class="com.laungee.proj.api.web.action.SpTypeBeanAction">
+	</bean>
+	<!-- 商品列表 -->
+	<bean id="apiSpEntityListAction"
+		class="com.laungee.proj.api.web.action.SpEntityListAction">
+	</bean>
+	<!-- 商品详情 -->
+	<bean id="apiSpEntityBeanAction"
+		class="com.laungee.proj.api.web.action.SpEntityBeanAction">
+	</bean>
+	<!-- 商品图片列表 -->
+	<bean id="apiSpPicListAction"
+		class="com.laungee.proj.api.web.action.SpPicListAction">
+	</bean>
+	<!-- 商品图片详情 -->
+	<bean id="apiSpPicBeanAction"
+		class="com.laungee.proj.api.web.action.SpPicBeanAction">
+	</bean>
+	<!-- 商品选项列表 -->
+	<bean id="apiSpOptionListAction"
+		class="com.laungee.proj.api.web.action.SpOptionListAction">
+	</bean>
+	<!-- 商品选项详情 -->
+	<bean id="apiSpOptionBeanAction"
+		class="com.laungee.proj.api.web.action.SpOptionBeanAction">
+	</bean>
+	<!-- 商品订单列表 -->
+	<bean id="apiSpOrderListAction"
+		class="com.laungee.proj.api.web.action.SpOrderListAction">
+	</bean>
+	<!-- 商品订单详情 -->
+	<bean id="apiSpOrderBeanAction"
+		class="com.laungee.proj.api.web.action.SpOrderBeanAction">
+	</bean>
+	<!-- 订单、捐赠单列表 -->
+	<bean id="apiOrderListAction"
+		class="com.laungee.proj.api.web.action.OrderListAction">
+	</bean>
+	<!-- 站点栏目列表 -->
+	<bean id="apiSiteItemListAction"
+		class="com.laungee.proj.api.web.action.SiteItemListAction">
+	</bean>
+	<!-- 站点栏目详情 -->
+	<bean id="apiSiteItemBeanAction"
+		class="com.laungee.proj.api.web.action.SiteItemBeanAction">
+	</bean>
+	<!-- 站点栏目内容列表 -->
+	<bean id="apiSiteItemCntListAction"
+		class="com.laungee.proj.api.web.action.SiteItemCntListAction">
+	</bean>
+	<!-- 站点栏目内容详情 -->
+	<bean id="apiSiteItemCntBeanAction"
+		class="com.laungee.proj.api.web.action.SiteItemCntBeanAction">
+	</bean>
+	<!-- 站点捐赠寄语列表 -->
+	<bean id="apiSiteJzMsgListAction"
+		class="com.laungee.proj.api.web.action.SiteJzMsgListAction">
+	</bean>
+	<!-- 站点捐赠寄语详情 -->
+	<bean id="apiSiteJzMsgBeanAction"
+		class="com.laungee.proj.api.web.action.SiteJzMsgBeanAction">
+	</bean>
+</beans>

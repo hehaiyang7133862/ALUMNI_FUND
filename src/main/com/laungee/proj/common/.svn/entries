@@ -1,0 +1,58 @@
+10
+
+dir
+132
+https://192.168.1.220/svn/JSP_PALUMNI_FUND/PALUMNI_FUND_II/src/main/com/laungee/proj/common
+https://192.168.1.220/svn/JSP_PALUMNI_FUND
+
+
+
+2015-12-17T09:46:13.156250Z
+120
+zhouzf
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+de8fd515-61f9-f34b-837c-f1600725dc39
+
+model
+dir
+
+mail
+dir
+
+dao
+dir
+
+biz
+dir
+
+editor
+dir
+
+core
+dir
+
+report
+dir
+
+tag
+dir
+
+util
+dir
+
+web
+dir
+

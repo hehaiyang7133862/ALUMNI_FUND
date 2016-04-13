@@ -1,0 +1,1 @@
+<?xml version="1.0" encoding="utf-8" ?><RelationData><Nodes><Node IsRootNode="true" Hid="39041" Name="fasf" PersonInfo="性别：男 ; 个人简介： ;兴趣爱好：" RefValue="6" img=""><OnclickMenu><MenuItem Tile="人物信息" Url="alumniEdit!pre.action?id=39041" /></OnclickMenu><DoubleClick Url="createData!createData.action?id=39041"></DoubleClick></Node></Nodes><RalationLinks></RalationLinks></RelationData>

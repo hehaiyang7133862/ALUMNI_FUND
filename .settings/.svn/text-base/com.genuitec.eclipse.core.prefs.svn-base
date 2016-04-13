@@ -1,0 +1,4 @@
+#Thu Dec 19 15:57:39 CST 2013
+eclipse.preferences.version=1
+validator.Checked=WebRoot/UI/css/login.css,WebRoot/common/appframemain.jsp,WebRoot/UI/fckeditor
+validator.Unchecked=

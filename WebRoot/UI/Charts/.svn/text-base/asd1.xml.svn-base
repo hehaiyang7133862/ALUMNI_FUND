@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="gb2312"?> 
+<menu>
+  <menuitem label="首    页" icon="1.png"> 
+			<submenu icon="11.png" label="可以居中" url="asd"  align="center" />
+			<submenu icon="12.png" label="一级菜单要URL" url="asd"/>
+			<submenu icon="13.png" label="大家好" url="asd"/>
+  </menuitem>
+  <menuitem label="校内新闻" > 
+			<submenu label="东方红"/>
+  </menuitem>
+  <menuitem label="校外新闻" > 
+			<submenu label="东方红"/>
+			<submenu label="东方红"/>
+  </menuitem>
+  <menuitem label="098398XML" > 
+			<submenu label="东方红"/>
+  </menuitem>
+  <menuitem label="测试数据" > 
+			<submenu label="东方红"/>
+			<submenu label="东方红"/><submenu label="东方红"/>
+  </menuitem>
+  </menu>

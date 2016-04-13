@@ -1,0 +1,36 @@
+#carousel {
+	MARGIN: 30px auto 10px; OVERFLOW: hidden; WIDTH: 984px; HEIGHT: 102px
+}
+IMG#carousel_btn_lastpic {
+	DISPLAY: inline; FLOAT: left; MARGIN: 14px 14px 14px 15px; WIDTH: 27px; HEIGHT: 74px
+}
+IMG#carousel_btn_nextpic {
+	DISPLAY: inline; FLOAT: left; MARGIN: 14px 14px 14px 15px; WIDTH: 27px; HEIGHT: 74px
+}
+IMG#carousel_btn_nextpic {
+	FLOAT: right; MARGIN: 14px 15px 14px 14px
+}
+#carousel_container {
+	FLOAT: left; OVERFLOW: auto; WIDTH: 782px; POSITION: relative; HEIGHT: 122px
+}
+#carousel_container UL {
+	LEFT: 0px; FLOAT: left; OVERFLOW: hidden; WIDTH: 784px; POSITION: absolute; TOP: 0px; HEIGHT: 102px
+}
+#carousel_container UL LI {
+	BORDER-RIGHT: #999 1px solid; BORDER-TOP: #999 1px solid; DISPLAY: inline; FLOAT: left; MARGIN: 0px 5px; BORDER-LEFT: #999 1px solid; WIDTH: 100px; BORDER-BOTTOM: #999 1px solid; HEIGHT: 100px;cursor: pointer;
+}
+#carousel_container UL LI IMG {
+	DISPLAY: inline; FLOAT: left;
+}
+#carousel_photo_container {
+	CLEAR: both; MARGIN: 20px auto; OVERFLOW: hidden; WIDTH: 800px; POSITION: relative
+}
+#carousel_photo_intro {
+	FONT-SIZE: 12px; MARGIN: 0px auto 20px; OVERFLOW: hidden; WIDTH: 100%; LINE-HEIGHT: 150%; TEXT-ALIGN: center
+}
+#carousel_photo_shardow {
+	Z-INDEX: 10; FILTER: alpha(opacity=50); LEFT: 0px; WIDTH: 100%; POSITION: absolute; TOP: 0px; HEIGHT: 100%; BACKGROUND-COLOR: #000; opacity: .5; -moz-opacity: .5
+}
+IMG#carousel_photo_loading {
+	Z-INDEX: 11; LEFT: 50%; MARGIN: -50px 0px 0px -50px; WIDTH: 100px; POSITION: absolute; TOP: 50%; HEIGHT: 100px
+}

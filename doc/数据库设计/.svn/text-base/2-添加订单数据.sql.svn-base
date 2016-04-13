@@ -1,0 +1,11 @@
+insert into tb_zcproj_order
+  (order_id, order_num, proj_id, proj_name, option_id, option_name, option_count, order_amount, order_type, order_status, order_time, order_ok_time, need_zhengshu, need_fapiao, person_name, person_ip, person_sex, person_email, person_phone, person_tel, address_zip, address_sheng, address_shi, address_qu, address_detail, alumni_flag, study_yearin, study_yearover, study_academy, study_major, study_class, study_num, study_degree, work_company, work_depart, work_duty, order_memo, receipt, mark, memo, creation_user, creation_time, update_user, update_time)
+values
+  (S_TB_ZCPROJ_ORDER.NEXTVAL, '20150609105500000000010000000012', 44, '点亮一本书的生命', null, null, null, 100, '支付宝在线捐赠', '1', to_date('2015-06-09 10:55','yyyy-mm-dd hh24:mi'), to_date('2015-06-09 10:58','yyyy-mm-dd hh24:mi'), '0', '0', '周湛飞', '127.0.0.1', '1', 'zhouzhf@laungee.com', '18021881101', '02188888888', '200000', '上海', '上海', '杨浦', '大学路56号301', '1', '2006', '2010', '计算机学院', '计算机科学与技术', '06计61', '062630', '本科', '上海蓝矩科技', '开发', '攻城师', null, null, null, null, null, null, null, null);
+
+
+insert into tb_commodity_order
+  (order_id, order_no, order_source, order_type, order_status, order_fee, order_time, order_ok_time, order_memo, comm_id, comm_name, comm_detail_id, comm_detail_name, comm_costfee_, comm_salefee, comm_num, shipping_type, shipping_fee, shipping_curfee, donation_fee, buyer_name, buyer_ip, buyer_sex, buyer_email, buyer_mobile, buyer_phone, buyer_zipcode, buyer_sheng, buyer_shi, buyer_qu, buyer_address, alumni_flag, study_yearin, study_yearover, study_academy, study_major, study_class, study_num, study_degree, work_company, work_depart, work_duty, star_num, star_memo, star_time, receipt, mark, memo, creation_user, creation_time, update_user, update_time)
+values
+  (s_tb_commodity_order.NEXTVAL, '20150609105500000000010000000020', null, '支付宝在线支付', '1', 200, to_date('2015-06-09 10:55','yyyy-mm-dd hh24:mi'), to_date('2015-06-09 10:58','yyyy-mm-dd hh24:mi'), null, 261, '商品测试', 181, '默认', 20, 35, 5, '2', 10, 12, 15, '周湛飞', '127.0.0.1', '1', 'zhouzhf@laungee.com', '18021881101', '02188888888', '200000', '上海', '上海', '杨浦', '大学路56号301', '1', '2006', '2010', '计算机学院', '计算机科学与技术', '06计61', '062630', '本科', '上海蓝矩科技', '开发', '攻城师', null, null, null, null, null, null, null, null, null, null);
+

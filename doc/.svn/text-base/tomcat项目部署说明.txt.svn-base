@@ -1,0 +1,12 @@
+tomcat项目部署说明
+
+1、jndi需规范：java:comp/env/jdbc/xygl；
+2、同一tomcat部署两个或两个以上项目时，应该删除其它项目中的xerces-*.*.jar，只保留一个；
+3、报“Cannot create JDBC driver of class '' for connect URL 'null'”时，需在tomcat/conf/Catalina/localhost目录下建一个与项目名称相同的xml文件，里面的内容复制server.xml里的Resource
+
+：修改虚拟内存大小：
+	点击tomcat--->Configure..--->Java(第四个选项卡)--->Java Options:
+	在最后添加-XX:PermSize=256M
+		  -XX:MaxPermSize=386m
+		  -Xms1024m
+		  -Xmx1024m

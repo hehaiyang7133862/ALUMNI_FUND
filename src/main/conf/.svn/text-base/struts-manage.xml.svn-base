@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts PUBLIC  
+    "-//Apache Software Foundation//DTD Struts Configuration 2.3//EN"  
+    "http://struts.apache.org/dtds/struts-2.3.dtd">  
+<struts>
+	<package name="com.laungee.proj.manage.web.action" extends="colavia">
+		
+    	<action name="frame" class="menuReadAction">
+    		<result name="top"> /common/manageTop.jsp</result>
+    		<result name="left">/common/manageLeft.jsp</result>
+    		<result name="success">/common/manageLeft.jsp</result>
+    	</action>
+    	<action name="nav" class="navAction"></action>
+    	<!-- 选择时间后根据名字的时间去匹配校友会名册数据 -->
+    	<action name="academyOfStudy" method="academyOfStudy" class="academyAjaxAction"></action>
+    	<!-- 院系管理 -->
+    	<action name="academyAjax" class="academyAjaxAction"></action>
+    	<!-- 角色管理 -->
+    	<action name="roleList" class="roleListAction">
+    		<result name="success">/manage/roleList.jsp</result>
+    		<result name="input">/manage/roleIndex.jsp</result>
+    	</action>
+    	<action name="roleAdd" class="roleAddAction">
+    		<result name="success">/common/treeSuccess.jsp</result>
+    		<result name="input">/manage/roleAdd.jsp</result>
+    	</action>
+    	<action name="roleEdit" class="roleEditAction">
+    		<result name="success">/common/treeSuccess.jsp</result>
+    		<result name="input">/manage/roleEdit.jsp</result>
+    	</action>
+    	<action name="roleIFrame" class="roleIFrameAction">
+    		<result name="success">/manage/roleIFrame.jsp</result>
+    	</action>
+    	<!-- 菜单管理 -->
+		<action name="menuPrivilege" class="menuPrivilegeAction">
+    		<result name="success">/manage/privilegeMenu.jsp</result>
+    	</action>
+    	<action name="prebutton" class="buttonAction">
+    		<result name="prebutton">/manage/privilegeButton.jsp</result>
+    	</action>
+    	<action name="menuForward" class="menuForwardAction">
+    		<result name="success">/manage/menuIndex.jsp</result>
+    	</action>
+    	<action name="menuList" class="menuListAction">
+    		<result name="success">/manage/menuList.jsp</result>
+    	</action>
+    	<action name="menuPreAdd" class="menuPreAddAction">
+    		<result name="success">/manage/menuAdd.jsp</result>
+    	</action>
+    	<action name="menuAdd" class="menuAddAction">
+    		<result name="success">/common/treeSuccess.jsp</result>
+    	</action>
+    	<action name="menuPreEdit" class="menuPreEditAction">
+    		<result name="success">/manage/menuEdit.jsp</result>
+    	</action>
+    	<action name="menuEdit" class="menuEditAction">
+    		<result name="success">/common/treeSuccess.jsp</result>
+    	</action>
+    	<!-- 人员管理 -->
+    	<action name="userInList" class="userInListAction">
+    		<result name="success">/manage/userInList.jsp</result>
+    	</action>
+    	<action name="userUnList" class="userUnListAction">
+    		<result name="success">/manage/userUnList.jsp</result>
+    	</action>
+    	<action name="userList" class="userListAction">
+    		<result name="success">/manage/userList.jsp</result>
+    	</action>
+    	<action name="userEdit" class="userEditAction">
+    		<result name="success" type="redirect">/userList.action</result>
+    		<result name="input">/manage/userEdit.jsp</result>
+    	</action>
+    	<action name="prepasswords" method="prepasswords" class="userEditAction">
+    		<result name="success">/manage/userEdits.jsp</result>
+    	</action>
+    	<action name="updatepassword" method="updatepassword" class="userEditAction">
+        <result name="success">/manage/userEdits.jsp</result>
+    	</action>
+    	<!-- 基本属性 -->
+    	<action name="attrParent" class="attrParentAction">
+    		<result name="success">/manage/attrJson.jsp</result>
+    	</action>
+    	<action name="attrParentPreAdd" class="attrParentPreAddAction">
+    		<result name="success">/manage/attrAdd.jsp</result>
+    	</action>
+    	<action name="attrParentAdd" class="attrParentAddAction">
+    		<result name="success">/manage/treeSuccess.jsp</result>
+    	</action>
+    	<action name="attrParentPreEdit" class="attrParentPreEditAction">
+    		<result name="success">/manage/attrEdit.jsp</result>
+    	</action>
+    	<action name="attrParentEdit" class="attrParentEditAction">
+    		<result name="success">/manage/treeSuccess.jsp</result>
+    	</action>
+    	<!-- 捐赠属性 -->
+    	<action name="fieldsJson" class="fieldsJsonAction">
+    		<result name="success">/manage/fieldsJson.jsp</result>
+    		<result name="input">/manage/fieldsIndex.jsp</result>
+    	</action>
+    	<action name="fieldsAdd" class="fieldsAddAction">
+    		<result name="success">/common/treeSuccess.jsp</result>
+    		<result name="input">/manage/fieldsAdd.jsp</result>
+    	</action>
+    	<action name="fieldsEdit" class="fieldsEditAction">
+    		<result name="success">/common/treeSuccess.jsp</result>
+    		<result name="input">/manage/fieldsEdit.jsp</result>
+    	</action>
+    	<!-- 属性子类 -->
+    	<action name="attrForward" class="attrForwardAction">
+    		<result name="success">/manage/attrChildIndex.jsp</result>
+    	</action>
+    	<action name="attrChild" class="attrChildAction">
+    		<result name="success">/manage/attrChildJson.jsp</result>
+    	</action>
+    	<action name="attrChildPreAdd" class="attrChildPreAddAction">
+    		<result name="success">/manage/attrChildAdd.jsp</result>
+    	</action>
+    	<action name="attrChildAdd" class="attrChildAddAction">
+    		<result name="success">/manage/treeSuccess.jsp</result>
+    	</action>
+    	<action name="attrChildPreEdit" class="attrChildPreEditAction">
+    		<result name="success">/manage/attrChildEdit.jsp</result>
+    	</action>
+    	<action name="attrChildEdit" class="attrChildEditAction">
+    		<result name="success">/manage/treeSuccess.jsp</result>
+    	</action>
+		<action name="fieldAjax" class="fieldAjaxAction">
+    	</action>
+    	<!-- 文件管理 -->
+    	<action name="fileList" class="fileListAction">
+    		<result name="success">/common/fileFrame.jsp</result>
+    	</action>
+    	<action name="fileLoad" class="fileLoadAction">
+    		<result name="success" type="redirect">/fileList.action?tab=${#request.tab}&amp;id=${#request.id}&amp;fd=${#request.fd}</result>
+    	</action>
+    	<action name="fileDown" class="fileDownAction">
+    		<result name="error" type="chain">fileList</result>
+    	</action>
+    	<!-- 属性管理 -->
+    	<action name="fieldJoin" class="fieldJoinAction">
+    		<result name="success">/manage/fieldJson.jsp</result>
+    		<result name="input">/manage/fieldIndex.jsp</result>
+    	</action>
+    	<action name="fieldAdd" class="fieldAddAction">
+    		<result name="success">/common/treeSuccess.jsp</result>
+    		<result name="input">/manage/fieldAdd.jsp</result>
+    	</action>
+    	<action name="fieldEdit" class="fieldEditAction">
+    		<result name="success">/common/treeSuccess.jsp</result>
+    		<result name="input">/manage/fieldEdit.jsp</result>
+    	</action>
+    	<action name="dolistlog" method="dolistlog" class="logListAction">
+    		<result name="success">/manage/logList.jsp</result>
+    		<result name="delete">/manage/deleteLogList.jsp</result>
+    	</action>
+    	<action name="deleteLog" method="deleteLog" class="logListAction">
+    		<result name="success" type="redirect">/dolistlog.action?tag=del&amp;deleteLog=${#request.delTime}</result>
+    	</action>
+    	
+    	<!-- table导出 -->
+    	<action name="queryTableExport" class="queryTableExportAction">
+    	</action>
+    	<!-- 校友审核配置管理 -->
+    	<action name="alumniCheckSet" class="alumniCheckSetAction">
+    		<result name="input">/manage/alumniCheckSet.jsp</result>
+    		<result name="success" type="redirect">/alumniCheckSet!pre.action?num=${#request.num}</result>
+    	</action>
+    	<!-- 生日祝福模版管理 -->
+    	<action name="tpList" method="templateList" class="templateListAction">
+    		<result name="success">/manage/templateList.jsp</result>
+    	</action>
+    	<action name="tpToAdd" method="toAdd" class="templateListAction">
+    		<result name="success">/manage/templateAdd.jsp</result>
+    	</action>
+    	<action name="tpDoAdd" method="doAdd" class="templateListAction">
+    		<result name="success">/common/floatSuccess.jsp</result>
+    	</action>
+    	<action name="tpToEdit" method="toEdit" class="templateListAction">
+    		<result name="success">/manage/templateEdit.jsp</result>
+    	</action>
+    	<action name="tpDoEdit" method="doEdit" class="templateListAction">
+    		<result name="success">/common/floatSuccess.jsp</result>
+    	</action>
+    	<action name="tpModify" method="modify" class="templateListAction">
+    		<result name="success" type="redirect">/tpList.action</result>
+    	</action>
+    	<action name="tpDel" method="del" class="templateListAction">
+    		<result name="success" type="redirect">/tpList.action</result>
+    	</action>
+    	<!-- 商品分类 -->
+    	<action name="commodityType" class="commodityTypeAction">
+    		<result name="list">/manage/commodityTypeJson.jsp</result>
+    		<result name="input">/manage/commodityTypeIndex.jsp</result>
+    		<result name="add">/manage/commodityTypeAdd.jsp</result>
+    		<result name="edit">/manage/commodityTypeEdit.jsp</result>
+    		<result name="success">/common/treeSuccess.jsp</result>
+    	</action>
+    	
+	</package>
+</struts>

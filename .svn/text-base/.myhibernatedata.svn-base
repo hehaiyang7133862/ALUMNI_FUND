@@ -1,0 +1,22 @@
+#
+#Tue Jun 16 13:08:14 CST 2015
+genBasicCompId=false
+sessionFactoryName=
+profile=
+daoSFId=
+version=3.0
+jndiPath=
+detectM2M=false
+reStrategyClass=
+springDaoFile=
+useJavaTypes=true
+keyGenerator=sequence
+libInstallFolder=
+addLibs2Project=false
+genVersionTag=false
+sessionFactoryId=sessionFactory
+basePersistenceClass=
+reSettingsFile=/ALUMNI_FUND/hibernate.reveng.xml
+configFile=/PALUMNI_NK/WebRoot/WEB-INF/spring/applicationContext.xml
+createConfigFile=false
+addLibs2Classpath=false

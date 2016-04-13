@@ -1,0 +1,115 @@
+@charset "utf-8";
+body{
+	background-color:#DFDFDF;
+}
+.tmp_center{
+	background:#FFF;
+	padding-left:120px;
+	padding-right:120px;
+	padding-top:40px;
+	padding-bottom:40px;
+	line-height:20px;
+}
+.tmp_login{
+	border:1px #ececec solid;
+	background-color:#F9F9F9;
+	margin-left:210px;
+	margin-top:60px;
+	margin-bottom:120px;
+}
+.tmp_head{
+	background:url(../UI/images/head_login.jpg) no-repeat left top;
+	width:475px;
+	height:79px;
+}
+.tmp_head_110{
+	background:url(../UI/images/head_login_110.png) repeat left top;
+}
+.tmp_head_011{
+	background:url(../UI/images/head_login_011.png) repeat right top;
+	max-height:474px;
+	max-height:79px;
+}
+.tmp_head_020{
+	background:url(../UI/images/head_login_020.png) no-repeat left bottom;
+	max-height:474px;
+	max-height:79px;
+}
+.tmp_fnt{
+	font-size:14px;
+	font-weight:bold;
+	color:#666762;
+}
+.tmp_txt{
+	width:173px;
+	height:25px;
+	background-color:#FFFFFF;
+	border:solid 1px #a5bbd0;
+}
+.tmp_previous{
+	background:url(../UI/images/btn_previous.jpg);
+	border:0px;
+	width:85px;
+	height:33px;
+}
+.tmp_next{
+	background:url(../UI/images/btn_next.jpg);
+	border:0px;
+	width:85px;
+	height:33px;
+}
+.tmp_submit{
+	background:url(../UI/images/btn_login.jpg);
+	border:0px;
+	width:85px;
+	height:33px;
+}
+.tmp_reset{
+	background:url(../UI/images/btn_reset.jpg);
+	border:0px;
+	width:52px;
+	height:24px;
+}
+.tmp_register{
+	background:url(../UI/images/btn_register.jpg);
+	border:0px;
+	width:52px;
+	height:22px;
+}
+/* 登陆菜单 */
+.tmp_menu{
+	margin-top:5px;
+	margin:0px;
+	height:25px;
+}
+.tmp_menu ul{
+	margin:0px;
+	margin-left:3px;	
+}
+.tmp_menu li{
+	float:left; 
+	list-style-type:none;
+	margin-right:3px;
+	display:block;
+	width:60px;
+	line-height:25px;
+	font-weight:bold;
+	text-align:center;
+	background:#3CF;
+}
+.tmp_menu a{
+	font-size:12px;
+	font-weight:bold;
+	color:black;
+	display:block;
+	width:60px;
+	line-height:25px;
+	text-decoration:none;
+}
+.tmp_menu a:hover{
+	background:url(../images/nav_action.jpg);
+	text-decoration:none;
+}
+.tmp_menu_action{
+	background:url(../images/nav_action.jpg);
+}

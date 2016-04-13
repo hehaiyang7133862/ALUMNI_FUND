@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/JSP_PALUMNI_FUND/!svn/ver/95/PALUMNI_FUND_II/WebRoot/WEB-INF/spring
+END
+spring-commodity.xml
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/JSP_PALUMNI_FUND/!svn/ver/79/PALUMNI_FUND_II/WebRoot/WEB-INF/spring/spring-commodity.xml
+END
+spring-editor.xml
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/JSP_PALUMNI_FUND/!svn/ver/79/PALUMNI_FUND_II/WebRoot/WEB-INF/spring/spring-editor.xml
+END
+spring-foundation.xml
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/JSP_PALUMNI_FUND/!svn/ver/79/PALUMNI_FUND_II/WebRoot/WEB-INF/spring/spring-foundation.xml
+END
+applicationContext.xml
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/JSP_PALUMNI_FUND/!svn/ver/79/PALUMNI_FUND_II/WebRoot/WEB-INF/spring/applicationContext.xml
+END
+spring-manage.xml
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/JSP_PALUMNI_FUND/!svn/ver/91/PALUMNI_FUND_II/WebRoot/WEB-INF/spring/spring-manage.xml
+END
+spring-api.xml
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/JSP_PALUMNI_FUND/!svn/ver/135/PALUMNI_FUND_II/WebRoot/WEB-INF/spring/spring-api.xml
+END
+spring-account.xml
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/JSP_PALUMNI_FUND/!svn/ver/79/PALUMNI_FUND_II/WebRoot/WEB-INF/spring/spring-account.xml
+END
+spring-zc.xml
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/JSP_PALUMNI_FUND/!svn/ver/135/PALUMNI_FUND_II/WebRoot/WEB-INF/spring/spring-zc.xml
+END

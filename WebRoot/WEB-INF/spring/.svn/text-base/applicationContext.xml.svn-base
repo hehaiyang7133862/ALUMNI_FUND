@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:aop="http://www.springframework.org/schema/aop"
+	xmlns:tx="http://www.springframework.org/schema/tx"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+	http://www.springframework.org/schema/beans/spring-beans-2.0.xsd
+	http://www.springframework.org/schema/tx 
+	http://www.springframework.org/schema/tx/spring-tx-2.0.xsd
+	http://www.springframework.org/schema/aop
+	http://www.springframework.org/schema/aop/spring-aop-2.0.xsd">
+
+	<!-- 读取配置文件 -->
+	<bean id="propertyConfigurer" class="org.springframework.beans.factory.config.PropertyPlaceholderConfigurer">
+    	<property name="location">
+    		<value>classpath:conf/environment.properties</value>
+		</property>
+	</bean>
+
+	<!-- 数据源 -->
+	<bean id="dataSource" class="org.springframework.jndi.JndiObjectFactoryBean">
+		<property name="jndiName">
+    		<value>${db.jndiName}</value>
+		</property>
+	</bean>
+
+	<!-- 抽取器 -->
+	<bean id="nativeJdbcExtractor" class="org.springframework.jdbc.support.nativejdbc.WebSphereNativeJdbcExtractor" lazy-init="true"/>
+
+	<!-- 大对象 -->
+	<bean id="lobHandler"
+		class="org.springframework.jdbc.support.lob.OracleLobHandler"
+		lazy-init="true">
+		<property name="nativeJdbcExtractor">
+			<ref local="nativeJdbcExtractor" />
+		</property>
+	</bean>
+	<!-- 会话工厂 -->
+	<bean id="sessionFactory"
+		class="org.springframework.orm.hibernate3.LocalSessionFactoryBean">
+		<property name="dataSource">
+			<ref bean="dataSource" />
+		</property>
+		<property name="hibernateProperties">
+			<props>
+				<!-- 数据库种类 -->
+				<prop key="hibernate.dialect">org.hibernate.dialect.Oracle9iDialect</prop>
+				<!-- 是否需要显示SQL语句 -->
+				<prop key="hibernate.show_sql">${hb.show_sql}</prop>
+				<!-- 是否需要格式化显示SQL语句 -->
+				<prop key="hibernate.format_sql">${hb.format_sql}</prop>
+				<!-- Hibernate将收集有助于性能调节的统计数据 -->
+				<prop key="hibernate.generate_statistics">true</prop>
+				<!-- 指定Hibernate在何时释放JDBC连接. 默认情况下,直到Session被显式关闭或被断开连接时, auto将为JTA和CMT事务策略选择after_statement, 为JDBC事务策略选择after_transaction.  -->
+				<prop key="hibernate.connection.release_mode">auto</prop>
+				<prop key="hibernate.autoReconnect">true</prop>
+				<!-- 在JDBC读写binary (二进制)或serializable (可序列化) 的类型时使用流(stream)(系统级属性) -->
+				<prop key="hibernate.jdbc.use_streams_for_binary">true</prop>
+				<!-- 非零值，允许Hibernate使用JDBC2的批量更新. 取值 建议取5到30之间的值  -->
+				<prop key="hibernate.jdbc.batch_size">20</prop>	
+			</props>
+		</property>
+		<property name="mappingDirectoryLocations">
+			<list>
+			<value>classpath:com/laungee/proj/common/model</value>
+			</list>
+		</property>
+		<property name="lobHandler" ref="lobHandler"></property>
+		<!-- <property name="eventListeners">
+			<map>
+				<entry key="post-update">
+					<ref bean="myListener"/>
+				</entry>
+				<entry key="post-insert">
+					<ref bean="myListener"/>
+				</entry>
+				<entry key="post-delete">
+					<ref bean="myListener"/>
+				</entry>
+			</map>
+		</property> -->
+		</bean>
+	<!-- 公共业务处理 -->
+	<bean id="commonBiz" class="com.laungee.proj.common.biz.impl.CommonBizImpl">
+		<property name="commonDao">
+			<ref bean="commonDao" />
+		</property>
+	</bean>
+	<!-- 公共访问务层 -->
+	<bean id="commonDao" class="com.laungee.proj.common.dao.impl.CommonDaoImpl">
+		<property name="sessionFactory">
+			<ref bean="sessionFactory" />
+		</property>
+	</bean>
+
+	<!-- 配置事务管理器 -->
+	<bean id="myTxManager"
+		class="org.springframework.orm.hibernate3.HibernateTransactionManager">
+		<property name="sessionFactory">
+			<ref local="sessionFactory" />
+		</property>
+		<property name="globalRollbackOnParticipationFailure" value="false"></property>
+	</bean>
+
+	<!-- 配置事务传播性 -->
+	<tx:advice id="myAdvice" transaction-manager="myTxManager">
+		<tx:attributes>
+			<tx:method name="find*" propagation="REQUIRED"
+				read-only="true" />
+			<tx:method name="save*" propagation="REQUIRED"
+				rollback-for="RuntimeException" />
+			<tx:method name="update*" propagation="REQUIRED"
+				rollback-for="RuntimeException" />
+			<tx:method name="merge*" propagation="REQUIRED"
+				rollback-for="RuntimeException" />
+			<tx:method name="delete*" propagation="REQUIRED"
+				rollback-for="RuntimeException" />
+			<tx:method name="*" propagation="SUPPORTS" read-only="true" />
+		</tx:attributes>
+	</tx:advice>
+
+	<!-- 配置事务拦截器 -->
+	<aop:config>
+		<aop:pointcut id="commonMethods" expression="execution(* com.laungee.proj.common.dao.impl.*Impl.*(..))" />
+		<aop:advisor advice-ref="myAdvice" pointcut-ref="commonMethods" />
+	</aop:config>
+
+	<!-- 
+		<prop key="hibernate.show_sql">true</prop>
+		<bean id="nativeJdbcExtractor" class="org.springframework.jdbc.support.nativejdbc.CommonsDbcpNativeJdbcExtractor" lazy-init="true"/>
+		<bean id="nativeJdbcExtractor" class="org.springframework.jdbc.support.nativejdbc.WebSphereNativeJdbcExtractor" lazy-init="true"/>
+	-->
+</beans>
