@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts PUBLIC  
+    "-//Apache Software Foundation//DTD Struts Configuration 2.3//EN"  
+    "http://struts.apache.org/dtds/struts-2.3.dtd">  
+<struts>
+	<package name="zc" extends="colavia">
+		<!-- 众筹项目分类管理 -->
+    	<action name="zcProjType" class="zcProjTypeAction">
+    		<result name="list">/zc/typeJson.jsp</result>
+    		<result name="input">/zc/typeIndex.jsp</result>
+    		<result name="add">/zc/typeAdd.jsp</result>
+    		<result name="edit">/zc/typeEdit.jsp</result>
+    		<result name="success">/common/treeSuccess.jsp</result>
+    	</action>
+    	<!-- 众筹项目管理 -->
+    	<action name="zcProj" class="zcProjAction">
+    		<result name="index">/zc/projTypeIndex.jsp</result>
+    		<result name="json">/zc/projTypeJson.jsp</result>
+    		<result name="list">/zc/projList.jsp</result>
+    	</action>
+    	<!-- 众筹项目新增、编辑 -->
+    	<action name="zcProjEdit" class="zcProjEditAction">
+    		<result name="input">/zc/projEdit.jsp</result>
+			<result name="success" type="redirect">/zcProjEdit.action?projId=${#request.projId}&amp;opt=${#request.opt}</result>
+    		<result name="picList">/zc/projPicList.jsp</result>
+    		<result name="picEdit">/zc/projPicEdit.jsp</result>
+    		<result name="optionList">/zc/projOptionList.jsp</result>
+    		<result name="optionEdit">/zc/projOptionEdit.jsp</result>
+    		<result name="gressList">/zc/projGressList.jsp</result>
+    		<result name="gressEdit">/zc/projGressEdit.jsp</result>
+    		<result name="orderList">/zc/projOrderList.jsp</result>
+    		<result name="orderView">/zc/projOrderView.jsp</result>
+    		<result name="orderEdit">/zc/projOrderEdit.jsp</result>
+    		<result name="orderMark">/zc/projOrderMark.jsp</result>
+    		<result name="winSuccess">/common/success.jsp</result>
+    		<result name="import">/zc/projOrderImport.jsp</result>
+    	</action>
+    	<!-- 众筹项目捐赠管理 -->
+    	<action name="zcProjOrder" class="zcProjOrderAction">
+    		<result name="success">/zc/projOrderMgtList.jsp</result>
+    		<result name="view">/zc/projOrderMgtView.jsp</result>
+    		<result name="mark">/zc/projOrderMgtMark.jsp</result>
+    		<result name="winSuccess">/common/success.jsp</result>
+    	</action>
+    	<!-- 其他众筹项目捐赠管理 -->
+    	<action name="zcOtherOrder" class="zcOtherOrderAction">
+    		<result name="success">/zc/otherOrderMgtList.jsp</result>
+    		<result name="view">/zc/otherOrderMgtView.jsp</result>
+    		<result name="mark">/zc/otherOrderMgtMark.jsp</result>
+    		<result name="winSuccess">/common/success.jsp</result>
+    		<result name="edit">/zc/otherOrderMgtEdit.jsp</result>
+    		<result name="import">/zc/otherOrderMgtImport.jsp</result>
+    	</action>
+    	<!-- 众筹网栏目管理 -->
+    	<action name="siteItem" class="siteItemAction">
+    		<result name="index">/zc/siteItemIndex.jsp</result>
+    		<result name="json">/zc/siteItemJson.jsp</result>
+    		<result name="input">/zc/siteItemEdit.jsp</result>
+    		<result name="success">/common/treeSuccess.jsp</result>
+    	</action>
+    	<!-- 众筹网栏目内容管理 -->
+    	<action name="siteItemCnt" class="siteItemCntAction">
+    		<result name="list">/zc/siteItemCntList.jsp</result>
+    		<result name="input">/zc/siteItemCntEdit.jsp</result>
+    		<result name="success">/common/success.jsp</result>
+    	</action>
+		<!-- 众筹网捐赠寄语管理 -->
+    	<action name="siteJzMsg" class="siteJzMsgAction">
+    		<result name="list">/zc/siteJzMsgList.jsp</result>
+    		<result name="input">/zc/siteJzMsgEdit.jsp</result>
+    		<result name="success">/common/success.jsp</result>
+    	</action>
+	</package>
+</struts>

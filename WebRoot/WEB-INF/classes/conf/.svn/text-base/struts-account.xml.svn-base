@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts PUBLIC  
+    "-//Apache Software Foundation//DTD Struts Configuration 2.3//EN"  
+    "http://struts.apache.org/dtds/struts-2.3.dtd">  
+<struts>
+	<package name="com.laungee.proj.account.web.action" extends="colavia">
+	<!-- 基金大项 -->
+	<action name="dxgl" class="donationDxglAction">
+   		<result name="list">/account/dxglList.jsp</result>
+   		<result name="add">/account/dxglAdd.jsp</result>
+   		<result name="edit">/account/dxglEdit.jsp</result>
+   		<result name="success">/common/success.jsp</result>
+    </action>
+	<!-- 基金小项 -->
+	<action name="xxgl" class="donationXxglAction">
+   		<result name="list">/account/xxglList.jsp</result>
+   		<result name="add">/account/xxglAdd.jsp</result>
+   		<result name="edit">/account/xxglEdit.jsp</result>
+   		<result name="success">/common/success.jsp</result>
+    </action>
+	<!-- 捐赠帐户 -->
+	<action name="account" class="donationAccountAction">
+   		<result name="list">/account/accountList.jsp</result>
+   		<result name="add">/account/accountAdd.jsp</result>
+   		<result name="edit">/account/accountEdit.jsp</result>
+   		<result name="success">/common/success.jsp</result>
+    </action>
+	</package>
+</struts>

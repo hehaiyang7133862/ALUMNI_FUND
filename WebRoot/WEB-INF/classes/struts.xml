@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts PUBLIC  
+    "-//Apache Software Foundation//DTD Struts Configuration 2.3//EN"  
+    "http://struts.apache.org/dtds/struts-2.3.dtd">  
+<struts>
+	<!-- 开启动态方法调用2 -->
+	<constant name="struts.enable.DynamicMethodInvocation" value="true" />
+	<!-- 开启自动由spring来管理action对象, struts2和spring自动集成 -->
+	<constant name="struts.objectFactory" value="spring"/>
+	<!-- 重载上传文件配置 -->
+	<bean type="org.apache.struts2.dispatcher.multipart.MultiPartRequest" name="myMultiPartRequest" class="com.laungee.proj.common.core.MyMultiPartRequest" scope="default" />
+    <constant name="struts.multipart.parser" value="myMultiPartRequest" />
+	<constant name="struts.multipart.maxSize" value="41943040" />
+	<constant name="struts.multipart.saveDir" value="/tmp" />
+    <include file="conf/struts-interceptor.xml"/>
+    <include file="conf/struts-none.xml"/>
+	<include file="conf/struts-manage.xml"/>
+	<include file="conf/struts-editor.xml"/>
+	<include file="conf/struts-account.xml"/>
+	<include file="conf/struts-commodity.xml"/>
+	<include file="conf/struts-foundation.xml"/>
+	<include file="conf/struts-zc.xml"/>
+	<include file="conf/struts-api.xml"/>
+</struts>

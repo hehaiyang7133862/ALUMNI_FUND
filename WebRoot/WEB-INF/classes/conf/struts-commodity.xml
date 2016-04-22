@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts PUBLIC  
+    "-//Apache Software Foundation//DTD Struts Configuration 2.3//EN"  
+    "http://struts.apache.org/dtds/struts-2.3.dtd">
+<struts>
+	<package name="com.laungee.proj.commodity.web.action" extends="colavia">
+
+		<!-- 商品分类 -->
+		<action name="commodityType" class="commodityTypeAction">
+			<result name="list">/commodity/commodityTypeJson.jsp</result>
+			<result name="input">/commodity/commodityTypeIndex.jsp</result>
+			<result name="json">/commodity/commodityTypeManageJson.jsp</result>
+			<result name="index">/commodity/commodityTypeManage.jsp</result>
+			<result name="add">/commodity/commodityTypeAdd.jsp</result>
+			<result name="edit">/commodity/commodityTypeEdit.jsp</result>
+			<result name="success">/common/treeSuccess.jsp</result>
+		</action>
+
+		<!-- 商品信息 -->
+		<action name="commodity" class="commodityAction">
+			<result name="list">/commodity/commodityList.jsp</result>
+			<result name="input">/commodity/commodityIndex.jsp</result>
+			<result name="operation">/commodity/NewPrdPage.jsp</result>
+			<result name="choice" type="redirect">/commodity!operation.action?commId=${#request.commId}
+			</result>
+			<result name="info">/commodity/commodityInfo.jsp</result>
+			<result name="pic">/commodity/commodityPic.jsp</result>
+			<result name="param">/commodity/commodityParam.jsp</result>
+			<result name="detail">/commodity/commodityDetail.jsp</result>
+			<result name="operationPic">/commodity/commodityPicAdd.jsp</result>
+			<result name="operationParam">/commodity/commodityParamAdd.jsp</result>
+			<result name="operationDetail">/commodity/commodityDetailAdd.jsp</result>
+			<result name="reload">/common/floatSuccess.jsp</result>
+			<result name="winSuccess">/common/success.jsp</result>
+			<result name="orderList">/commodity/commodityOrder.jsp</result>
+			<result name="operationOrder">/commodity/commodityOrderAdd.jsp</result>
+			<result name="orderView">/commodity/commodityOrderView.jsp</result>
+			<result name="orderMark">/commodity/commodityOrderMark.jsp</result>
+		</action>
+		
+		<!-- 保存商品信息 -->
+		<action name="saveOrUpdate" class="commodityAction" method="saveOrUpdate">
+			<result name="success">/commodity/NewPrdPage.jsp</result>
+		</action>
+
+		<!-- 编辑商品订单 -->
+		<action name="EditOrCreatePrdOrder" class="commodityOrderAction" method="GetOrCreatePrdOredr">
+			<result name="edit">/commodity/NewPrdOrder.jsp</result>
+		</action>
+		<!-- 商品订单信息 -->
+		<action name="commodityOrder" class="commodityOrderAction">
+			<result name="success">/commodity/commodityOrderMgtList.jsp</result>
+			<result name="view">/commodity/commodityOrderMgtView.jsp</result>
+			<result name="mark">/commodity/commodityOrderMgtMark.jsp</result>
+			<result name="winSuccess">/common/success.jsp</result>
+		</action>
+		<!-- 保存商品订单-->
+		<action	name="SaveOrUpdatePrdOrder" class="commodityOrderAction" method="SaveOrUpdatePrdOrder">
+			<result name="success">/common/success.jsp</result>
+			<result name="error">/commodity/NewPrdOrder.jsp</result>
+		</action>
+		<!-- 导出商品订单 -->
+		<action name="Ajax_PrdOrderExport" class="commodityOrderAction" method="doExport"></action>
+		<!-- 打开导入页面 -->
+		<action name="openPrdOrderImportPage" class="commodityOrderAction" method="toImport">
+			<result name="import">/commodity/NewPrdOrderImportPage.jsp</result>
+		</action>
+		<action name="Ajax_ShowImportProcess" class="commodityOrderAction" method="process"></action>
+		<action name="ImportPrdOrder" class="commodityOrderAction" method="doImport">
+			<result name="import">/commodity/NewPrdOrderImportPage.jsp</result>
+		</action>
+	</package>
+</struts>
