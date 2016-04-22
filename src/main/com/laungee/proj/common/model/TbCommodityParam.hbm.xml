@@ -42,5 +42,8 @@
         <property name="updateTime" type="java.util.Date">
             <column name="UPDATE_TIME" length="7" />
         </property>
+	<property name="paramPublish" type="java.lang.String">
+		<column name="PARAM_PUBLISH" length="1" />
+	</property>
     </class>
 </hibernate-mapping>

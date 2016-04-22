@@ -71,7 +71,18 @@
 									</c:forEach>
 								</optgroup>
 							</select>
-							<input type="hidden" id="optionName" name="optionName" value="<c:choose><c:when test="${not empty bean.optionName}"><c:out value="${bean.optionName}"/></c:when><c:when test="${beanZcproj.optionOther=='1'}"><c:out value="${beanZcproj.optionOtherName}"/></c:when><c:when test="${not empty optionList}"><c:out value="${optionList[0].optionName}"/></c:when></c:choose>"/>
+							<input type="hidden" id="optionName" name="optionName" value="
+							<c:choose>
+								<c:when test="${not empty bean.optionName}">
+									<c:out value="${bean.optionName}"/>
+								</c:when>
+								<c:when test="${beanZcproj.optionOther=='1'}">
+									<c:out value="${beanZcproj.optionOtherName}"/>
+								</c:when>
+								<c:when test="${not empty optionList}">
+									<c:out value="${optionList[0].optionName}"/>
+								</c:when>
+							</c:choose>"/>
 							&nbsp;<b>×</b>&nbsp;
 							<input type="text" id="optionCount" name="optionCount" class="txt" style="width:68px;" value="<fmt:formatNumber value='${bean.optionCount}' pattern='0' type='number'/>" maxlength="50" autocomplete="OFF"/>
 							份

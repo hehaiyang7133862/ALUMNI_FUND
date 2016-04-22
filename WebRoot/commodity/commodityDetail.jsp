@@ -77,7 +77,15 @@
 					<c:otherwise>否</c:otherwise>
 				</c:choose>
 			</td>
-			<td><fmt:formatNumber value='${temp.stockNum}' pattern='0' type='number'/></td>
+			<td><c:choose>
+					<c:when test="${not empty temp and not empty temp.limitNum and temp.limitNum == '0' }">不限量</c:when>
+					<c:otherwise>
+						<c:choose>
+							<c:when test="${not empty temp.stockNum and temp.stockNum > 0 }" >有货（<c:out value="${temp.stockNum }"/>）</c:when>
+							<c:otherwise>缺货</c:otherwise>
+						</c:choose>
+					</c:otherwise>
+				</c:choose></td>
 			<td><fmt:formatNumber value='${temp.costFee}' pattern='0.##' type='number'/></td>
 			<td><fmt:formatNumber value='${temp.saleFee}' pattern='0.##' type='number'/></td>
 			<td>

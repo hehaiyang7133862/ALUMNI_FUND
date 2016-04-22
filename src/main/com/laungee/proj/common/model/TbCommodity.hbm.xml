@@ -18,9 +18,6 @@
         <property name="commIntro" type="java.lang.String">
             <column name="COMM_INTRO" length="2000" />
         </property>
-        <property name="commDetail" type="java.lang.String">
-            <column name="COMM_DETAIL" />
-        </property>
         <property name="commType" type="java.lang.Long">
             <column name="COMM_TYPE" precision="22" scale="0" />
         </property>
@@ -71,6 +68,102 @@
         </property>
         <property name="updateTime" type="java.util.Date">
             <column name="UPDATE_TIME" length="7" />
+        </property>
+        <property name="searchKey" type="java.lang.String">
+            <column name="SEARCH_KEY" length="2000" />
+        </property>
+        <property name="detailTitle1" type="java.lang.String">
+            <column name="DETAIL1_TITLE" length="200" />
+        </property>
+        <property name="detailContent1" type="java.lang.String">
+            <column name="DETAIL1_CONTENT" />
+        </property>
+        <property name="detailPublish1" type="java.lang.String">
+            <column name="DETAIL1_PUBLISH" length="200" />
+        </property>
+        <property name="detailTitle2" type="java.lang.String">
+            <column name="DETAIL2_TITLE" length="200" />
+        </property>
+        <property name="detailContent2" type="java.lang.String">
+            <column name="DETAIL2_CONTENT" />
+        </property>
+        <property name="detailPublish2" type="java.lang.String">
+            <column name="DETAIL2_PUBLISH" length="200" />
+        </property>
+        <property name="detailTitle3" type="java.lang.String">
+            <column name="DETAIL3_TITLE" length="200" />
+        </property>
+        <property name="detailContent3" type="java.lang.String">
+            <column name="DETAIL3_CONTENT" />
+        </property>
+        <property name="detailPublish3" type="java.lang.String">
+            <column name="DETAIL3_PUBLISH" length="200" />
+        </property>
+        <property name="detailTitle4" type="java.lang.String">
+            <column name="DETAIL4_TITLE" length="200" />
+        </property>
+        <property name="detailContent4" type="java.lang.String">
+            <column name="DETAIL4_CONTENT" />
+        </property>
+        <property name="detailPublish4" type="java.lang.String">
+            <column name="DETAIL4_PUBLISH" length="200" />
+        </property>
+        <property name="detailTitle5" type="java.lang.String">
+            <column name="DETAIL5_TITLE" length="200" />
+        </property>
+        <property name="detailContent5" type="java.lang.String">
+            <column name="DETAIL5_CONTENT" />
+        </property>
+        <property name="detailPublish5" type="java.lang.String">
+            <column name="DETAIL5_PUBLISH" length="200" />
+        </property>
+        <property name="detailTitle6" type="java.lang.String">
+            <column name="DETAIL6_TITLE" length="200" />
+        </property>
+        <property name="detailContent6" type="java.lang.String">
+            <column name="DETAIL6_CONTENT" />
+        </property>
+        <property name="detailPublish6" type="java.lang.String">
+            <column name="DETAIL6_PUBLISH" length="200" />
+        </property>
+        <property name="detailTitle7" type="java.lang.String">
+            <column name="DETAIL7_TITLE" length="200" />
+        </property>
+        <property name="detailContent7" type="java.lang.String">
+            <column name="DETAIL7_CONTENT" />
+        </property>
+        <property name="detailPublish7" type="java.lang.String">
+            <column name="DETAIL7_PUBLISH" length="200" />
+        </property>
+        <property name="detailTitle8" type="java.lang.String">
+            <column name="DETAIL8_TITLE" length="200" />
+        </property>
+        <property name="detailContent8" type="java.lang.String">
+            <column name="DETAIL8_CONTENT" />
+        </property>
+        <property name="detailPublish8" type="java.lang.String">
+            <column name="DETAIL8_PUBLISH" length="200" />
+        </property>
+        <property name="detailTitle9" type="java.lang.String">
+            <column name="DETAIL9_TITLE" length="200" />
+        </property>
+        <property name="detailContent9" type="java.lang.String">
+            <column name="DETAIL9_CONTENT" />
+        </property>
+        <property name="detailPublish9" type="java.lang.String">
+            <column name="DETAIL9_PUBLISH" length="200" />
+        </property>
+        <property name="detailTitle10" type="java.lang.String">
+            <column name="DETAIL10_TITLE" length="200" />
+        </property>
+        <property name="detailContent10" type="java.lang.String">
+            <column name="DETAIL10_CONTENT" />
+        </property>
+        <property name="detailPublish10" type="java.lang.String">
+            <column name="DETAIL10_PUBLISH" length="200" />
+        </property>
+        <property name="commStyle" type="java.lang.String">
+            <column name="COMM_STYLE" length="50" />
         </property>
     </class>
 </hibernate-mapping>

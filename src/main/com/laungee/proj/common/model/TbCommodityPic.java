@@ -23,7 +23,8 @@ public class TbCommodityPic implements java.io.Serializable {
 	private String creationTime;
 	private Long updateUser;
 	private Date updateTime;
-	
+	private String picPublish;
+
 	public TbCommodityPic() {
 		super();
 		// TODO Auto-generated constructor stub
@@ -131,5 +132,11 @@ public class TbCommodityPic implements java.io.Serializable {
 		this.updateTime = updateTime;
 	}
 
+	public void setPicPublish(String picPublish) {
+		this.picPublish = picPublish;
+	}
 
+	public String getPicPublish() {
+		return picPublish;
+	}
 }

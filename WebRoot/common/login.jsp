@@ -1,82 +1,101 @@
 <%@ include file="../common/include.jsp"%>
-<%@ page language="java" import="java.util.*,com.wiscom.is.*, java.net.*" pageEncoding="UTF-8"%>
+<%@ page language="java"
+	import="java.util.*,com.wiscom.is.*, java.net.*" pageEncoding="UTF-8"%>
 <%
-String path = request.getContextPath();
-String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.getServerPort()+path+"/";
+	String path = request.getContextPath();
+	String basePath = request.getScheme() + "://"
+			+ request.getServerName() + ":" + request.getServerPort()
+			+ path + "/";
 %>
 <html>
 <head>
-<title><my:titleTag/>综合业务管理系统</title>
-<script src="<%=basePath%>UI/jquery/jquery-1.6.2.min.js" type="text/javascript"></script>
-<link href="<%=basePath%>UI/css/login.css" rel="stylesheet" type="text/css" />
+<title><my:titleTag />综合业务管理系统</title>
+<script src="<%=basePath%>UI/jquery/jquery-1.6.2.min.js"
+	type="text/javascript"></script>
+<link href="<%=basePath%>UI/css/login.css" rel="stylesheet"
+	type="text/css" />
 <script src="<%=basePath%>UI/js/login.js" type="text/javascript"></script>
-<link href="<%=basePath%>UI/ext/resources/css/ext-all.css" type="text/css" rel="stylesheet" />
-<script src="<%=basePath%>UI/ext/adapter/ext/ext-base.js" type="text/javascript"></script>
+<link href="<%=basePath%>UI/ext/resources/css/ext-all.css"
+	type="text/css" rel="stylesheet" />
+<script src="<%=basePath%>UI/ext/adapter/ext/ext-base.js"
+	type="text/javascript"></script>
 <script src="<%=basePath%>UI/ext/ext-all.js" type="text/javascript"></script>
-<script src="<%=basePath%>UI/ext/adapter/treenodecheckui/TreeCheckNodeUI.js" type="text/javascript"></script>
+<script
+	src="<%=basePath%>UI/ext/adapter/treenodecheckui/TreeCheckNodeUI.js"
+	type="text/javascript"></script>
 <script src="<%=basePath%>UI/js/ext-my.js" type="text/javascript"></script>
 <style type="text/css">
-html{
-  background-color: #206494;
+html {
+	background-color: #206494;
 }
+
 .newalumniLogin {
-  background-color: #206494;
-  height: 100%;
-  width: 100%;
-  margin: 0 auto;
+	background-color: #206494;
+	height: 100%;
+	width: 100%;
+	margin: 0 auto;
 }
+
 .newalumniLogin .newmainBg {
-  background-image: url("/UI/images/loginBg.jpg");
-  background-repeat:no-repeat;
-  height: 580px;
-  width: 1200px;
-  margin: 0 auto;
-  position: relative;
+	background-image: url("<%=basePath%>/UI/images/loginBg.jpg");
+	background-repeat: no-repeat;
+	height: 580px;
+	width: 1200px;
+	margin: 0 auto;
+	position: relative;
 }
+
 .newalumniLogin .newfooter {
-  background-color: #206494;
-  color: #ffffff;
-  text-align: center;
+	background-color: #206494;
+	color: #ffffff;
+	text-align: center;
 }
-.newalumniLogin .filterIm{
-    filter:alpha(opacity=0);
-	-moz-opacity:0;
+
+.newalumniLogin .filterIm {
+	filter: alpha(opacity = 0);
+	-moz-opacity: 0;
 	-khtml-opacity: 0;
 	opacity: 0;
 }
+
 .newloginInput {
-  	background: none repeat scroll 0 0 #f0eef1;
-    border: 0 none;
-    font-size: 14px;
-    height: 36px;
-    left: 195px;
-    line-height: 36px;
-    position: absolute;
-    top: 217px;
-    width: 224px;
+	background: none repeat scroll 0 0 #f0eef1;
+	border: 0 none;
+	font-size: 14px;
+	height: 36px;
+	left: 195px;
+	line-height: 36px;
+	position: absolute;
+	top: 217px;
+	width: 224px;
 }
+
 .newloginForm .loginPwd {
-  top: 273px;
+	top: 273px;
 }
+
 .newloginForm .loginCode {
-    top: 329px;
-    width: 210px;
+	top: 329px;
+	width: 210px;
 }
+
 .newloginForm .newloginIn {
 	height: 27px;
 	left: 190px;
 	position: absolute;
 	top: 423px;
 	width: 168px;
-	filter:alpha(opacity=0);
-	-moz-opacity:0;
+	filter: alpha(opacity = 0);
+	-moz-opacity: 0;
 	-khtml-opacity: 0;
 	opacity: 0;
 }
+
 .newloginForm .reset {
-  left: 388px;
-  width: 80px;
+	left: 388px;
+	width: 80px;
 }
+
 .newloginForm .proofcode {
 	background: none repeat scroll 0 0 #f0eef1;
 	color: orange;
@@ -93,17 +112,19 @@ html{
 	width: 55px;
 	z-index: 2;
 }
+
 .newalumniLogin .notice {
-  bottom: 60px;
-  color: #000000;
-  font-weight: bold;
-  height: 32px;
-  left: 189px;
-  overflow: hidden;
-  position: absolute;
+	bottom: 60px;
+	color: #000000;
+	font-weight: bold;
+	height: 32px;
+	left: 189px;
+	overflow: hidden;
+	position: absolute;
 }
+
 .newalumniLogin .notice span {
-  color: red;
+	color: red;
 }
 </style>
 </head>
@@ -163,29 +184,35 @@ function checkForm(){
 }
 </script>
 <body>
-<div class="newalumniLogin">
-  		<div class="header">
-        </div>
-        <div class="newmainBg">
-	  		<div class="newmainCnt">
-  				<form id="loginForm" action="<%=basePath%>login.action" method="post" onsubmit="return checkForm()">
-				<div class="newloginForm">
-					<input type="text" id="Token1" name="Token1" class="newloginInput filterIm" value="" autocomplete="off"/>
-					<input type="password" id="Token2" name="Token2" class="newloginInput loginPwd filterIm" value=""/>
-					<input type="text" id="Token3" name="Token3" class="newloginInput loginCode filterIm" value=""/>
-					<div id="userCheckCode" class="proofcode" title="看不清楚？可以点击此处换一张"></div>
-					<input type="submit" class="newloginIn" value=""/>
-					<input type="reset" class="newloginIn reset" value=""/>
-				</div>
+	<div class="newalumniLogin">
+		<div class="header"></div>
+		<div class="newmainBg">
+			<div class="newmainCnt">
+				<form id="loginForm" action="<%=basePath%>login.action"
+					method="post" onsubmit="return checkForm()">
+					<div class="newloginForm">
+						<input type="text" id="Token1" name="Token1"
+							class="newloginInput filterIm" value="" autocomplete="off" /> <input
+							type="password" id="Token2" name="Token2"
+							class="newloginInput loginPwd filterIm" value="" /> <input
+							type="text" id="Token3" name="Token3"
+							class="newloginInput loginCode filterIm" value="" />
+						<div id="userCheckCode" class="proofcode" title="看不清楚？可以点击此处换一张"></div>
+						<input type="submit" class="newloginIn" value="" /> <input
+							type="reset" class="newloginIn reset" value="" />
+					</div>
 				</form>
-	        </div>
-	        <div class="notice"><span id="noticeMsg"><c:out value="${alert}" default=""/></span></div>
-        </div>
-        <div class="newfooter">
-        	版权所有 © <my:titleTag/>
-        	&nbsp;&nbsp;&nbsp;&nbsp;
-        	建议使用Internet Explorer 6.0及以上版本浏览系统
-        </div>
-    </div>
+			</div>
+			<div class="notice">
+				<span id="noticeMsg"><c:out value="${alert}" default="" />
+				</span>
+			</div>
+		</div>
+		<div class="newfooter">
+			版权所有 ©
+			<my:titleTag />
+			&nbsp;&nbsp;&nbsp;&nbsp; 建议使用Internet Explorer 6.0及以上版本浏览系统
+		</div>
+	</div>
 </body>
 </html>

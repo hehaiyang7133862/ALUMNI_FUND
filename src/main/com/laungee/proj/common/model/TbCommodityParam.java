@@ -21,7 +21,8 @@ public class TbCommodityParam implements java.io.Serializable {
 	private String creationTime;
 	private Long updateUser;
 	private Date updateTime;
-	
+	private String paramPublish;
+
 	public TbCommodityParam() {
 		super();
 		// TODO Auto-generated constructor stub
@@ -131,6 +132,14 @@ public class TbCommodityParam implements java.io.Serializable {
 
 	public void setUpdateTime(Date updateTime) {
 		this.updateTime = updateTime;
+	}
+
+	public void setParamPublish(String paramPublish) {
+		this.paramPublish = paramPublish;
+	}
+
+	public String getParamPublish() {
+		return paramPublish;
 	}
 
 }

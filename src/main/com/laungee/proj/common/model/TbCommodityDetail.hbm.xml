@@ -60,5 +60,14 @@
         <property name="updateTime" type="java.util.Date">
             <column name="UPDATE_TIME" length="7" />
         </property>
+		<property name="detailCode" type="java.lang.String">
+			<column name="DETAIL_CODE" length="100" />
+		</property>
+		<property name="limitNum" type="java.lang.String">
+			<column name="LIMIT_NUM" length="1" />
+		</property>
+		<property name="unitName" type="java.lang.String">
+			<column name="UNIT_NAME" length="100" />
+		</property>
     </class>
 </hibernate-mapping>

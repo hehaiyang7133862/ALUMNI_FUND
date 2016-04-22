@@ -11,7 +11,7 @@
 		<%@ include file="../common/head.jsp"%>
 	</head>
 	<body>
-		<div class="lyt_submit" style="position:fixed;right:0px;bottom:0px;width:75px;height:25px;background:none;border:0px;overflow:hidden;">
+		<div class="lyt_submit" style="position:fixed;right:0px;bottom:0px;width:75px;height:35px;background:none;border:0px;overflow:hidden;">
 			<input type="button" value="标记" style="letter-spacing:0px;font-weight:bold;" onclick="parent.goMark('${bean.orderId}');" />
 		</div>
 		<div class="page">
@@ -30,7 +30,7 @@
 						商品名称
 					</td>
 					<td>
-						<c:out value="${beanj.commName}" />
+						<c:out value="${bean.commName}" />
 					</td>
 				</tr>
 				<tr>
@@ -43,18 +43,18 @@
 				</tr>
 				<tr>
 					<td class="lyt_view_note">
-						商品单价
+						成本价
 					</td>
 					<td>
-						<c:out value="${bean.commSalefee}" />
+						<fmt:formatNumber value='${bean.commCostfee}' pattern='0.##' type='number'/>&nbsp;&nbsp; 元
 					</td>
 				</tr>
 				<tr>
 					<td class="lyt_view_note">
-						商品单价
+						售价
 					</td>
 					<td>
-						<fmt:formatNumber value='${bean.commSalefee}' pattern='0.##' type='number'/>（成本：<fmt:formatNumber value='${bean.commCostfee}' pattern='0.##' type='number'/>）元
+						<fmt:formatNumber value='${bean.commSalefee}' pattern='0.##' type='number'/>&nbsp;&nbsp; 元
 					</td>
 				</tr>
 				<tr>
@@ -81,7 +81,7 @@
 						运费
 					</td>
 					<td>
-						<fmt:formatNumber value='${bean.shippingFee}' pattern='0.##' type='number'/>（实用：<fmt:formatNumber value='${bean.shippingCurfee}' pattern='0.##' type='number'/>）元
+						<fmt:formatNumber value='${bean.shippingFee}' pattern='0.##' type='number'/>&nbsp;&nbsp; 元
 					</td>
 				</tr>
 				<tr>
@@ -89,8 +89,7 @@
 						捐赠
 					</td>
 					<td>
-						
-						<fmt:formatNumber value='${bean.donationFee}' pattern='0.##' type='number'/> 元
+						<fmt:formatNumber value='${bean.donationFee}' pattern='0.##' type='number'/>&nbsp;&nbsp; 元
 					</td>
 				</tr>
 				<tr>
@@ -98,7 +97,7 @@
 						总金额
 					</td>
 					<td>
-						<fmt:formatNumber value='${bean.donationFee}' pattern='0.##' type='number'/> 元
+						<fmt:formatNumber value='${bean.orderFee}' pattern='0.##' type='number'/>&nbsp;&nbsp; 元
 					</td>
 				</tr>
 				<tr>
@@ -186,22 +185,6 @@
 					</td>
 					<td style="line-height:24px;">
 						<c:out value="${bean.orderMemo}" />
-					</td>
-				</tr>
-				<tr>
-					<td class="lyt_view_area">
-						买家评价
-					</td>
-					<td style="line-height:24px;">
-						<c:if test="${not empty bean.starNum}">
-						<p><c:out value="${bean.starNum}" /> 星</p>
-						</c:if>
-						<c:if test="${not empty bean.starMemo}">
-						<p><c:out value="${bean.starMemo}" /></p>
-						</c:if>
-						<c:if test="${not empty bean.starTime}">
-						<p><fmt:formatDate pattern='yyyy-MM-dd HH:mm' value='${bean.starTime}'/></p>
-						</c:if>
 					</td>
 				</tr>
 				<tr>

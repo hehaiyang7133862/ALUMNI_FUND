@@ -9,8 +9,20 @@
 <html>
 <head>
 <%@ include file="../common/head.jsp"%>
+<%@ include file="../common/calendar.jsp"%>
 </head>
 <script type="text/javascript">
+	$(document).ready(function(){
+		windowResizeFn.add(function(){
+				$('#resultDiv').width(document.body.clientWidth);
+				$('#resultDiv').height(document.body.clientHeight-120-$('.lyt_nav').height());
+				if($('.lyt_result').width()>$('#resultDiv').width()){
+					$('.lyt_result').css('width','1060px');
+				}else{
+					$('.lyt_result').css('width','100%');
+				}
+			});
+		});
 	function doSubmit(){
 		formFormat("formId");
 		return true;
@@ -84,16 +96,17 @@
 			</table>
 	
 		</form>
-		<table width="100%" border="0" cellspacing="0" class="lyt_result">
+		<div id="resultDiv" style="overflow:auto;">
+		<table class="lyt_result" style="width:1060px">
 			<tr>
-				<th width="40">序号</th>
-				<th>商品名称</th>
-				<th width="100">库存</th>
-				<th width="100">运费</th>
-				<th width="100">捐赠</th>
-				<th width="50">上架</th>
-				<th width="80">热门</th>
-				<th width="180">操作</th>
+				<th width="40px">序号</th>
+				<th width="400px">商品名称</th>
+				<th width="100px">库存</th>
+				<th width="100px">运费</th>
+				<th width="100px">捐赠</th>
+				<th width="40px">上架</th>
+				<th width="80px">热门</th>
+				<th width="200px">操作</th>
 			</tr>
 			<c:forEach items="${beanList }" var="bean" varStatus="status">
 				<tr>
@@ -103,15 +116,13 @@
 					<td>
 						<a onclick="goEdit('${bean.commId}');" href="javascript:;"><c:out value="${bean.commName }" /></a>
 					</td>
-					<td>
-						<c:choose>
-							<c:when test="${not empty bean and not empty bean.stockNum and bean.stockNum!=0 }">
-								有货（<c:out value="${bean.stockNum}"></c:out>）
-							</c:when>
-							<c:otherwise>
-								缺货
-							</c:otherwise>
-						</c:choose>
+					<td><c:choose>
+							<c:when test="${not empty bean and not empty bean.limitNum and bean.limitNum == 1 }"><c:choose>
+								<c:when test="${not empty bean and not empty bean.stockNum and bean.stockNum >= 1 }">有货（<c:out value="${bean.stockNum }" />）</c:when>
+								<c:otherwise>缺货</c:otherwise>
+							</c:choose></c:when>
+								<c:otherwise>不限量</c:otherwise>
+								</c:choose>
 					</td>
 					<td>
 						<c:choose>
@@ -152,6 +163,7 @@
 				</tr>
 			</c:forEach>
 		</table>
+		</div>
 		<my:page action="commodity!list.action"></my:page>	
 	</div>
 </body>

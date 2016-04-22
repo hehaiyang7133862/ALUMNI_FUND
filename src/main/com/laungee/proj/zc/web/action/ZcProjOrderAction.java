@@ -199,6 +199,7 @@ public class ZcProjOrderAction extends BaseAction {
 		}
 		// 查询合计条数
 		Long orderCount = (Long)this.getCommonBo().getHQLUnique("select count(*) "+hql, pars);
+		
 		request.setAttribute("orderCount", orderCount);
 		// 查询合计已付款条数
 		Long orderOkCount = (Long)this.getCommonBo().getHQLUnique("select count(*) "+hql+" and a.orderStatus = '1'", pars);
@@ -443,6 +444,7 @@ public class ZcProjOrderAction extends BaseAction {
 				hql += " and a.orderTime >= ?";
 				pars.add(orderTimeBegD);
 			}
+			
 			// 提交截止时间
 			Date orderTimeEndD = null;
 			String orderTimeEnd = request.getParameter("orderTimeEnd");

@@ -175,180 +175,178 @@ function checkForm(form){
 </script>
 </head>
 <body>
-<%@ include file="../common/navigation.jsp"%>
-<c:if test="${not empty bean.commId}">
-<%@ include file="commodityHead.jsp"%>
-</c:if>
+	<%@ include file="../common/navigation.jsp"%>
+	<c:if test="${not empty bean.commId}">
+		<%@ include file="commodityHead.jsp"%>
+	</c:if>
 	<div class="float">
 		<form id="formId" action="<%=basePath%>commodity!saveOrUpdate.action"
-			method="post" onSubmit="return checkForm(this)" enctype="multipart/form-data">
-			<input name="commId" type="hidden" value="<c:out value='${bean.commId}' />" />
+			method="post" onSubmit="return checkForm(this)"
+			enctype="multipart/form-data">
+			<input name="commId" type="hidden"
+				value="<c:out value='${bean.commId}' />" />
 			<table border="0" cellspacing="0" cellpadding="0" class="lyt_view">
 				<tr>
-					<td class="lyt_view_note" style="width:80px;">
-						商品名称
-						<span>*</span>
+					<td class="lyt_view_note" style="width:80px;">商品名称 <span>*</span>
 					</td>
-					<td width="400">
-						<input style="width:400px" type="text" name="commName" id="commName" value="<c:out value='${bean.commName}'/>" maxlength="100" />
+					<td width="400"><input style="width:400px" type="text"
+						name="commName" id="commName"
+						value="<c:out value='${bean.commName}'/>" maxlength="100" /></td>
+					<td class="lyt_view_note" style="width:80px;">所属分类 <span>*</span>
 					</td>
-					<td class="lyt_view_note" style="width:80px;">
-						所属分类
-						<span>*</span>
-					</td>
-					<td width="240">
-						<select id="commType" name="commType" style="width:234px">
+					<td width="240"><select id="commType" name="commType"
+						style="width:234px">
 							<option value="">--请选择--</option>
 							<c:forEach items="${ctList}" var="temp" varStatus="status">
-								<option value="${temp.typeId}" <c:if test="${bean.commType==temp.typeId}">selected="selected"</c:if>>${temp.typeName}</option>
+								<option value="${temp.typeId}"
+									<c:if test="${bean.commType==temp.typeId}">selected="selected"</c:if>>${temp.typeName}</option>
 							</c:forEach>
-						</select>
-					</td>
+					</select></td>
 				</tr>
 				<c:if test="${empty bean.commId}">
-				<tr>
-					<td class="lyt_view_note" style="width:80px;">
-						商品图片
-						<span>*</span>
-					</td>
-					<td colspan="3">
-						<input style="width:400px" type="file" id="detailPic" name="detailPic"/>
-					</td>
-				</tr>
-				<tr>
-					<td class="lyt_view_note">
-						库存
-						<span>*</span>
-					</td>
-					<td colspan="3">
-						<input style="width:120px;" type="text" id="stockNum" name="stockNum" value="<fmt:formatNumber value='${stockNum}' pattern='0' type='number'/>"/>
-					</td>
-				</tr>
-				<tr>
-					<td class="lyt_view_note">
-						成本价
-						<span>*</span>
-					</td>
-					<td colspan="3">
-						<input style="width:120px;" type="text" id="costFee" name="costFee" value="<fmt:formatNumber value='${costFee}' pattern='0.##' type='number'/>"/>
-						元
-					</td>
-				</tr>
-				<tr>
-					<td class="lyt_view_note">
-						售价
-						<span>*</span>
-					</td>
-					<td colspan="3">
-						<input style="width:120px;" type="text" id="saleFee" name="saleFee" value="<fmt:formatNumber value='${saleFee}' pattern='0.##' type='number'/>"/>
-						元
-					</td>
-				</tr>
+					<tr>
+						<td class="lyt_view_note" style="width:80px;">商品图片 <span>*</span>
+						</td>
+						<td colspan="3"><input style="width:400px" type="file"
+							id="detailPic" name="detailPic" /></td>
+					</tr>
+					<tr>
+						<td class="lyt_view_note">库存 <span>*</span></td>
+						<td colspan="3"><input style="width:120px;" type="text"
+							id="stockNum" name="stockNum"
+							value="<fmt:formatNumber value='${stockNum}' pattern='0' type='number'/>" />
+						</td>
+					</tr>
+					<tr>
+						<td class="lyt_view_note">成本价 <span>*</span></td>
+						<td colspan="3"><input style="width:120px;" type="text"
+							id="costFee" name="costFee"
+							value="<fmt:formatNumber value='${costFee}' pattern='0.##' type='number'/>" />
+							元</td>
+					</tr>
+					<tr>
+						<td class="lyt_view_note">售价 <span>*</span></td>
+						<td colspan="3"><input style="width:120px;" type="text"
+							id="saleFee" name="saleFee"
+							value="<fmt:formatNumber value='${saleFee}' pattern='0.##' type='number'/>" />
+							元</td>
+					</tr>
 				</c:if>
 				<tr>
 					<td class="lyt_view_area">商品简介</td>
-					<td colspan="3">
-						<textarea style="width:740px;height:60px;" name="commIntro" id="commIntro" onclick="myArea('commIntro',1000);" onkeyup="myArea('commIntro',1000);" onkeydown="myArea('commIntro',1000);" onchange="myArea('commIntro',1000);"><c:out value='${bean.commIntro}'/></textarea>
-					</td>
+					<td colspan="3"><textarea style="width:740px;height:60px;"
+							name="commIntro" id="commIntro"
+							onclick="myArea('commIntro',1000);"
+							onkeyup="myArea('commIntro',1000);"
+							onkeydown="myArea('commIntro',1000);"
+							onchange="myArea('commIntro',1000);">
+							<c:out value='${bean.commIntro}' />
+						</textarea></td>
 				</tr>
 				<tr>
 					<td class="lyt_view_area">商品详情</td>
-					<td colspan="3">
-						<textarea style="width:740px;height:200px;visibility:hidden;" name="commDetail" id="commDetail"><c:out value='${bean.commDetail}'/></textarea>
-					</td>
+					<td colspan="3"><textarea
+							style="width:740px;height:200px;visibility:hidden;"
+							name="commDetail" id="commDetail">
+							<c:out value='${bean.commDetail}' />
+						</textarea></td>
 				</tr>
 				<tr>
-					<td class="lyt_view_note" style="width:80px;">
-						是否上架
-						<span>*</span>
+					<td class="lyt_view_note" style="width:80px;">是否上架 <span>*</span>
 					</td>
-					<td colspan="3">
-						<select id="isShelves" name="isShelves" style="width:256px;">
+					<td colspan="3"><select id="isShelves" name="isShelves"
+						style="width:256px;">
 							<option value="">--请选择--</option>
-							<option value="1" <c:if test="${bean.isShelves==1}">selected</c:if>>是</option>
-							<option <c:if test="${bean.isShelves==0}">selected</c:if> value="0">否</option>
-						</select>
-					</td>
+							<option value="1"
+								<c:if test="${bean.isShelves==1}">selected</c:if>>是</option>
+							<option <c:if test="${bean.isShelves==0}">selected</c:if>
+								value="0">否</option>
+					</select></td>
 				</tr>
 				<tr>
-					<td class="lyt_view_note">
-						是否热门
-						<span>*</span>
-					</td>
-					<td colspan="3">
-						<select id="isHot" name="isHot" style="width:100px;" onchange="changeHot();">
+					<td class="lyt_view_note">是否热门 <span>*</span></td>
+					<td colspan="3"><select id="isHot" name="isHot"
+						style="width:100px;" onchange="changeHot();">
 							<option value="">--请选择--</option>
 							<option value="1" <c:if test="${bean.isHot==1}">selected</c:if>>是</option>
 							<option <c:if test="${bean.isHot==0}">selected</c:if> value="0">否</option>
-						</select>
-						&nbsp;排序
-						<input style="width:120px;" type="text" name="hotOrder" id="hotOrder" value="<c:out value='${bean.hotOrder}'/>"<c:if test="${bean.isHot=='0'}">readonly="readonly"</c:if> maxlength="50" />
-					</td>
+					</select> &nbsp;排序 <input style="width:120px;" type="text" name="hotOrder"
+						id="hotOrder" value="<c:out value='${bean.hotOrder}'/>"
+						<c:if test="${bean.isHot=='0'}">readonly="readonly"</c:if>
+						maxlength="50" /></td>
 				</tr>
 				<tr>
-					<td class="lyt_view_note">
-						需付运费
-						<span>*</span>
-					</td>
-					<td colspan="3">
-						<select id="isShipping" name="isShipping" style="width:100px;" onchange="changeShip();">
+					<td class="lyt_view_note">需付运费 <span>*</span></td>
+					<td colspan="3"><select id="isShipping" name="isShipping"
+						style="width:100px;" onchange="changeShip();">
 							<option value="">--请选择--</option>
-							<option value="1" <c:if test="${bean.isShipping=='1'}">selected</c:if>>是</option>
-							<option value="0" <c:if test="${bean.isShipping=='0'}">selected</c:if>>否</option>
-						</select>
-						&nbsp;运费
-						<input style="width:120px;" type="text" name="shippingFee" id="shippingFee" value="<fmt:formatNumber value='${bean.shippingFee}' pattern='0.##' type='number'/>" <c:if test="${bean.isShipping=='0'}">readonly="readonly"</c:if> maxlength="100" />
-						元
-					</td>
+							<option value="1"
+								<c:if test="${bean.isShipping=='1'}">selected</c:if>>是</option>
+							<option value="0"
+								<c:if test="${bean.isShipping=='0'}">selected</c:if>>否</option>
+					</select> &nbsp;运费 <input style="width:120px;" type="text"
+						name="shippingFee" id="shippingFee"
+						value="<fmt:formatNumber value='${bean.shippingFee}' pattern='0.##' type='number'/>"
+						<c:if test="${bean.isShipping=='0'}">readonly="readonly"</c:if>
+						maxlength="100" /> 元</td>
 				</tr>
 				<tr>
 					<td class="lyt_view_area">运费说明</td>
-					<td colspan="3">
-						<textarea style="width:740px;height:50px;" name="shippingMemo" id="shippingMemo" onclick="myArea('shippingMemo',1000);" onkeyup="myArea('shippingMemo',1000);" onkeydown="myArea('shippingMemo',1000);" onchange="myArea('shippingMemo',1000);"><c:out value='${bean.shippingMemo }'/></textarea>
-					</td>
+					<td colspan="3"><textarea style="width:740px;height:50px;"
+							name="shippingMemo" id="shippingMemo"
+							onclick="myArea('shippingMemo',1000);"
+							onkeyup="myArea('shippingMemo',1000);"
+							onkeydown="myArea('shippingMemo',1000);"
+							onchange="myArea('shippingMemo',1000);">
+							<c:out value='${bean.shippingMemo }' />
+						</textarea></td>
 				</tr>
 				<tr>
-					<td class="lyt_view_note">
-						自动捐赠
-						<span>*</span>
-					</td>
-					<td colspan="3">
-						<select id="isDonation" name="isDonation" style="width:100px;" onchange="changeDonation();">
+					<td class="lyt_view_note">自动捐赠 <span>*</span></td>
+					<td colspan="3"><select id="isDonation" name="isDonation"
+						style="width:100px;" onchange="changeDonation();">
 							<option value="">--请选择--</option>
-							<option value="1" <c:if test="${bean.isDonation=='1'}">selected</c:if>>是</option>
-							<option value="0" <c:if test="${bean.isDonation=='0'}">selected</c:if>>否</option>
-						</select>
-						&nbsp;捐赠
-						<input style="width:120px;" type="text" name="donationFee" id="donationFee" value="<fmt:formatNumber value='${bean.donationFee}' pattern='0.##' type='number'/>" <c:if test="${bean.isDonation=='0'}">readonly="readonly"</c:if> maxlength="100" />
-						元
-					</td>
+							<option value="1"
+								<c:if test="${bean.isDonation=='1'}">selected</c:if>>是</option>
+							<option value="0"
+								<c:if test="${bean.isDonation=='0'}">selected</c:if>>否</option>
+					</select> &nbsp;捐赠 <input style="width:120px;" type="text"
+						name="donationFee" id="donationFee"
+						value="<fmt:formatNumber value='${bean.donationFee}' pattern='0.##' type='number'/>"
+						<c:if test="${bean.isDonation=='0'}">readonly="readonly"</c:if>
+						maxlength="100" /> 元</td>
 				</tr>
 				<tr>
 					<td class="lyt_view_area">捐赠说明</td>
-					<td colspan="3">
-						<textarea style="width:740px;height:50px;" name="donationMemo" id="donationMemo" onclick="myArea('donationMemo',1000);" onkeyup="myArea('donationMemo',1000);" onkeydown="myArea('donationMemo',1000);" onchange="myArea('donationMemo',1000);"><c:out value='${bean.donationMemo }'/></textarea>
-					</td>
+					<td colspan="3"><textarea style="width:740px;height:50px;"
+							name="donationMemo" id="donationMemo"
+							onclick="myArea('donationMemo',1000);"
+							onkeyup="myArea('donationMemo',1000);"
+							onkeydown="myArea('donationMemo',1000);"
+							onchange="myArea('donationMemo',1000);">
+							<c:out value='${bean.donationMemo }' />
+						</textarea></td>
 				</tr>
 				<tr>
 					<td class="lyt_view_area">备注说明</td>
-					<td colspan="3">
-						<textarea style="width:740px;height:60px;" id="memo" name="memo" onclick="myArea('memo',1000);" onkeyup="myArea('memo',1000);" onkeydown="myArea('memo',1000);" onchange="myArea('memo',1000);"><c:out value='${bean.memo }'/></textarea>
-					</td>
+					<td colspan="3"><textarea style="width:740px;height:60px;"
+							id="memo" name="memo" onclick="myArea('memo',1000);"
+							onkeyup="myArea('memo',1000);" onkeydown="myArea('memo',1000);"
+							onchange="myArea('memo',1000);">
+							<c:out value='${bean.memo }' />
+						</textarea></td>
 				</tr>
 				<tr>
-					<td class="lyt_view_area" style="width:80px;">
-						附件
-					</td>
-					<td colspan="3">
-						<input id="relIds" name="relIds" type="hidden" value="" />
-						<iframe class="frm_file" marginheight="0" frameborder="0" src="<%=basePath %>fileList.action?name=TbCommodity&ele=relIds&id=${bean.commId}">
-						</iframe>
-					</td>
+					<td class="lyt_view_area" style="width:80px;">附件</td>
+					<td colspan="3"><input id="relIds" name="relIds" type="hidden"
+						value="" /> <iframe class="frm_file" marginheight="0"
+							frameborder="0"
+							src="<%=basePath %>fileList.action?name=TbCommodity&ele=relIds&id=${bean.commId}">
+						</iframe></td>
 				</tr>
 			</table>
 			<div class="lyt_submit" style="width: 830px; text-align: right;">
-				<input type="submit" value="提交" />
-				<input type="reset" value="重置" />
+				<input type="submit" value="提交" /> <input type="reset" value="重置" />
 			</div>
 		</form>
 	</div>

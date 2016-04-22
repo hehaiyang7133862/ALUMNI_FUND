@@ -33,7 +33,10 @@ public class TbCommodityDetail implements java.io.Serializable {
 	private String creationTime;
 	private Long updateUser;
 	private Date updateTime;
-	
+	private String detailCode;
+	private String limitNum;
+	private String unitName;
+
 	public TbCommodityDetail() {
 		super();
 		// TODO Auto-generated constructor stub
@@ -171,7 +174,28 @@ public class TbCommodityDetail implements java.io.Serializable {
 	public void setUpdateTime(Date updateTime) {
 		this.updateTime = updateTime;
 	}
-	
 
+	public void setDetailCode(String detailCode) {
+		this.detailCode = detailCode;
+	}
 
+	public String getDetailCode() {
+		return detailCode;
+	}
+
+	public void setLimitNum(String limitNum) {
+		this.limitNum = limitNum;
+	}
+
+	public String getLimitNum() {
+		return limitNum;
+	}
+
+	public void setUnitName(String unitName) {
+		this.unitName = unitName;
+	}
+
+	public String getUnitName() {
+		return unitName;
+	}
 }
