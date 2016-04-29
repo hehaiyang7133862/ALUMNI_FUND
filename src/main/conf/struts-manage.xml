@@ -130,6 +130,9 @@
     	<action name="fileList" class="fileListAction">
     		<result name="success">/common/fileFrame.jsp</result>
     	</action>
+    	<action name="fileListReadOnly" class="fileListAction" method="ReadOnly">
+    		<result name="success">/common/fileFrameReadOnly.jsp</result>
+    	</action>
     	<action name="fileLoad" class="fileLoadAction">
     		<result name="success" type="redirect">/fileList.action?tab=${#request.tab}&amp;id=${#request.id}&amp;fd=${#request.fd}</result>
     	</action>

@@ -4,7 +4,8 @@
     "http://struts.apache.org/dtds/struts-2.3.dtd">
 <struts>
 	<package name="com.laungee.proj.commodity.web.action" extends="colavia">
-
+		<!-- 获取项目详情 -->
+		<action name="getCommDetail" class="commodityAction" method="ajaxGetDetailPage"></action>
 		<!-- 商品分类 -->
 		<action name="commodityType" class="commodityTypeAction">
 			<result name="list">/commodity/commodityTypeJson.jsp</result>
@@ -36,6 +37,20 @@
 			<result name="operationOrder">/commodity/commodityOrderAdd.jsp</result>
 			<result name="orderView">/commodity/commodityOrderView.jsp</result>
 			<result name="orderMark">/commodity/commodityOrderMark.jsp</result>
+		</action>
+		
+		<action name="commodityReadOnly" class="commodityAction">
+			<result name="list">/commodity/commodityListReadOnly.jsp</result>
+			<result name="input">/commodity/commodityIndexReadOnly.jsp</result>
+			<result name="operation">/commodity/NewPrdPageReadOnly.jsp</result>
+			<result name="pic">/commodity/commodityPicReadOnly.jsp</result>
+			<result name="param">/commodity/commodityParamReadOnly.jsp</result>
+			<result name="detail">/commodity/commodityDetailReadOnly.jsp</result>
+			<result name="operationPic">/commodity/commodityPicAddReadOnly.jsp</result>
+			<result name="operationParam">/commodity/commodityParamAddReadOnly.jsp</result>
+			<result name="operationDetail">/commodity/commodityDetailAddReadOnly.jsp</result>
+			<result name="orderList">/commodity/commodityOrderReadOnly.jsp</result>
+			<result name="orderView">/commodity/commodityOrderViewReadOnly.jsp</result>
 		</action>
 		
 		<!-- 保存商品信息 -->

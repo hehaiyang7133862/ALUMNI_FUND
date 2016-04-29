@@ -4,6 +4,10 @@
     "http://struts.apache.org/dtds/struts-2.3.dtd">  
 <struts>
 	<package name="zc" extends="colavia">
+		<!-- 获取项目详情 -->
+		<action name="getZcProjDetail" class="zcProjAction" method="ajaxGetDetailPage"></action>
+		<!-- 获取进展详情 -->
+		<action name="getGressContent" class="zcProjAction" method="ajaxGetGressContent"></action>
 		<!-- 众筹项目分类管理 -->
     	<action name="zcProjType" class="zcProjTypeAction">
     		<result name="list">/zc/typeJson.jsp</result>
@@ -17,6 +21,10 @@
     		<result name="index">/zc/projTypeIndex.jsp</result>
     		<result name="json">/zc/projTypeJson.jsp</result>
     		<result name="list">/zc/projList.jsp</result>
+    	</action>
+    	<action name="zcProjReadOnly" class="zcProjAction">
+    		<result name="index">/zc/projTypeIndexReadOnly.jsp</result>
+    		<result name="list">/zc/projListReadOnly.jsp</result>
     	</action>
     	<!-- 众筹项目新增、编辑 -->
     	<action name="zcProjEdit" class="zcProjEditAction">
@@ -34,6 +42,17 @@
     		<result name="orderMark">/zc/projOrderMark.jsp</result>
     		<result name="winSuccess">/common/success.jsp</result>
     		<result name="import">/zc/projOrderImport.jsp</result>
+    	</action>
+    	<action name="zcProjEditReadOnly" class="zcProjEditAction">
+    		<result name="input">/zc/projEditReadOnly.jsp</result>
+    		<result name="picList">/zc/projPicListReadOnly.jsp</result>
+    		<result name="picEdit">/zc/projPicEditReadOnly.jsp</result>
+    		<result name="optionList">/zc/projOptionListReadOnly.jsp</result>
+    		<result name="optionEdit">/zc/projOptionEditReadOnly.jsp</result>
+    		<result name="gressList">/zc/projGressListReadOnly.jsp</result>
+    		<result name="gressEdit">/zc/projGressEditReadOnly.jsp</result>
+    		<result name="orderList">/zc/projOrderListReadOnly.jsp</result>
+    		<result name="orderView">/zc/projOrderViewReadOnly.jsp</result>
     	</action>
     	<!-- 众筹项目捐赠管理 -->
     	<action name="zcProjOrder" class="zcProjOrderAction">

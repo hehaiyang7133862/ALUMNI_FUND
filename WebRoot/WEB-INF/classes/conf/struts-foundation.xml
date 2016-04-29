@@ -46,6 +46,20 @@
     		<result name="operationParam">/foundation/protocolParamAdd.jsp</result>
     		<result name="reload">/common/floatSuccess.jsp</result>
 		</action>
+		<action name="getFoundationMemo" class="foundationAction" method="ajaxGetFoundationMemo"></action>
+		<action name="getProtocolContent" class="foundationAction" method="ajaxGetProtocolContent"></action>
+		<action name="foundReadOnly" class="foundationAction">
+    		<result name="typeIndex">/foundation/foundationTypeIndexReadOnly.jsp</result>
+			<result name="success">/foundation/foundationListReadOnly.jsp</result>
+			<result name="docList">/foundation/docListReadOnly.jsp</result>
+			<result name="payPage">/foundation/payListReadOnly.jsp</result>
+			<result name="proPayAddEditPage">/foundation/payAddReadOnly.jsp</result>
+			<result name="proclPage">/foundation/proListReadOnly.jsp</result>
+			<result name="proAddPage">/foundation/proAddReadOnly.jsp</result>
+			<result name="addPage">/foundation/foundationAddReadOnly.jsp</result>
+			<result name="proDetailPage">/foundation/proDetailListReadOnly.jsp</result>
+			<result name="proDetailAddEditPage">/foundation/proDetailAddReadOnly.jsp</result>
+    	</action>
 		
 		<!-- 捐赠对象管理 -->
 		<action name="donate" class="foundationObjectAction">

@@ -207,8 +207,8 @@ function checkForm(form){
 					<tr>
 						<td class="lyt_view_note" style="width:80px;">商品图片 <span>*</span>
 						</td>
-						<td colspan="3"><input style="width:400px" type="file"
-							id="detailPic" name="detailPic" /></td>
+						<td colspan="3">
+							<input style="width:400px" type="file" id="detailPic" name="detailPic" /></td>
 					</tr>
 					<tr>
 						<td class="lyt_view_note">库存 <span>*</span></td>

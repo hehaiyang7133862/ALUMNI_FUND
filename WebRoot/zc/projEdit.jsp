@@ -913,8 +913,8 @@
 						附件
 					</td>
 					<td>
-						<input id="relIds" name="relIds" type="hidden" value="" />
-						<iframe class="frm_file" marginheight="0" frameborder="0" src="<%=basePath %>fileList.action?name=TbZcproj&ele=relIds&id=${bean.projId}">
+						<input id="updateId" name="relIds" type="hidden" value="" />
+						<iframe class="frm_file" marginheight="0" frameborder="0" src="<%=basePath %>fileList.action?name=TbZcproj&ele=updateId&id=${bean.projId}">
 						</iframe>
 					</td>
 				</tr>

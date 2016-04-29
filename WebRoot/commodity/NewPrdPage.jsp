@@ -1057,12 +1057,14 @@
 					</td>
 				</tr>
 				<tr>
-					<td class="lyt_view_area" style="width:80px;">附件</td>
-					<td colspan="3"><input id="relIds" name="relIds" type="hidden"
-						value="" /> <iframe class="frm_file" marginheight="0"
-							frameborder="0"
-							src="<%=basePath %>fileList.action?name=TbCommodity&ele=relIds&id=${bean.commId}">
-						</iframe></td>
+					<td class="lyt_view_area">
+						附件
+					</td>
+					<td colspan="5">
+						<input id="updateId" name="relIds" type="hidden" value="" />
+						<iframe class="frm_file" marginheight="0" frameborder="0" src="<%=basePath %>fileList.action?name=TbCommodity&ele=updateId&id=${bean.commId}">
+						</iframe>
+					</td>
 				</tr>
 			</table>
 

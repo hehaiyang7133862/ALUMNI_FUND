@@ -18,6 +18,7 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 import org.apache.commons.fileupload.FileItem;
+import org.apache.commons.lang3.StringUtils;
 import org.apache.struts2.ServletActionContext;
 
 import com.laungee.proj.common.core.BaseAction;
@@ -152,23 +153,6 @@ public class CommodityAction extends BaseAction {
 				getCommType(list, bean.getTypeId(), type);
 			}
 		}
-	}
-
-	/**
-	 * 向客户端发出文本内容
-	 * 
-	 * @param <HttpServletResponse>response 响应对象
-	 * @param <String>responseText 输出文本
-	 * @return void
-	 */
-	public void sendResponse(HttpServletResponse response, String responseText)
-			throws Exception {
-		response.setCharacterEncoding("utf-8");
-		response.setContentType("text/xml");
-		response.setHeader("Pragma", "No-Cache");
-		response.setHeader("Cache-Control", "No-Cache");
-		response.setDateHeader("Expires", 0L);
-		response.getWriter().println(responseText);
 	}
 
 	public String shelves() throws Exception {
@@ -528,12 +512,16 @@ public class CommodityAction extends BaseAction {
 		String[] typeNames = multiRequest.getParameterValues("typeName");
 		String[] typeCostFees = multiRequest.getParameterValues("typeCostFee");
 		String[] typeSaleFees = multiRequest.getParameterValues("typeSaleFee");
-		String[] typeUnitNames = multiRequest.getParameterValues("typeUnitName");
-		String[] typeIsLimitNums = multiRequest.getParameterValues("typeIsLimitNum");
-		String[] typeStockNums = multiRequest.getParameterValues("typeStockNum");
+		String[] typeUnitNames = multiRequest
+				.getParameterValues("typeUnitName");
+		String[] typeIsLimitNums = multiRequest
+				.getParameterValues("typeIsLimitNum");
+		String[] typeStockNums = multiRequest
+				.getParameterValues("typeStockNum");
 
 		if (typeNames != null && typeCostFees != null && typeSaleFees != null
-				&& typeUnitNames != null && typeIsLimitNums != null && typeStockNums != null
+				&& typeUnitNames != null && typeIsLimitNums != null
+				&& typeStockNums != null
 				&& typeNames.length == typeCostFees.length
 				&& typeCostFees.length == typeSaleFees.length
 				&& typeSaleFees.length == typeUnitNames.length
@@ -541,33 +529,34 @@ public class CommodityAction extends BaseAction {
 				&& typeIsLimitNums.length == typeStockNums.length
 				&& typeNames.length > 0) {
 			for (int i = 0; i < typeNames.length; i++) {
-				try{
+				try {
 					TbCommodityDetail beanDetail = new TbCommodityDetail();
-						beanDetail.setCommId(bean.getCommId());
-						beanDetail.setIsDelete("0");
-						beanDetail.setNumOrder(String.valueOf(i + 1));
-						beanDetail.setDetailCode("00" + String.valueOf(i + 1));
-						beanDetail.setDetailName(typeNames[i]);
-						if (typeCostFees[i] != null && !"".equals(typeCostFees[i])) {
-							beanDetail.setCostFee(new BigDecimal(typeCostFees[i]).setScale(2, 4));
-						}
-						if (typeSaleFees[i] != null&& !"".equals(typeSaleFees[i])) {
-							beanDetail.setSaleFee(new BigDecimal(typeSaleFees[i]).setScale(2, 4));
-						}
-						beanDetail.setUnitName(typeUnitNames[i]);
-						beanDetail.setLimitNum(typeIsLimitNums[i]);
-						if (typeStockNums[i] != null&& !"".equals(typeStockNums[i])) {
-							beanDetail.setStockNum(new Long(typeStockNums[i]));
-						}
-						beanDetail.setIsShelves("1");
-						this.getCommonBo().save(beanDetail);
+					beanDetail.setCommId(bean.getCommId());
+					beanDetail.setIsDelete("0");
+					beanDetail.setNumOrder(String.valueOf(i + 1));
+					beanDetail.setDetailCode("00" + String.valueOf(i + 1));
+					beanDetail.setDetailName(typeNames[i]);
+					if (typeCostFees[i] != null && !"".equals(typeCostFees[i])) {
+						beanDetail.setCostFee(new BigDecimal(typeCostFees[i])
+								.setScale(2, 4));
 					}
-				catch (Exception e) {
+					if (typeSaleFees[i] != null && !"".equals(typeSaleFees[i])) {
+						beanDetail.setSaleFee(new BigDecimal(typeSaleFees[i])
+								.setScale(2, 4));
+					}
+					beanDetail.setUnitName(typeUnitNames[i]);
+					beanDetail.setLimitNum(typeIsLimitNums[i]);
+					if (typeStockNums[i] != null
+							&& !"".equals(typeStockNums[i])) {
+						beanDetail.setStockNum(new Long(typeStockNums[i]));
+					}
+					beanDetail.setIsShelves("1");
+					this.getCommonBo().save(beanDetail);
+				} catch (Exception e) {
 					e.printStackTrace();
 				}
 			}
 		}
-				
 
 		// 商品详情
 		String[] detailTitles = multiRequest.getParameterValues("detailTitle");
@@ -1043,15 +1032,20 @@ public class CommodityAction extends BaseAction {
 				}
 
 				// 查询合计条数
-				Long orderCount = (Long) this.getCommonBo().getHQLUnique("select count(*) " + hql, pars);
+				Long orderCount = (Long) this.getCommonBo().getHQLUnique(
+						"select count(*) " + hql, pars);
 				request.setAttribute("orderCount", orderCount);
 
 				// 查询合计已付款条数
-				Long orderOkCount = (Long) this.getCommonBo().getHQLUnique("select count(*) " + hql + " and a.orderStatus = '1'",pars);
+				Long orderOkCount = (Long) this.getCommonBo().getHQLUnique(
+						"select count(*) " + hql + " and a.orderStatus = '1'",
+						pars);
 				request.setAttribute("orderOkCount", orderOkCount);
 				// 查询合计已付款总金额
-				BigDecimal orderOkAmount = (BigDecimal) this.getCommonBo().getHQLUnique(
-								"select sum(a.orderFee) " + hql + " and a.orderStatus = '1'", pars);
+				BigDecimal orderOkAmount = (BigDecimal) this.getCommonBo()
+						.getHQLUnique(
+								"select sum(a.orderFee) " + hql
+										+ " and a.orderStatus = '1'", pars);
 				request.setAttribute("orderOkAmount", orderOkAmount);
 
 				hql += " order by a.orderTime desc";
@@ -1390,7 +1384,7 @@ public class CommodityAction extends BaseAction {
 				String hqlCount = "select count(*) from TbCommodityDetail a where a.commId="
 						+ commIdL;
 				int count = this.getCommonBo().getHQLNum(hqlCount);
-				bean.setDetailCode("00"+ (count + 1));
+				bean.setDetailCode("00" + (count + 1));
 			}
 			bean.setIsShelves("0");
 			bean.setIsDelete("0");
@@ -1750,6 +1744,60 @@ public class CommodityAction extends BaseAction {
 		System.out.println(ajax);
 		this.sendResponse(this.getResponse(), ajax);
 		// 返回
+		return null;
+	}
+	
+	public String ajaxGetDetailPage() throws Exception {
+		HttpServletRequest request = this.getRequest();
+		TbCommodity beanComm = null;
+
+		String commId = request.getParameter("commId");
+		String index = request.getParameter("index");
+		if (null != commId && !"".equals(commId)) {
+			try {
+				beanComm = (TbCommodity) this.getCommonBo().get(
+						TbCommodity.class, new Long(commId));
+			} catch (Exception e) {
+				// TODO: handle exception
+			}
+		}
+		String detail = "";
+		if ((null != beanComm) && null != index && !"".equals(index)
+				&& StringUtils.isNumeric(index)) {
+			switch (Integer.parseInt(index)) {
+			case 2:
+				detail = beanComm.getDetailContent2();
+				break;
+			case 3:
+				detail = beanComm.getDetailContent3();
+				break;
+			case 4:
+				detail = beanComm.getDetailContent4();
+				break;
+			case 5:
+				detail = beanComm.getDetailContent5();
+				break;
+			case 6:
+				detail = beanComm.getDetailContent6();
+				break;
+			case 7:
+				detail = beanComm.getDetailContent7();
+				break;
+			case 8:
+				detail = beanComm.getDetailContent8();
+				break;
+			case 9:
+				detail = beanComm.getDetailContent9();
+				break;
+			case 10:
+				detail = beanComm.getDetailContent10();
+				break;
+			default:
+				detail = beanComm.getDetailContent1();
+				break;
+			}
+		}
+		this.sendResponse(this.getResponse(), detail);
 		return null;
 	}
 }
