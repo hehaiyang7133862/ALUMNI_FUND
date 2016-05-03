@@ -132,13 +132,13 @@
 				<tr>
 					<th width="40">序号</th>
 					<th width="70">
-						<my:order action="found!procl.action" title="协议编号" name="a.proCode" />
+						<my:order action="foundReadOnly!procl.action" title="协议编号" name="a.proCode" />
 					</th>
 					<th>
-						<my:order action="found!procl.action" title="协议名称" name="a.proName" />
+						<my:order action="foundReadOnly!procl.action" title="协议名称" name="a.proName" />
 					</th>
 					<th width="105">
-						<my:order action="found!procl.action" title="协议金额（元）" name="a.proAmount" />
+						<my:order action="foundReadOnly!procl.action" title="协议金额（元）" name="a.proAmount" />
 					</th>
 					<!-- <th>实际到账（元）</th> -->
 					<th width="100">捐赠方</th>
@@ -147,10 +147,10 @@
 					<th width="55">捐赠来源</th>
 					<th width="70">捐赠方性质</th>
 					<th width="70">
-						<my:order action="found!procl.action" title="签订日期" name="a.dealDate" />
+						<my:order action="foundReadOnly!procl.action" title="签订日期" name="a.dealDate" />
 					</th>
 					<th width="70">
-						<my:order action="found!procl.action" title="执行日期" name="a.startTime" />
+						<my:order action="foundReadOnly!procl.action" title="执行日期" name="a.startTime" />
 					</th>
 					<th width="60">协议状态</th>
 					<th width="80">操作</th>

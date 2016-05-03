@@ -37,17 +37,17 @@
 					<tr>
 						<th width="40">序号</th>
 						<th width="80">
-							<my:order action="found!proDetailList.action" title="承诺日期" name="a.dealDate" />
+							<my:order action="foundReadOnly!proDetailList.action" title="承诺日期" name="a.dealDate" />
 						</th>
 						<th>
-							<my:order action="found!proDetailList.action" title="承诺金额（元）" name="a.dealAmount" />
+							<my:order action="foundReadOnly!proDetailList.action" title="承诺金额（元）" name="a.dealAmount" />
 						</th>
 						<th>到账账户</th>
 						<th width="70">
-							<my:order action="found!proDetailList.action" title="到账日期" name="a.toDate" />
+							<my:order action="foundReadOnly!proDetailList.action" title="到账日期" name="a.toDate" />
 						</th>
 						<th>
-							<my:order action="found!proDetailList.action" title="到账金额（元）" name="a.toAmount" />
+							<my:order action="foundReadOnly!proDetailList.action" title="到账金额（元）" name="a.toAmount" />
 						</th>
 						<th>指定用途</th>
 						<th width="60">操作</th>

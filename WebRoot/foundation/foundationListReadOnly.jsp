@@ -104,10 +104,10 @@
 				<tr>
 					<th width="40">序号</th>
 					<th>
-						<my:order action="found!list.action" title="项目名称" name="a.foundName" />
+						<my:order action="foundReadOnly!list.action" title="项目名称" name="a.foundName" />
 					</th>
 					<th width="70">
-						<my:order action="found!list.action" title="创建时间" name="a.foundCreateDate" />
+						<my:order action="foundReadOnly!list.action" title="创建时间" name="a.foundCreateDate" />
 					</th>
 					<c:if test="${empty type}">
 					<th width="70">项目类别</th>

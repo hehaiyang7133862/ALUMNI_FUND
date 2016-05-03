@@ -70,6 +70,10 @@
     		<result name="edit">/zc/otherOrderMgtEdit.jsp</result>
     		<result name="import">/zc/otherOrderMgtImport.jsp</result>
     	</action>
+    	<action name="zcOtherOrderReadOnly" class="zcOtherOrderAction">
+    		<result name="success">/zc/otherOrderMgtListReadOnly.jsp</result>
+    		<result name="view">/zc/otherOrderMgtViewReadOnly.jsp</result>
+    	</action>
     	<!-- 众筹网栏目管理 -->
     	<action name="siteItem" class="siteItemAction">
     		<result name="index">/zc/siteItemIndex.jsp</result>

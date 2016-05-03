@@ -121,6 +121,8 @@ public class BaseHibernate extends HibernateDaoSupport implements IEncryptUtil {
 		} catch (Exception e) {
 			// TODO: handle exception
 			System.out.println("已做异常处理。");
+			e.printStackTrace();
+
 			//如果提示字符无效
 			if(e!=null&&e.getCause()!=null&&e.getCause().getMessage()!=null){
 				if(e.getCause().getMessage().toUpperCase().indexOf("ORA-00904")!=-1){

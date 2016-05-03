@@ -91,7 +91,7 @@
 				<td colspan="5">
 					<div style="width: 690px;border: 1px solid #BDC7D8;background-color:#E5E5E5;height: 50px;line-height: 20px;float: left;overflow:auto;">
 						<c:forEach var="temp" items="${syfList}">
-							<a href="javascript:;" onclick="MyFormWin.showMyWin('接受单位详细','<%=basePath%>donate!toAcceptAddReadOnly.action?comId=${temp.comId}',580,380);return false;"
+							<a href="javascript:;" onclick="MyFormWin.showMyWin('接受单位详细','<%=basePath%>donateReadOnly!toAcceptAdd.action?comId=${temp.comId}',580,380);return false;"
 								style="padding-left: 5px;">${temp.comName}-${temp.relationName}</a>
 						</c:forEach>
 					</div>

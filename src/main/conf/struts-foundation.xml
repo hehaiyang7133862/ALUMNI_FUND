@@ -59,6 +59,8 @@
 			<result name="addPage">/foundation/foundationAddReadOnly.jsp</result>
 			<result name="proDetailPage">/foundation/proDetailListReadOnly.jsp</result>
 			<result name="proDetailAddEditPage">/foundation/proDetailAddReadOnly.jsp</result>
+			<result name="proclMgtPage">/foundation/proMgtListReadOnly.jsp</result>
+			<result name="payMgtPage">/foundation/payMgtListReadOnly.jsp</result>
     	</action>
 		
 		<!-- 捐赠对象管理 -->
@@ -76,6 +78,10 @@
 			<result name="acceptCompanyListPage">/foundationObject/acceptList.jsp</result>
 			<result name="acceptCompanyAddOrUpdatePage">/foundationObject/acceptAdd.jsp</result>
 			<result name="successPage">/common/floatSuccess.jsp</result>
+		</action>
+		
+		<action name="donateReadOnly" class="foundationObjectAction">
+			<result name="acceptCompanyAddOrUpdatePage">/foundationObject/acceptAddReadOnly.jsp</result>
 		</action>
 		
     	<!-- 项目分类 -->

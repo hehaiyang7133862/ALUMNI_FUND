@@ -29,7 +29,7 @@ public class FieldManagers extends BaseManager{
 		}
 		// ·µ»Ø
 		return (List)map.get(code);*/
-		String hql="from TbFields a where a.tbField.code='"+code+"' order by a.numOrder";
+		String hql="from TbFields a where a.tbField.code='"+code+"'";
 		List list=getCommonBo().findHQL(hql);
 		// ·µ»Ø
 		return list;
