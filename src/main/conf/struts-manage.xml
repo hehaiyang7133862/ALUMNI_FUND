@@ -130,7 +130,7 @@
     	<action name="fileList" class="fileListAction">
     		<result name="success">/common/fileFrame.jsp</result>
     	</action>
-    	<action name="fileListReadOnly" class="fileListAction" method="ReadOnly">
+    	<action name="fileListReadOnly" class="fileListAction">
     		<result name="success">/common/fileFrameReadOnly.jsp</result>
     	</action>
     	<action name="fileLoad" class="fileLoadAction">

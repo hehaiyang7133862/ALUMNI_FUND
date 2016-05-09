@@ -476,7 +476,6 @@ public class CommonDaoImpl extends BaseHibernate implements ICommonDao,IFinalUse
 		}
 		
 		try {
-			System.out.print("thql:"+thql);
 			Query query = session.createQuery(thql);
 			if (list != null) {
 				for (int i = 0; i < list.size(); i++) {
@@ -493,7 +492,6 @@ public class CommonDaoImpl extends BaseHibernate implements ICommonDao,IFinalUse
 		} catch (Exception e) {
 			// TODO: handle exception
 			System.out.println("已做异常处理。");
-			e.printStackTrace();
 			//如果提示字符无效
 			if(e!=null&&e.getCause()!=null&&e.getCause().getMessage()!=null){
 				if(e.getCause().getMessage().toUpperCase().indexOf("ORA-00904")!=-1){
